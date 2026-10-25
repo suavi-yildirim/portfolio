@@ -11,13 +11,31 @@
     "de": "Maschinenbau- &amp; Robotikingenieur"
   },
   "tagline": {
-    "en": "I design robots and automation systems, from CAD and prototypes to simulation and robot learning.",
-    "de": "Ich entwickle Roboter und Automatisierungssysteme – von CAD und Prototypen bis zu Simulation und Robot Learning."
+    "en": "I design robots and automation systems, from CAD and prototypes to simulation and commissioning.",
+    "de": "Ich entwickle Roboter und Automatisierungssysteme – von CAD und Prototypen über Simulation bis zur Inbetriebnahme."
   },
   "profile": {
-    "en": "Mechanical engineer with <strong>5+ years in robotics and automation</strong>: autonomous mobile robots at Arche Robotics, robot cells and grippers at Cobro, and pneumatic wire handling at the FAU Institute FAPS. I am in the final semester of the <strong>M.Sc. Autonomy Technologies</strong> at FAU Erlangen-Nürnberg and work more and more with <strong>simulation and robot learning</strong> (NVIDIA Isaac Sim, Genesis, LeRobot). I am looking for a role in Germany where mechanical design and autonomous systems meet.",
-    "de": "Maschinenbauingenieur mit <strong>über 5 Jahren Erfahrung in Robotik und Automatisierung</strong>: autonome mobile Roboter bei Arche Robotics, Roboterzellen und Greifer bei Cobro und pneumatisches Drahthandling am Lehrstuhl FAPS der FAU. Ich bin im letzten Semester des <strong>M.Sc. Autonomy Technologies</strong> an der FAU Erlangen-Nürnberg und arbeite zunehmend mit <strong>Simulation und Robot Learning</strong> (NVIDIA Isaac Sim, Genesis, LeRobot). Ich suche eine Stelle in Deutschland, an der Konstruktion und autonome Systeme zusammenkommen."
+    "en": "Mechanical engineer with <strong>5+ years in robotics and automation</strong>: autonomous mobile robots at Arche Robotics, robot cells and grippers at Cobro, and pneumatic wire handling at the FAU Institute FAPS. I am in the final semester of the <strong>M.Sc. Autonomy Technologies</strong> at FAU Erlangen-Nürnberg, and at the Siemens Healthineers hackathon I took my first steps in <strong>robot learning in simulation</strong> (NVIDIA Isaac Sim, LeRobot). I am looking for a role in Germany where mechanical design and autonomous systems meet.",
+    "de": "Maschinenbauingenieur mit <strong>über 5 Jahren Erfahrung in Robotik und Automatisierung</strong>: autonome mobile Roboter bei Arche Robotics, Roboterzellen und Greifer bei Cobro und pneumatisches Drahthandling am Lehrstuhl FAPS der FAU. Ich bin im letzten Semester des <strong>M.Sc. Autonomy Technologies</strong> an der FAU Erlangen-Nürnberg und habe beim Siemens Healthineers Hackathon erste Erfahrungen mit <strong>Robot Learning in der Simulation</strong> gesammelt (NVIDIA Isaac Sim, LeRobot). Ich suche eine Stelle in Deutschland, an der Konstruktion und autonome Systeme zusammenkommen."
   },
+  "cv_skills": [
+    {"en": "<strong>CAD &amp; design:</strong> Siemens NX (incl. Mechatronics Concept Designer), CATIA V5, SolidWorks, Fusion 360 (generative design), AutoCAD",
+     "de": "<strong>CAD &amp; Konstruktion:</strong> Siemens NX (inkl. Mechatronics Concept Designer), CATIA V5, SolidWorks, Fusion 360 (Generative Design), AutoCAD"},
+    {"en": "<strong>Simulation:</strong> FEA, CFD (Ansys Fluent, Autodesk CFD), MSC ADAMS, Visual Components, NVIDIA Isaac Sim",
+     "de": "<strong>Simulation:</strong> FEM, CFD (Ansys Fluent, Autodesk CFD), MSC ADAMS, Visual Components, NVIDIA Isaac Sim"},
+    {"en": "<strong>Automation &amp; robotics:</strong> Siemens S7-1500 / TIA Portal, FANUC robot commissioning, ROS, Gazebo",
+     "de": "<strong>Automatisierung &amp; Robotik:</strong> Siemens S7-1500 / TIA Portal, FANUC-Roboter-Inbetriebnahme, ROS, Gazebo"},
+    {"en": "<strong>Programming &amp; data:</strong> Python (NumPy, Pandas), C++, MATLAB, computer vision (OpenCV, YOLO)",
+     "de": "<strong>Programmierung &amp; Daten:</strong> Python (NumPy, Pandas), C++, MATLAB, Computer Vision (OpenCV, YOLO)"},
+    {"en": "<strong>Manufacturing &amp; prototyping:</strong> FDM/SLA 3D printing, CNC machining, sheet metal, TIG welding, composites, electronics prototyping",
+     "de": "<strong>Fertigung &amp; Prototypenbau:</strong> FDM-/SLA-3D-Druck, CNC-Bearbeitung, Blech, WIG-Schweißen, Faserverbund, Elektronik-Prototyping"},
+    {"en": "<strong>XR &amp; digital twins:</strong> immersive XR digital twins (Siemens × Sony challenge), Gravity Sketch",
+     "de": "<strong>XR &amp; Digital Twin:</strong> immersive XR-Digital-Twins (Siemens × Sony Challenge), Gravity Sketch"},
+    {"en": "<strong>Robot learning</strong> (new – Siemens Healthineers hackathon, 10/2026)<strong>:</strong> LeRobot, ACT, π<sub>0.5</sub> fine-tuning (LoRA), Genesis",
+     "de": "<strong>Robot Learning</strong> (neu – Siemens Healthineers Hackathon, 10/2026)<strong>:</strong> LeRobot, ACT, π<sub>0.5</sub>-Feintuning (LoRA), Genesis"},
+    {"en": "<strong>Languages:</strong> English (professional working proficiency), German (B2.1, actively improving)",
+     "de": "<strong>Sprachen:</strong> Englisch (verhandlungssicher), Deutsch (B2.1, wird aktiv ausgebaut)"}
+  ],
   "figures": [
     {"value": "5+",   "label": {"en": "years in robotics &amp; automation", "de": "Jahre Robotik &amp; Automatisierung"}},
     {"value": "4",    "label": {"en": "years leading teams – OzU Rover Team, NextCycle, Arche Robotics", "de": "Jahre Teamleitung – OzU Rover Team, NextCycle, Arche Robotics"}},

@@ -405,6 +405,8 @@ def build_cv(lang, site, cv):
     other = "de" if lang == "en" else "en"
     parts = []
     for sec in cv["sections"]:
+        if sec["title"]["en"] == "Skills" and site.get("cv_skills"):
+            sec = {**sec, "items": site["cv_skills"]}  # longer website-only list (the PDF keeps its own)
         inner = ""
         if sec["text"]:
             inner = f'<p class="cv-text">{sec["text"][lang]}</p>'
