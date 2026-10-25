@@ -190,7 +190,8 @@ def img_tag(page, file, alt="", cls="", thumb=False, lazy=True, sizes=None):
 
 
 def logo_tag(page, logo, alt):
-    return f'<img class="logo" src="{page.asset("img/logos/" + logo + ".png")}" alt="{esc(alt)}">'
+    ext = ".svg" if (SRC / "logos" / f"{logo}.svg").exists() else ".png"
+    return f'<img class="logo" src="{page.asset("img/logos/" + logo + ext)}" alt="{esc(alt)}">'
 
 
 def cover_of(p, site):
@@ -510,6 +511,8 @@ def copy_assets(site, projects):
     photo = a / "img/photo.jpg"
     resize(latex / "images/photo.jpg", photo, 720)
     IMAGE_SIZES[("img", "photo")] = image_size(photo)
+    for logo in (SRC / "logos").glob("*.*"):  # website-only logos (e.g. FAU)
+        shutil.copy2(logo, a / "img/logos" / logo.name)
     for d in ("video", "fonts"):
         for f in (SRC / d).glob("*"):
             if f.is_file() and not f.name.startswith("."):
