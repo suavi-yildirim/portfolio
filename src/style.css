@@ -92,7 +92,7 @@ h1 { font-weight: 800; font-size: clamp(1.9rem, 4.5vw, 2.8rem); letter-spacing: 
 }
 
 /* ------------------------------------------------------------ figures */
-.figures { list-style: none; padding: 0; margin: -22px 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; position: relative; }
+.figures { list-style: none; padding: 0; margin: -22px 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; position: relative; }
 .figures li { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
 .fig-value { display: block; font-size: 2rem; font-weight: 800; color: var(--accent); line-height: 1.1; }
 .fig-label { display: block; font-size: .85rem; color: var(--muted); margin-top: 6px; line-height: 1.4; }
