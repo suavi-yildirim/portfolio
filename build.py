@@ -228,7 +228,7 @@ def build_home(lang, site, cv, projects):
     person = cv["person"]
     by_slug = {p["slug"]: p for p in projects}
     figs = "".join(
-        f'<li><span class="fig-value">{f.get("value_" + lang, f["value"])}</span>'
+        f'<li><span class="fig-value">{f.get("value_" + lang, f["value"]).replace("{count}", str(len(projects)))}</span>'
         f'<span class="fig-label">{f["label"][lang]}</span></li>' for f in site["figures"])
     featured = "".join(card(page, by_slug[s], site) for s in site["featured"] if s in by_slug)
     logos = "".join(f'<li>{logo_tag(page, l["file"], l["name"])}</li>' for l in site["logos"])

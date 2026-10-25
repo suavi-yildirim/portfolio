@@ -20,7 +20,11 @@
   },
   "figures": [
     {"value": "5+",   "label": {"en": "years in robotics &amp; automation", "de": "Jahre Robotik &amp; Automatisierung"}},
-    {"value": "1st",  "label": {"en": "place of 900 – Siemens × Sony Immersive Design Challenge", "de": "Platz unter 900 – Siemens × Sony Immersive Design Challenge"}, "value_de": "1."}
+    {"value": "4",    "label": {"en": "years leading teams – OzU Rover Team, NextCycle, Arche Robotics", "de": "Jahre Teamleitung – OzU Rover Team, NextCycle, Arche Robotics"}},
+    {"value": "1st",  "label": {"en": "place of 900 – Siemens × Sony Immersive Design Challenge", "de": "Platz unter 900 – Siemens × Sony Immersive Design Challenge"}, "value_de": "1."},
+    {"value": "1st",  "label": {"en": "in class – B.Sc. Mechanical Engineering (100% merit scholarship)", "de": "im Jahrgang – B.Sc. Maschinenbau (100 % Leistungsstipendium)"}, "value_de": "1."},
+    {"value": "−90%", "label": {"en": "gripper cost at Cobro, with +20% packaging throughput", "de": "Greiferkosten bei Cobro, bei +20 % Verpackungsdurchsatz"}, "value_de": "−90 %"},
+    {"value": "{count}", "label": {"en": "projects across industry, research and competitions", "de": "Projekte aus Industrie, Forschung und Wettbewerben"}}
   ],
   "featured": ["healthineers-hackathon", "immersive-design-challenge", "faps-wire-transport"],
   "logos": [
