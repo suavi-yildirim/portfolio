@@ -20,9 +20,7 @@
   },
   "figures": [
     {"value": "5+",   "label": {"en": "years in robotics &amp; automation", "de": "Jahre Robotik &amp; Automatisierung"}},
-    {"value": "1st",  "label": {"en": "place of 900 – Siemens × Sony Immersive Design Challenge", "de": "Platz unter 900 – Siemens × Sony Immersive Design Challenge"}, "value_de": "1."},
-    {"value": "12×",  "label": {"en": "faster robot-demo generation at the Siemens Healthineers hackathon", "de": "schnellere Erzeugung von Roboter-Demos beim Siemens Healthineers Hackathon"}},
-    {"value": "2",    "label": {"en": "AMR systems delivered to MediaMarkt stores", "de": "AMR-Systeme an MediaMarkt-Filialen ausgeliefert"}}
+    {"value": "1st",  "label": {"en": "place of 900 – Siemens × Sony Immersive Design Challenge", "de": "Platz unter 900 – Siemens × Sony Immersive Design Challenge"}, "value_de": "1."}
   ],
   "featured": ["healthineers-hackathon", "immersive-design-challenge", "faps-wire-transport"],
   "logos": [
