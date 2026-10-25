@@ -1,7 +1,7 @@
 {
   "_comment": "Hand-edited website settings. Project TEXT comes from the LaTeX sources (see README); this file only holds what the PDF does not have.",
 
-  "base_url": "https://syldrm3141.github.io/portfolio",
+  "base_url": "https://suavi-yildirim.github.io/portfolio",
   "latex_dir": "../CV-Portfolio-LaTeX",
   "cv_tags": ["mech", "ai"],
   "show_phone": false,
