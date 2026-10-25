@@ -1,0 +1,1798 @@
+[
+ {
+  "slug": "healthineers-hackathon",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "3-day <strong>Siemens Healthineers Robotics &amp; AI Hackathon 2026</strong> in Erlangen: build the <strong>learning loop</strong> for a <strong>vision-language-action (VLA)</strong> robot companion in the cathlab.",
+      "de": "Dreitägiger <strong>Siemens Healthineers Robotics &amp; AI Hackathon 2026</strong> in Erlangen: Aufbau des <strong>Lernkreislaufs</strong> für einen <strong>Vision-Language-Action-(VLA)</strong>-Roboterassistenten im Herzkatheterlabor."
+     },
+     {
+      "en": "Task: bimanual box handover with a <strong>Franka FR3 Duo</strong> in simulation.",
+      "de": "Szenario: zweiarmige Übergabe einer Box mit einem <strong>Franka FR3 Duo</strong> in der Simulation."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Robotics &amp; Simulation Engineer</strong> in a 6-person team.",
+      "de": "<strong>Robotik- &amp; Simulationsingenieur</strong> in einem 6er-Team."
+     },
+     {
+      "en": "Built a <strong>scripted IK expert</strong> in <strong>NVIDIA Isaac Sim 6.0</strong> that generates demos with moved box poses (16/18 successful).",
+      "de": "<strong>Skriptbasierten IK-Experten</strong> in <strong>NVIDIA Isaac Sim 6.0</strong> entwickelt, der Demos mit verschobener Boxposition erzeugt (16/18 erfolgreich)."
+     },
+     {
+      "en": "Fine-tuned <strong>π<sub>0.5</sub> (LoRA)</strong> and <strong>ACT</strong>; rebuilt the task in <strong>Genesis</strong> for parallel data generation.",
+      "de": "Feintuning von <strong>π<sub>0.5</sub> (LoRA)</strong> und <strong>ACT</strong>; Aufgabe in <strong>Genesis</strong> für parallele Datenerzeugung nachgebaut."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "Showed that the <strong>data, not the model</strong>, was the bottleneck: the 94 provided demos contain one single motion.",
+      "de": "Gezeigt, dass <strong>die Daten, nicht das Modell</strong>, der Engpass waren: die 94 bereitgestellten Demos enthalten nur eine Bewegung."
+     },
+     {
+      "en": "<strong>12× faster</strong> demo generation: from 6 min to about 30 s per demo.",
+      "de": "<strong>12× schnellere</strong> Demo-Erzeugung: von 6 min auf ca. 30 s pro Demo."
+     },
+     {
+      "en": "Prototyped <strong>VR teleoperation with Meta Quest 3</strong> for human demos.",
+      "de": "Prototyp für <strong>VR-Teleoperation mit Meta Quest 3</strong> für menschliche Demos."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "shh-isaac-room",
+      "caption": null
+     },
+     {
+      "file": "shh-isaac-fr3duo",
+      "caption": null
+     },
+     {
+      "file": "shh-quest3-teleop",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Siemens Healthineers",
+   "de": "Siemens Healthineers"
+  },
+  "period": {
+   "en": "10/2026",
+   "de": "10/2026"
+  },
+  "role": {
+   "en": "Robotics &amp; Simulation Engineer, team of 6",
+   "de": "Robotik- &amp; Simulationsingenieur, 6er-Team"
+  },
+  "keywords": [
+   {
+    "en": "Isaac Sim",
+    "de": "Isaac Sim"
+   },
+   {
+    "en": "Genesis",
+    "de": "Genesis"
+   },
+   {
+    "en": "LeRobot",
+    "de": "LeRobot"
+   },
+   {
+    "en": "VLA",
+    "de": "VLA"
+   },
+   {
+    "en": "Quest 3",
+    "de": "Quest 3"
+   }
+  ],
+  "highlight": {
+   "en": "12× faster demo generation",
+   "de": "12× schnellere Demo-Erzeugung"
+  },
+  "title": {
+   "en": "Robotics &amp; AI Hackathon – Teach the Robot",
+   "de": "Robotics &amp; AI Hackathon – Teach the Robot"
+  },
+  "logos": [
+   "siemens-healthineers"
+  ]
+ },
+ {
+  "slug": "immersive-design-challenge",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "The Immersive Design Challenge is a <strong>global engineering competition</strong> organized by Siemens Digital Industries Software in collaboration with Sony.",
+      "de": "Die Immersive Design Challenge ist ein <strong>internationaler Ingenieurwettbewerb</strong> von Siemens Digital Industries Software in Zusammenarbeit mit Sony."
+     },
+     {
+      "en": "Encourages <strong>sustainable design</strong> by bringing immersive technologies such as <strong>XR and digital twins</strong> into real engineering problems.",
+      "de": "Fördert <strong>nachhaltiges Design</strong> durch den Einsatz immersiver Technologien wie <strong>XR und digitaler Zwillinge</strong> für reale Ingenieursprobleme."
+     },
+     {
+      "en": "Scale: ~<strong>900 students</strong>, <strong>230+ universities</strong>, <strong>38 countries</strong>.",
+      "de": "Umfang: ca. <strong>900 Studierende</strong>, <strong>über 230 Universitäten</strong>, <strong>38 Länder</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Led</strong> the team <strong>NextCycle</strong>.",
+      "de": "<strong>Leitung</strong> des Teams <strong>NextCycle</strong>."
+     },
+     {
+      "en": "<strong>Developed</strong> BatteryTwin-XR: a Siemens-integrated <strong>digital twin</strong> for a sustainable <strong>EV battery lifecycle</strong>.",
+      "de": "<strong>Entwicklung</strong> von BatteryTwin-XR: ein in Siemens-Software integrierter <strong>digitaler Zwilling</strong> für einen nachhaltigen <strong>Lebenszyklus von E-Auto-Batterien</strong>."
+     },
+     {
+      "en": "<strong>Designed</strong> an XR framework with the Sony XR head-mounted display to support <strong>battery monitoring, reuse and recycling</strong> decisions.",
+      "de": "<strong>Konzeption</strong> eines XR-Frameworks mit dem Sony-XR-Headset zur Unterstützung von Entscheidungen zu <strong>Überwachung, Wiederverwendung und Recycling</strong> von Batterien."
+     },
+     {
+      "en": "Focused on <strong>circular economy</strong>: better recycling efficiency, less battery waste.",
+      "de": "Fokus auf <strong>Kreislaufwirtschaft</strong>: effizienteres Recycling, weniger Batterieabfall."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Won 1st place</strong> among the international finalist teams.",
+      "de": "<strong>1. Platz</strong> unter den internationalen Finalteams."
+     },
+     {
+      "en": "Recognized by Siemens and Sony for an <strong>innovative, sustainability-driven</strong> XR solution.",
+      "de": "Von Siemens und Sony für eine <strong>innovative, nachhaltige</strong> XR-Lösung ausgezeichnet."
+     },
+     {
+      "en": "Awarded a <strong>Sony XR headset</strong> and a 1-year <strong>NX Immersive Designer</strong> license for academic and research use.",
+      "de": "Preis: ein <strong>Sony-XR-Headset</strong> und eine einjährige <strong>NX-Immersive-Designer</strong>-Lizenz für Lehre und Forschung."
+     },
+     {
+      "en": "Invited to <strong>Siemens Realize LIVE</strong>; helped expand immersive design capabilities at FAU.",
+      "de": "Einladung zur <strong>Siemens Realize LIVE</strong>; Ausbau der Immersive-Design-Kompetenzen an der FAU."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "idc-factory",
+      "caption": null
+     },
+     {
+      "file": "idc-demo",
+      "caption": null
+     },
+     {
+      "file": "idc-team",
+      "caption": null
+     },
+     {
+      "file": "idc-trophy",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Siemens × Sony",
+   "de": "Siemens × Sony"
+  },
+  "period": {
+   "en": "12/2024 – 04/2025",
+   "de": "12/2024 – 04/2025"
+  },
+  "role": {
+   "en": "Team lead",
+   "de": "Teamleiter"
+  },
+  "keywords": [
+   {
+    "en": "XR",
+    "de": "XR"
+   },
+   {
+    "en": "Digital Twin",
+    "de": "Digital Twin"
+   },
+   {
+    "en": "NX",
+    "de": "NX"
+   }
+  ],
+  "highlight": {
+   "en": "1st place of 900 participants",
+   "de": "1. Platz unter 900 Teilnehmenden"
+  },
+  "title": {
+   "en": "Immersive Design Challenge",
+   "de": "Immersive Design Challenge"
+  },
+  "logos": [
+   "siemens"
+  ],
+  "logo_text": "SONY"
+ },
+ {
+  "slug": "faps-wire-transport",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "As part of <strong>Project SIMON</strong> at the <strong>Institute FAPS</strong>, I contributed to an <strong>automated pneumatic “shooting” system</strong> that replaces manual <strong>wire handling</strong> and removes assembly bottlenecks for flexible wire components.",
+      "de": "Im Rahmen von <strong>Projekt SIMON</strong> am <strong>Lehrstuhl FAPS</strong> Mitarbeit an einem <strong>automatisierten pneumatischen „Schuss“-System</strong>, das das manuelle <strong>Drahthandling</strong> ersetzt und Montageengpässe bei biegeschlaffen Drahtkomponenten beseitigt."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Used <strong>Siemens NX</strong> for CAD modeling of the <strong>experimental setup</strong>, including tube holder, stop and brake stations.",
+      "de": "CAD-Modellierung des <strong>Versuchsaufbaus</strong> in <strong>Siemens NX</strong>, inkl. Schlauchhalter, Stopp- und Bremsstation."
+     },
+     {
+      "en": "Used <strong>FDM and SLA 3D printing</strong> for parts with different <strong>structural</strong> and high-tolerance <strong>aerodynamic</strong> requirements.",
+      "de": "Fertigung per <strong>FDM- und SLA-3D-Druck</strong> für Bauteile mit unterschiedlichen <strong>strukturellen</strong> und hochpräzisen <strong>aerodynamischen</strong> Anforderungen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Achieved stable transport</strong> at <strong>20 m/s</strong> while keeping a defined state of order for flexible leads.",
+      "de": "<strong>Stabiler Transport</strong> mit <strong>20 m/s</strong> bei definiertem Ordnungszustand der biegeschlaffen Leitungen."
+     },
+     {
+      "en": "<strong>Quantified</strong> empirical pressure-loss coefficients for industrial-scale pneumatic system modeling.",
+      "de": "<strong>Bestimmung</strong> empirischer Druckverlustbeiwerte für die Auslegung pneumatischer Systeme im Industriemaßstab."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "faps-wire-layout",
+      "caption": null
+     },
+     {
+      "file": "faps-wire-rail",
+      "caption": null
+     },
+     {
+      "file": "faps-wire-station",
+      "caption": null
+     },
+     {
+      "file": "faps-wire-cart",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "FAU – Institute FAPS",
+   "de": "FAU – Lehrstuhl FAPS"
+  },
+  "period": {
+   "en": "since 07/2024",
+   "de": "seit 07/2024"
+  },
+  "role": {
+   "en": "Graduate research assistant",
+   "de": "Wiss. Hilfskraft"
+  },
+  "keywords": [
+   {
+    "en": "Siemens NX",
+    "de": "Siemens NX"
+   },
+   {
+    "en": "3D printing",
+    "de": "3D-Druck"
+   },
+   {
+    "en": "Pneumatics",
+    "de": "Pneumatik"
+   }
+  ],
+  "highlight": {
+   "en": "Stable wire transport at 20 m/s",
+   "de": "Stabiler Drahttransport mit 20 m/s"
+  },
+  "title": {
+   "en": "Pneumatic Wire Transportation",
+   "de": "Pneumatischer Drahttransport"
+  },
+  "logos": [
+   "faps"
+  ]
+ },
+ {
+  "slug": "cobro-gripper",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Developed</strong> robot grippers for <strong>ABB Delta robots</strong>, tailored to the operational and hygiene requirements of a high-speed <strong>food production company</strong>.",
+      "de": "<strong>Entwicklung</strong> von Robotergreifern für <strong>ABB-Delta-Roboter</strong>, abgestimmt auf die Betriebs- und Hygieneanforderungen eines <strong>Lebensmittelherstellers</strong> mit Hochgeschwindigkeitslinien."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Designed grippers for high-speed <strong>pick-and-place</strong> operations.",
+      "de": "Auslegung der Greifer für schnelle <strong>Pick-and-Place</strong>-Vorgänge."
+     },
+     {
+      "en": "<strong>Optimised gripper mass</strong> to meet the robot payload limits.",
+      "de": "<strong>Optimierung der Greifermasse</strong> gemäß der Traglast des Roboters."
+     },
+     {
+      "en": "<strong>Used O-ring sealing</strong> for reliable, repeatable suction performance.",
+      "de": "<strong>O-Ring-Dichtungen</strong> für zuverlässige, wiederholgenaue Saugleistung."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Integrated</strong> into the production line: <strong>20% higher</strong> packaging throughput.",
+      "de": "<strong>Integration</strong> in die Produktionslinie: <strong>20 % mehr</strong> Verpackungsdurchsatz."
+     },
+     {
+      "en": "<strong>90% cost reduction</strong> by replacing standard components with custom suction cups.",
+      "de": "<strong>90 % Kostensenkung</strong> durch eigene Sauggreifer statt Standardkomponenten."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "gripper-cad",
+      "caption": null
+     },
+     {
+      "file": "gripper-detail",
+      "caption": null
+     },
+     {
+      "file": "gripper-photo",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Cobro Robot Technologies",
+   "de": "Cobro Robot Technologies"
+  },
+  "period": {
+   "en": "2023 – 2024",
+   "de": "2023 – 2024"
+  },
+  "role": {
+   "en": "Concept design engineer",
+   "de": "Konzeptingenieur"
+  },
+  "keywords": [
+   {
+    "en": "ABB Delta",
+    "de": "ABB Delta"
+   },
+   {
+    "en": "Vacuum gripping",
+    "de": "Vakuumgreifen"
+   }
+  ],
+  "highlight": {
+   "en": "+20% throughput, −90% cost",
+   "de": "+20 % Durchsatz, −90 % Kosten"
+  },
+  "title": {
+   "en": "Gripper Design for Food Packaging",
+   "de": "Greiferkonstruktion für Lebensmittelverpackung"
+  },
+  "logos": [
+   "cobro"
+  ]
+ },
+ {
+  "slug": "cobro-palletizer",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Developed</strong> a <strong>mobile palletizing robot</strong> with collaborative robots that moves easily between <strong>production lines</strong> for more flexibility and efficiency.",
+      "de": "<strong>Entwicklung</strong> eines <strong>mobilen Palettierroboters</strong> mit kollaborativen Robotern, der flexibel zwischen <strong>Produktionslinien</strong> wechseln kann."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Performed <strong>static and dynamic analyses</strong> to design a robust base fixture.",
+      "de": "<strong>Statische und dynamische Analysen</strong> zur Auslegung eines robusten Untergestells."
+     },
+     {
+      "en": "Selected the <strong>ABB CRB 15000</strong> cobot with a <strong>12 kg payload</strong>.",
+      "de": "Auswahl des Cobots <strong>ABB CRB 15000</strong> mit <strong>12 kg Traglast</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "The system was <strong>successful</strong> and helped the company win further projects, as it stands out from stationary palletizers on the market.",
+      "de": "Das System war <strong>erfolgreich</strong> und verhalf dem Unternehmen zu Folgeprojekten, da es sich von stationären Palettierern am Markt abhebt."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "palletizer-render",
+      "caption": null
+     },
+     {
+      "file": "palletizer-analysis",
+      "caption": null
+     },
+     {
+      "file": "palletizer-cell",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Cobro Robot Technologies",
+   "de": "Cobro Robot Technologies"
+  },
+  "period": {
+   "en": "2023 – 2024",
+   "de": "2023 – 2024"
+  },
+  "role": {
+   "en": "Concept design engineer",
+   "de": "Konzeptingenieur"
+  },
+  "keywords": [
+   {
+    "en": "ABB CRB 15000",
+    "de": "ABB CRB 15000"
+   },
+   {
+    "en": "Cobot",
+    "de": "Cobot"
+   },
+   {
+    "en": "Structural analysis",
+    "de": "Festigkeitsanalyse"
+   }
+  ],
+  "highlight": {
+   "en": "Won follow-up projects",
+   "de": "Folgeprojekte gewonnen"
+  },
+  "title": {
+   "en": "Cobot Palletizer",
+   "de": "Cobot-Palettierer"
+  },
+  "logos": [
+   "cobro"
+  ]
+ },
+ {
+  "slug": "cobro-feeder",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "A <strong>flexible feeding system</strong> for manufacturers that need robotic automation to <strong>separate mixed products</strong>.",
+      "de": "Ein <strong>flexibles Zuführsystem</strong> für Hersteller, die Roboterautomatisierung zum <strong>Vereinzeln gemischter Produkte</strong> benötigen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "A <strong>cost-effective</strong> automated feeder that sorts mixed parts, ready to be extended with <strong>image processing and AI</strong>.",
+      "de": "Ein <strong>kostengünstiger</strong> automatischer Zuführer, der gemischte Teile sortiert und mit <strong>Bildverarbeitung und KI</strong> erweitert werden kann."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "feeder-robot",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Cobro Robot Technologies",
+   "de": "Cobro Robot Technologies"
+  },
+  "period": {
+   "en": "2023 – 2024",
+   "de": "2023 – 2024"
+  },
+  "role": {
+   "en": "Concept design engineer",
+   "de": "Konzeptingenieur"
+  },
+  "keywords": [
+   {
+    "en": "Machine vision",
+    "de": "Bildverarbeitung"
+   },
+   {
+    "en": "Bin picking",
+    "de": "Griff in die Kiste"
+   }
+  ],
+  "highlight": {
+   "en": "Cost-effective mixed-part feeding",
+   "de": "Kostengünstige Zuführung gemischter Teile"
+  },
+  "title": {
+   "en": "Flexible Feeder System",
+   "de": "Flexibles Zuführsystem"
+  },
+  "logos": [
+   "cobro"
+  ]
+ },
+ {
+  "slug": "arche-at1",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>AT1</strong> is an indoor <strong>autonomous mobile robot</strong> platform (AMR).",
+      "de": "<strong>AT1</strong> ist eine <strong>autonome mobile Roboterplattform</strong> (AMR) für Innenräume."
+     },
+     {
+      "en": "A versatile platform for <strong>multiple applications</strong>.",
+      "de": "Vielseitige Plattform für <strong>zahlreiche Anwendungen</strong>."
+     },
+     {
+      "en": "Designed the chassis for a <strong>50 kg</strong> payload.",
+      "de": "Konstruktion des Chassis für <strong>50 kg</strong> Nutzlast."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Used <strong>SolidWorks</strong> and <strong>Fusion 360</strong> for the mechanical design.",
+      "de": "Mechanische Konstruktion in <strong>SolidWorks</strong> und <strong>Fusion 360</strong>."
+     },
+     {
+      "en": "Ran an <strong>FEA study</strong> of the forces and moments on the chassis.",
+      "de": "<strong>FEM-Analyse</strong> der Kräfte und Momente am Chassis."
+     },
+     {
+      "en": "3 mm <strong>6061 aluminium</strong> sheet-metal parts joined by TIG welding.",
+      "de": "Blechteile aus 3 mm <strong>Aluminium 6061</strong>, WIG-geschweißt."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Launched</strong> AT1, now used from <strong>healthcare</strong> to <strong>retail</strong> and <strong>hospitality</strong>.",
+      "de": "<strong>Markteinführung</strong> von AT1, eingesetzt von <strong>Gesundheitswesen</strong> über <strong>Einzelhandel</strong> bis <strong>Hotellerie</strong>."
+     },
+     {
+      "en": "Basis for ongoing development of new hardware and software modules.",
+      "de": "Basis für die Weiterentwicklung neuer Hard- und Softwaremodule."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "at1-cad",
+      "caption": null
+     },
+     {
+      "file": "at1-fea",
+      "caption": null
+     },
+     {
+      "file": "at1-photo",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Arche Robotics",
+   "de": "Arche Robotics"
+  },
+  "period": {
+   "en": "2020 – 2023",
+   "de": "2020 – 2023"
+  },
+  "role": {
+   "en": "Mechanical design engineer",
+   "de": "Konstruktionsingenieur"
+  },
+  "keywords": [
+   {
+    "en": "SolidWorks",
+    "de": "SolidWorks"
+   },
+   {
+    "en": "Fusion 360",
+    "de": "Fusion 360"
+   },
+   {
+    "en": "FEA",
+    "de": "FEM"
+   }
+  ],
+  "highlight": {
+   "en": "AMR platform for 50 kg payload",
+   "de": "AMR-Plattform für 50 kg Nutzlast"
+  },
+  "title": {
+   "en": "AT1 Mobile Platform",
+   "de": "Mobile Plattform AT1"
+  },
+  "logos": [
+   "arche"
+  ]
+ },
+ {
+  "slug": "arche-pura",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>PURA</strong> is based on the AT1 platform and <strong>sanitizes</strong> surfaces and floors and <strong>purifies the air</strong>.",
+      "de": "<strong>PURA</strong> basiert auf der AT1-Plattform und <strong>desinfiziert</strong> Oberflächen und Böden und <strong>reinigt die Luft</strong>."
+     },
+     {
+      "en": "Designed a sanitation chamber with a <strong>photocatalyst module</strong> and <strong>HOCl disinfection</strong> liquid.",
+      "de": "Konstruktion einer Desinfektionskammer mit <strong>Photokatalysator-Modul</strong> und <strong>HOCl-Desinfektionsflüssigkeit</strong>."
+     },
+     {
+      "en": "Senses <strong>air quality</strong>: particles, VOC, humidity, temperature.",
+      "de": "Messung der <strong>Luftqualität</strong>: Partikel, VOC, Feuchte, Temperatur."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Photocatalyst module with <strong>16 ceramic foams</strong> coated with TiO<sub>2</sub> and <strong>40 UVA LEDs</strong>.",
+      "de": "Photokatalysator-Modul aus <strong>16 Keramikschäumen</strong> mit TiO<sub>2</sub>-Beschichtung und <strong>40 UVA-LEDs</strong>."
+     },
+     {
+      "en": "A <strong>piezo fog</strong> generator makes a <strong>dry fog</strong> of disinfectant, blown by a DC fan at <strong>150 m<sup>3</sup>/h</strong>.",
+      "de": "Ein <strong>Piezo-Vernebler</strong> erzeugt <strong>Trockennebel</strong> aus Desinfektionsmittel, verteilt von einem DC-Lüfter mit <strong>150 m<sup>3</sup>/h</strong>."
+     },
+     {
+      "en": "No consumables such as HEPA filters, cartridges or mercury UVC bulbs.",
+      "de": "Keine Verbrauchsteile wie HEPA-Filter, Kartuschen oder quecksilberhaltige UVC-Lampen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Deployed</strong> an autonomous disinfection robot that works <strong>24/7</strong>.",
+      "de": "<strong>Einsatz</strong> eines autonomen Desinfektionsroboters im <strong>24/7</strong>-Betrieb."
+     },
+     {
+      "en": "Cleans as much air per hour as <strong>300 people</strong> breathe.",
+      "de": "Reinigt pro Stunde so viel Luft, wie <strong>300 Menschen</strong> atmen."
+     },
+     {
+      "en": "Works <strong>without harmful chemicals</strong>.",
+      "de": "Arbeitet <strong>ohne schädliche Chemikalien</strong>."
+     },
+     {
+      "en": "Built strategic relationships with Chinese manufacturers.",
+      "de": "Aufbau strategischer Beziehungen zu chinesischen Herstellern."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "pura-exploded",
+      "caption": null
+     },
+     {
+      "file": "pura-proto",
+      "caption": null
+     },
+     {
+      "file": "pura-front",
+      "caption": null
+     },
+     {
+      "file": "pura-photo",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Arche Robotics",
+   "de": "Arche Robotics"
+  },
+  "period": {
+   "en": "2020 – 2023",
+   "de": "2020 – 2023"
+  },
+  "role": {
+   "en": "Mechanical design engineer",
+   "de": "Konstruktionsingenieur"
+  },
+  "keywords": [
+   {
+    "en": "Photocatalysis",
+    "de": "Photokatalyse"
+   },
+   {
+    "en": "Air sensing",
+    "de": "Luftsensorik"
+   }
+  ],
+  "highlight": {
+   "en": "Cleans the air of 300 people per hour",
+   "de": "Luft für 300 Personen pro Stunde"
+  },
+  "title": {
+   "en": "PURA",
+   "de": "PURA"
+  },
+  "logos": [
+   "arche"
+  ]
+ },
+ {
+  "slug": "arche-generative-design",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Used <strong>generative design</strong> (AI-driven algorithms) to create <strong>lightweight parts</strong> that meet performance and design requirements.",
+      "de": "Einsatz von <strong>Generative Design</strong> (KI-gestützte Algorithmen) für <strong>Leichtbauteile</strong>, die alle Leistungs- und Konstruktionsvorgaben erfüllen."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Used the <strong>Fusion 360</strong> generative design toolbox.",
+      "de": "<strong>Fusion 360</strong> Generative-Design-Toolbox."
+     },
+     {
+      "en": "Defined the <strong>loads</strong> on the part; compared <strong>von Mises stress</strong> results to ensure structural integrity.",
+      "de": "Definition der <strong>Lasten</strong>; Vergleich der <strong>Von-Mises-Spannungen</strong> zur Sicherstellung der Festigkeit."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>30% less weight</strong> with all design constraints and performance criteria met.",
+      "de": "<strong>30 % weniger Gewicht</strong> bei Einhaltung aller Vorgaben und Leistungskriterien."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "gendesign-original",
+      "caption": null
+     },
+     {
+      "file": "gendesign-loads",
+      "caption": null
+     },
+     {
+      "file": "gendesign-result",
+      "caption": null
+     },
+     {
+      "file": "gendesign-stress",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Arche Robotics",
+   "de": "Arche Robotics"
+  },
+  "period": {
+   "en": "2020 – 2023",
+   "de": "2020 – 2023"
+  },
+  "role": {
+   "en": "Mechanical design engineer",
+   "de": "Konstruktionsingenieur"
+  },
+  "keywords": [
+   {
+    "en": "Fusion 360",
+    "de": "Fusion 360"
+   },
+   {
+    "en": "Generative design",
+    "de": "Generative Design"
+   }
+  ],
+  "highlight": {
+   "en": "30% lighter part",
+   "de": "30 % leichteres Bauteil"
+  },
+  "title": {
+   "en": "Generative Design Study",
+   "de": "Generative-Design-Studie"
+  },
+  "logos": [
+   "arche"
+  ]
+ },
+ {
+  "slug": "arche-am-management",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Created an <strong>Excel-based tracking system</strong> to document 3D-printed parts and keep an organized <strong>inventory</strong>.",
+      "de": "Aufbau eines <strong>Excel-basierten Tracking-Systems</strong> zur Dokumentation 3D-gedruckter Teile und für einen geordneten <strong>Bestand</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Standardized</strong> part quality through identical slicing settings.",
+      "de": "<strong>Einheitliche</strong> Bauteilqualität durch identische Slicing-Einstellungen."
+     },
+     {
+      "en": "<strong>Efficient tracking</strong> of series production, total print time and material use.",
+      "de": "<strong>Effiziente Nachverfolgung</strong> von Serienfertigung, Druckzeit und Materialverbrauch."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "am-tracking",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Arche Robotics",
+   "de": "Arche Robotics"
+  },
+  "period": {
+   "en": "2020 – 2023",
+   "de": "2020 – 2023"
+  },
+  "role": {
+   "en": "Mechanical design engineer",
+   "de": "Konstruktionsingenieur"
+  },
+  "keywords": [
+   {
+    "en": "FDM",
+    "de": "FDM"
+   },
+   {
+    "en": "Part tracking",
+    "de": "Teileverfolgung"
+   }
+  ],
+  "highlight": {
+   "en": "Standardized print quality",
+   "de": "Einheitliche Druckqualität"
+  },
+  "title": {
+   "en": "Additive Manufacturing Part Management",
+   "de": "Teilemanagement additive Fertigung"
+  },
+  "logos": [
+   "arche"
+  ]
+ },
+ {
+  "slug": "arche-promobot",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Promobot helps businesses <strong>engage customers</strong> and build their brand in physical and digital stores.",
+      "de": "Promobot hilft Unternehmen, <strong>Kunden zu begeistern</strong> und ihre Marke im stationären und digitalen Handel zu stärken."
+     },
+     {
+      "en": "Features: <strong>welcoming</strong>, <strong>customer guidance</strong>, <strong>marketing</strong> and <strong>AR applications</strong>.",
+      "de": "Funktionen: <strong>Begrüßung</strong>, <strong>Kundenbegleitung</strong>, <strong>Marketing</strong> und <strong>AR-Anwendungen</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "A <strong>data-driven</strong> companion that supports <strong>digital transformation</strong>.",
+      "de": "Ein <strong>datengetriebener</strong> Begleiter für die <strong>digitale Transformation</strong>."
+     },
+     {
+      "en": "Monthly dashboards of sensor data such as <strong>air quality</strong> and <strong>demographics</strong>.",
+      "de": "Monatliche Dashboards mit Sensordaten wie <strong>Luftqualität</strong> und <strong>Besucherdemografie</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Deployed</strong> at <strong>MediaMarkt</strong> Metropol Istanbul on 2 Jan 2023.",
+      "de": "<strong>Im Einsatz</strong> bei <strong>MediaMarkt</strong> Metropol Istanbul seit 2. Januar 2023."
+     },
+     {
+      "en": "Interacted with <strong>400 customers</strong> per month on average.",
+      "de": "Durchschnittlich <strong>400 Kundeninteraktionen</strong> pro Monat."
+     },
+     {
+      "en": "Drove <strong>10+ km</strong> autonomously per month without mechanical issues.",
+      "de": "Über <strong>10 km</strong> autonome Fahrt pro Monat ohne mechanische Probleme."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "promobot-render2",
+      "caption": null
+     },
+     {
+      "file": "promobot-render1",
+      "caption": null
+     },
+     {
+      "file": "promobot-dashboard",
+      "caption": null
+     },
+     {
+      "file": "promobot-mediamarkt",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Arche Robotics",
+   "de": "Arche Robotics"
+  },
+  "period": {
+   "en": "2020 – 2023",
+   "de": "2020 – 2023"
+  },
+  "role": {
+   "en": "Mechanical design engineer",
+   "de": "Konstruktionsingenieur"
+  },
+  "keywords": [
+   {
+    "en": "AMR",
+    "de": "AMR"
+   },
+   {
+    "en": "Retail",
+    "de": "Handel"
+   },
+   {
+    "en": "Dashboards",
+    "de": "Dashboards"
+   }
+  ],
+  "highlight": {
+   "en": "Deployed at MediaMarkt, 400 customers/month",
+   "de": "Im Einsatz bei MediaMarkt, 400 Kunden/Monat"
+  },
+  "title": {
+   "en": "Promobot",
+   "de": "Promobot"
+  },
+  "logos": [
+   "arche"
+  ]
+ },
+ {
+  "slug": "2e-torsion-device",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Developed</strong> a torsional measurement device to analyse the mechanical characteristics of <strong>anti-roll bars</strong>.",
+      "de": "<strong>Entwicklung</strong> einer Torsionsmessvorrichtung zur Analyse der mechanischen Eigenschaften von <strong>Stabilisatoren</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Hub and bearing setup to measure anti-roll bar <strong>twist</strong>.",
+      "de": "Naben- und Lageraufbau zur Messung der <strong>Verdrehung</strong> des Stabilisators."
+     },
+     {
+      "en": "Load transferred through lever arms to a <strong>1-ton load cell</strong>.",
+      "de": "Lasteinleitung über Hebelarme in eine <strong>1-t-Kraftmessdose</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "Enabled measuring and <strong>tuning</strong> anti-roll bar stiffness for racing vehicles.",
+      "de": "Messung und <strong>Abstimmung</strong> der Stabilisatorsteifigkeit für Rennfahrzeuge."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "torsion-cad",
+      "caption": null
+     },
+     {
+      "file": "torsion-photo2",
+      "caption": null
+     },
+     {
+      "file": "torsion-photo1",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "2E Design",
+   "de": "2E Design"
+  },
+  "period": {
+   "en": "",
+   "de": ""
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "Test rig",
+    "de": "Prüfstand"
+   },
+   {
+    "en": "Load cell",
+    "de": "Kraftmessdose"
+   },
+   {
+    "en": "Motorsport",
+    "de": "Motorsport"
+   }
+  ],
+  "highlight": {
+   "en": "Anti-roll bar stiffness tuning",
+   "de": "Abstimmung der Stabilisatorsteifigkeit"
+  },
+  "title": {
+   "en": "Torsional Measurement Device",
+   "de": "Torsionsmessvorrichtung"
+  },
+  "logos": [
+   "twoe-design"
+  ]
+ },
+ {
+  "slug": "2e-spring-device",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Developed</strong> a device to measure the <strong>spring stiffness</strong> of racing-car <strong>suspension springs</strong>.",
+      "de": "<strong>Entwicklung</strong> eines Geräts zur Messung der <strong>Federsteifigkeit</strong> von <strong>Rennfahrwerksfedern</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "Accurate <strong>spring coefficients</strong>, used to tune the suspension for <strong>optimal track performance</strong>.",
+      "de": "Genaue <strong>Federkennwerte</strong> für eine Fahrwerksabstimmung mit <strong>optimaler Streckenperformance</strong>."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "spring-cad",
+      "caption": null
+     },
+     {
+      "file": "spring-photo",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "2E Design",
+   "de": "2E Design"
+  },
+  "period": {
+   "en": "",
+   "de": ""
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "Test rig",
+    "de": "Prüfstand"
+   },
+   {
+    "en": "Motorsport",
+    "de": "Motorsport"
+   }
+  ],
+  "highlight": {
+   "en": "Spring rates for suspension tuning",
+   "de": "Federkennwerte für die Fahrwerksabstimmung"
+  },
+  "title": {
+   "en": "Spring Stiffness Measurement Device",
+   "de": "Federsteifigkeits-Messgerät"
+  },
+  "logos": [
+   "twoe-design"
+  ]
+ },
+ {
+  "slug": "2e-control-arm",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "R&amp;D to improve the <strong>suspension control arm</strong> of a rallycross car for performance and durability under racing conditions.",
+      "de": "F&amp;E zur Verbesserung des <strong>Querlenkers</strong> eines Rallycross-Fahrzeugs hinsichtlich Leistung und Haltbarkeit unter Rennbedingungen."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Redesigned</strong> the arm after the original broke during a race.",
+      "de": "<strong>Neukonstruktion</strong>, nachdem das Originalteil im Rennen gebrochen war."
+     },
+     {
+      "en": "<strong>Manufactured</strong> a stiffer, more robust arm and fitted it to the car.",
+      "de": "<strong>Fertigung</strong> eines steiferen, robusteren Lenkers und Einbau ins Fahrzeug."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "A <strong>stronger, more durable</strong> arm that improved performance and reliability on the track.",
+      "de": "Ein <strong>stärkerer, langlebigerer</strong> Lenker für mehr Leistung und Zuverlässigkeit auf der Strecke."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "controlarm-cad",
+      "caption": null
+     },
+     {
+      "file": "controlarm-photo",
+      "caption": null
+     },
+     {
+      "file": "rally-car",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "2E Design",
+   "de": "2E Design"
+  },
+  "period": {
+   "en": "",
+   "de": ""
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "Redesign",
+    "de": "Neukonstruktion"
+   },
+   {
+    "en": "Manufacturing",
+    "de": "Fertigung"
+   },
+   {
+    "en": "Motorsport",
+    "de": "Motorsport"
+   }
+  ],
+  "highlight": {
+   "en": "Stronger, more durable control arm",
+   "de": "Stärkerer, langlebigerer Querlenker"
+  },
+  "title": {
+   "en": "Suspension Control Arm of a Rally Car",
+   "de": "Querlenker eines Rallyefahrzeugs"
+  },
+  "logos": [
+   "twoe-design"
+  ]
+ },
+ {
+  "slug": "ozu-surgical-robot",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "A <strong>surgical robot</strong> with two cobots, <strong>UR3</strong> and <strong>Franka Panda</strong>. I designed the <strong>end-effector flanges</strong> for the Franka Panda arms and the structure for the <strong>3D vision sensors</strong>.",
+      "de": "Ein <strong>Chirurgieroboter</strong> mit zwei Cobots, <strong>UR3</strong> und <strong>Franka Panda</strong>. Meine Aufgabe: <strong>Endeffektor-Flansche</strong> für die Franka-Panda-Arme und die Halterung der <strong>3D-Kamerasensoren</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Modeled robots and sensors in <strong>CATIA V5</strong>.",
+      "de": "Modellierung von Robotern und Sensoren in <strong>CATIA V5</strong>."
+     },
+     {
+      "en": "Adapted the <strong>Da Vinci EndoWrist</strong> as end-effector.",
+      "de": "Adaption des <strong>Da Vinci EndoWrist</strong> als Endeffektor."
+     },
+     {
+      "en": "<strong>Built</strong> tables from welded rigid profiles to reduce vibration.",
+      "de": "<strong>Bau</strong> von Tischen aus verschweißten, steifen Profilen gegen Vibrationen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "Ongoing at the <strong>OzU Robotics Laboratory</strong>: “Development of Surgical Robot Assistants for Autonomous Suturing with Skill Transfer from Surgeon to Robot”, funded by <strong>TÜBİTAK 1001</strong>.",
+      "de": "Laufendes Projekt im <strong>OzU Robotics Laboratory</strong>: „Development of Surgical Robot Assistants for Autonomous Suturing with Skill Transfer from Surgeon to Robot“, gefördert durch <strong>TÜBİTAK 1001</strong>."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "suturing-illustration",
+      "caption": null
+     },
+     {
+      "file": "suturing-cad",
+      "caption": null
+     },
+     {
+      "file": "suturing-cell",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "OzU Robotics Lab",
+   "de": "OzU Robotics Lab"
+  },
+  "period": {
+   "en": "",
+   "de": ""
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "CATIA V5",
+    "de": "CATIA V5"
+   },
+   {
+    "en": "UR3",
+    "de": "UR3"
+   },
+   {
+    "en": "Franka Panda",
+    "de": "Franka Panda"
+   }
+  ],
+  "highlight": {
+   "en": "TÜBİTAK 1001 research project",
+   "de": "TÜBİTAK-1001-Forschungsprojekt"
+  },
+  "title": {
+   "en": "Surgical Robot for Autonomous Suturing",
+   "de": "Chirurgieroboter für autonomes Nähen"
+  },
+  "logos": [
+   "ozyegin"
+  ]
+ },
+ {
+  "slug": "ozu-light-painting",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "In my senior year at Ozyegin University I took part in the <strong>RobArt</strong> workshops with industrial robot arms.",
+      "de": "Im letzten Bachelorjahr Teilnahme an den <strong>RobArt</strong>-Workshops mit Industrierobotern an der Özyeğin University."
+     },
+     {
+      "en": "<strong>Light painting</strong>: programmed a <strong>KUKA KR20-3</strong> with <strong>Rhino/Grasshopper</strong> and photographed the planned trajectory.",
+      "de": "<strong>Light Painting</strong>: Programmierung eines <strong>KUKA KR20-3</strong> mit <strong>Rhino/Grasshopper</strong> und Langzeitbelichtung der geplanten Bahn."
+     },
+     {
+      "en": "<strong>Designed and 3D printed</strong> a flange holding an <strong>LED ring</strong>.",
+      "de": "<strong>Konstruktion und 3D-Druck</strong> eines Flansches für einen <strong>LED-Ring</strong>."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "lightpainting-render",
+      "caption": null
+     },
+     {
+      "file": "lightpainting-drawing",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Ozyegin University – RobArt",
+   "de": "Ozyegin University – RobArt"
+  },
+  "period": {
+   "en": "2021 – 2022",
+   "de": "2021 – 2022"
+  },
+  "role": {
+   "en": "",
+   "de": ""
+  },
+  "keywords": [
+   {
+    "en": "KUKA",
+    "de": "KUKA"
+   },
+   {
+    "en": "Rhino/Grasshopper",
+    "de": "Rhino/Grasshopper"
+   }
+  ],
+  "highlight": {
+   "en": "Robot light painting",
+   "de": "Light Painting mit Roboter"
+  },
+  "title": {
+   "en": "KUKA KR20-3 Light Painting",
+   "de": "KUKA KR20-3 Light Painting"
+  },
+  "logos": [
+   "ozyegin"
+  ]
+ },
+ {
+  "slug": "ozu-pen-plotter",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "A second RobArt workshop on <strong>pen-plotter art</strong>: the robot arm draws 2D images.",
+      "de": "Ein weiterer RobArt-Workshop zu <strong>Plotter-Kunst</strong>: der Roboterarm zeichnet 2D-Bilder."
+     },
+     {
+      "en": "<strong>Designed and 3D printed</strong> a flange holding a pen on the KUKA KR20-3.",
+      "de": "<strong>Konstruktion und 3D-Druck</strong> eines Stifthalter-Flansches für den KUKA KR20-3."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "penplotter-pen",
+      "caption": null
+     },
+     {
+      "file": "penplotter-kuka",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Ozyegin University – RobArt",
+   "de": "Ozyegin University – RobArt"
+  },
+  "period": {
+   "en": "2021 – 2022",
+   "de": "2021 – 2022"
+  },
+  "role": {
+   "en": "",
+   "de": ""
+  },
+  "keywords": [
+   {
+    "en": "KUKA",
+    "de": "KUKA"
+   },
+   {
+    "en": "3D printing",
+    "de": "3D-Druck"
+   }
+  ],
+  "highlight": {
+   "en": "Robot pen-plotter art",
+   "de": "Plotter-Kunst mit Roboter"
+  },
+  "title": {
+   "en": "KUKA KR20-3 Pen Plotter",
+   "de": "KUKA KR20-3 Stiftplotter"
+  },
+  "logos": [
+   "ozyegin"
+  ]
+ },
+ {
+  "slug": "ozu-rover-hope",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>The Hope</strong> is a Mars rover prototype built by the OzU Rover Team for the <strong>University Rover Challenge 2020</strong> in the USA.",
+      "de": "<strong>The Hope</strong> ist ein Mars-Rover-Prototyp des OzU Rover Teams für die <strong>University Rover Challenge 2020</strong> in den USA."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Qualified</strong>, ranking in the top 36 of 102 teams.",
+      "de": "<strong>Qualifiziert</strong> – unter den besten 36 von 102 Teams."
+     },
+     {
+      "en": "The event was cancelled due to COVID-19.",
+      "de": "Der Wettbewerb wurde wegen COVID-19 abgesagt."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "hope-field",
+      "caption": null
+     },
+     {
+      "file": "hope-team-call",
+      "caption": null
+     },
+     {
+      "file": "hope-campus",
+      "caption": null
+     },
+     {
+      "file": "hope-mars",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "OzU Rover Team",
+   "de": "OzU Rover Team"
+  },
+  "period": {
+   "en": "2019 – 2020",
+   "de": "2019 – 2020"
+  },
+  "role": {
+   "en": "Team lead",
+   "de": "Teamleiter"
+  },
+  "keywords": [
+   {
+    "en": "Mars rover",
+    "de": "Mars-Rover"
+   },
+   {
+    "en": "URC",
+    "de": "URC"
+   }
+  ],
+  "highlight": {
+   "en": "Top 36 of 102 teams (URC 2020)",
+   "de": "Top 36 von 102 Teams (URC 2020)"
+  },
+  "title": {
+   "en": "The Hope",
+   "de": "The Hope"
+  },
+  "logos": [
+   "ozu-rover-ozyegin"
+  ]
+ },
+ {
+  "slug": "ozu-rover-theia",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Theia was built by the OzU Rover Team for the <strong>European Rover Challenge</strong>.",
+      "de": "Theia wurde vom OzU Rover Team für die <strong>European Rover Challenge</strong> gebaut."
+     },
+     {
+      "en": "Teams design and build a <strong>Mars rover prototype</strong> for <strong>tele-operated</strong> or <strong>autonomous</strong> tasks that assist astronauts.",
+      "de": "Die Teams entwickeln einen <strong>Mars-Rover-Prototyp</strong>, der <strong>ferngesteuert</strong> oder <strong>autonom</strong> Astronauten im Feld unterstützt."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>ERC 2018: 26th/65</strong> as mechanical designer.",
+      "de": "<strong>ERC 2018: Platz 26/65</strong> als Konstrukteur."
+     },
+     {
+      "en": "<strong>ERC 2019: 13th/56</strong> as <strong>team lead</strong>, through leadership and design optimization.",
+      "de": "<strong>ERC 2019: Platz 13/56</strong> als <strong>Teamleiter</strong> durch Führung und Konstruktionsoptimierung."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "theia-field",
+      "caption": null
+     },
+     {
+      "file": "theia-lab",
+      "caption": null
+     },
+     {
+      "file": "theia-team",
+      "caption": null
+     },
+     {
+      "file": "theia-overview",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "OzU Rover Team",
+   "de": "OzU Rover Team"
+  },
+  "period": {
+   "en": "2018 – 2019",
+   "de": "2018 – 2019"
+  },
+  "role": {
+   "en": "Mechanical designer, then team lead",
+   "de": "Konstrukteur, dann Teamleiter"
+  },
+  "keywords": [
+   {
+    "en": "Mars rover",
+    "de": "Mars-Rover"
+   },
+   {
+    "en": "ERC",
+    "de": "ERC"
+   }
+  ],
+  "highlight": {
+   "en": "13th of 56 teams (ERC 2019)",
+   "de": "Platz 13 von 56 (ERC 2019)"
+  },
+  "title": {
+   "en": "Theia",
+   "de": "Theia"
+  },
+  "logos": [
+   "ozu-rover-ozyegin"
+  ]
+ }
+]
