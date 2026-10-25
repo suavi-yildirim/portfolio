@@ -1,0 +1,96 @@
+{
+  "_comment": "Hand-edited website settings. Project TEXT comes from the LaTeX sources (see README); this file only holds what the PDF does not have.",
+
+  "base_url": "",
+  "latex_dir": "../CV-Portfolio-LaTeX",
+  "cv_tags": ["mech", "ai"],
+  "show_phone": false,
+
+  "headline": {
+    "en": "Mechanical &amp; Robotics Engineer",
+    "de": "Maschinenbau- &amp; Robotikingenieur"
+  },
+  "tagline": {
+    "en": "I design robots and automation systems, from CAD and prototypes to simulation and robot learning.",
+    "de": "Ich entwickle Roboter und Automatisierungssysteme – von CAD und Prototypen bis zu Simulation und Robot Learning."
+  },
+  "profile": {
+    "en": "Mechanical engineer with <strong>5+ years in robotics and automation</strong>: autonomous mobile robots at Arche Robotics, robot cells and grippers at Cobro, and pneumatic wire handling at the FAU Institute FAPS. I am in the final semester of the <strong>M.Sc. Autonomy Technologies</strong> at FAU Erlangen-Nürnberg and work more and more with <strong>simulation and robot learning</strong> (NVIDIA Isaac Sim, Genesis, LeRobot). I am looking for a role in Germany where mechanical design and autonomous systems meet.",
+    "de": "Maschinenbauingenieur mit <strong>über 5 Jahren Erfahrung in Robotik und Automatisierung</strong>: autonome mobile Roboter bei Arche Robotics, Roboterzellen und Greifer bei Cobro und pneumatisches Drahthandling am Lehrstuhl FAPS der FAU. Ich bin im letzten Semester des <strong>M.Sc. Autonomy Technologies</strong> an der FAU Erlangen-Nürnberg und arbeite zunehmend mit <strong>Simulation und Robot Learning</strong> (NVIDIA Isaac Sim, Genesis, LeRobot). Ich suche eine Stelle in Deutschland, an der Konstruktion und autonome Systeme zusammenkommen."
+  },
+  "figures": [
+    {"value": "5+",   "label": {"en": "years in robotics &amp; automation", "de": "Jahre Robotik &amp; Automatisierung"}},
+    {"value": "1st",  "label": {"en": "place of 900 – Siemens × Sony Immersive Design Challenge", "de": "Platz unter 900 – Siemens × Sony Immersive Design Challenge"}, "value_de": "1."},
+    {"value": "12×",  "label": {"en": "faster robot-demo generation at the Siemens Healthineers hackathon", "de": "schnellere Erzeugung von Roboter-Demos beim Siemens Healthineers Hackathon"}},
+    {"value": "2",    "label": {"en": "AMR systems delivered to MediaMarkt stores", "de": "AMR-Systeme an MediaMarkt-Filialen ausgeliefert"}}
+  ],
+  "featured": ["healthineers-hackathon", "immersive-design-challenge", "faps-wire-transport"],
+  "logos": [
+    {"file": "faps", "name": "FAU Institute FAPS"},
+    {"file": "cobro", "name": "Cobro Robot Technologies"},
+    {"file": "arche", "name": "Arche Robotics"},
+    {"file": "siemens-healthineers", "name": "Siemens Healthineers"},
+    {"file": "siemens", "name": "Siemens"},
+    {"file": "ozyegin", "name": "Ozyegin University"}
+  ],
+
+  "categories": {
+    "robotics":   {"en": "Robotics",       "de": "Robotik"},
+    "automation": {"en": "Automation",     "de": "Automatisierung"},
+    "design":     {"en": "Design",         "de": "Konstruktion"},
+    "ai-sim":     {"en": "AI / Simulation", "de": "KI / Simulation"}
+  },
+
+  "projects": {
+    "healthineers-hackathon": {
+      "categories": ["robotics", "ai-sim"],
+      "cover": "shh-isaac-fr3duo",
+      "extra_galleries": [
+        {"heading": {"en": "The task in simulation: bimanual handover by our expert policy",
+                     "de": "Die Aufgabe in der Simulation: zweiarmige Übergabe durch unsere Expert-Policy"},
+         "images": [
+           {"file": "shh-task-01", "caption": {"en": "Start", "de": "Start"}},
+           {"file": "shh-task-02", "caption": {"en": "Left grasp", "de": "Linker Griff"}},
+           {"file": "shh-task-03", "caption": {"en": "Carry", "de": "Transport"}},
+           {"file": "shh-task-05", "caption": {"en": "Handover", "de": "Übergabe"}},
+           {"file": "shh-task-07", "caption": {"en": "Right carries", "de": "Rechts trägt"}},
+           {"file": "shh-task-09", "caption": {"en": "Placed on tray", "de": "Auf Tablett"}}]},
+        {"heading": {"en": "Next step: human demos in VR", "de": "Nächster Schritt: menschliche Demos in VR"},
+         "text": [
+           {"en": "Prototyped <strong>VR teleoperation with Meta Quest 3</strong>: both arms controlled in Isaac Sim via <strong>CloudXR</strong>.",
+            "de": "Prototyp für <strong>VR-Teleoperation mit Meta Quest 3</strong>: beide Arme werden über <strong>CloudXR</strong> in Isaac Sim gesteuert."},
+           {"en": "Human demos add what a script cannot: <strong>any box pose</strong> and real <strong>recovery moves</strong>.",
+            "de": "Menschliche Demos liefern, was ein Skript nicht kann: <strong>beliebige Boxposen</strong> und echte <strong>Korrekturbewegungen</strong>."}],
+         "images": [
+           {"file": "shh-quest3-view", "caption": null},
+           {"file": "shh-quest3-headset", "caption": null}]}
+      ],
+      "videos": [
+        {"file": "hackathon-expert-3cams.mp4", "poster": "shh-isaac-fr3duo",
+         "caption": {"en": "Our scripted IK expert completes the bimanual handover in Isaac Sim (three camera views).",
+                     "de": "Unser skriptbasierter IK-Experte erledigt die zweiarmige Übergabe in Isaac Sim (drei Kameraansichten)."}},
+        {"file": "hackathon-expert-pathtraced.mp4", "poster": "shh-task-05",
+         "caption": {"en": "New demo with the box moved and rotated – path-traced render.",
+                     "de": "Neue Demo mit verschobener und gedrehter Box – pfadverfolgtes Rendering."}}
+      ]
+    },
+    "immersive-design-challenge": {"categories": ["design", "ai-sim"], "cover": "idc-demo"},
+    "faps-wire-transport":        {"categories": ["automation", "design"], "cover": "faps-wire-layout"},
+    "cobro-gripper":              {"categories": ["automation", "design"]},
+    "cobro-palletizer":           {"categories": ["robotics", "automation"], "cover": "palletizer-render"},
+    "cobro-feeder":               {"categories": ["robotics", "automation"], "extra_images": ["feeder-iso", "feeder-front"]},
+    "arche-at1":                  {"categories": ["robotics", "design"], "cover": "at1-photo"},
+    "arche-pura":                 {"categories": ["robotics", "design"], "cover": "pura-photo"},
+    "arche-generative-design":    {"categories": ["design", "ai-sim"], "cover": "gendesign-result"},
+    "arche-am-management":        {"categories": ["automation"]},
+    "arche-promobot":             {"categories": ["robotics"], "cover": "promobot-mediamarkt"},
+    "2e-torsion-device":          {"categories": ["design"]},
+    "2e-spring-device":           {"categories": ["design"]},
+    "2e-control-arm":             {"categories": ["design"], "cover": "controlarm-photo"},
+    "ozu-surgical-robot":         {"categories": ["robotics", "design"], "cover": "suturing-cell"},
+    "ozu-light-painting":         {"categories": ["robotics"]},
+    "ozu-pen-plotter":            {"categories": ["robotics", "design"]},
+    "ozu-rover-hope":             {"categories": ["robotics", "design"], "cover": "hope-field"},
+    "ozu-rover-theia":            {"categories": ["robotics", "design"], "cover": "theia-field"}
+  }
+}

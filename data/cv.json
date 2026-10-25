@@ -1,0 +1,325 @@
+{
+ "sections": [
+  {
+   "title": {
+    "en": "Summary",
+    "de": "Profil"
+   },
+   "entries": [],
+   "items": [],
+   "text": {
+    "en": "<strong>Mechanical Engineer and Master's candidate</strong> with 5+ years of experience in robotics and automation, in the final semester of the M.Sc. Autonomy Technologies at FAU.",
+    "de": "<strong>Maschinenbauingenieur und Masterkandidat</strong> mit über 5 Jahren Erfahrung in Robotik und Automatisierung, im letzten Semester des M.Sc. Autonomy Technologies an der FAU."
+   }
+  },
+  {
+   "title": {
+    "en": "Education",
+    "de": "Ausbildung"
+   },
+   "entries": [
+    {
+     "title": {
+      "en": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "de": "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+     },
+     "right_top": {
+      "en": "Erlangen, DE",
+      "de": "Erlangen, DE"
+     },
+     "subtitle": {
+      "en": "Master of Science, Autonomy Technologies",
+      "de": "Master of Science, Autonomy Technologies"
+     },
+     "right_bottom": {
+      "en": "04/2024 – Expected 03/2027",
+      "de": "04/2024 – vsl. 03/2027"
+     },
+     "bullets": [
+      {
+       "en": "Coursework completed; Master's thesis at Institute FAPS (submission end of October 2026)",
+       "de": "Alle Studienleistungen erbracht; Masterarbeit am Lehrstuhl FAPS (Abgabe Ende Oktober 2026)"
+      },
+      {
+       "en": "Thesis: Pneumatic levitation of wires using CFD simulation and machine-learning regression",
+       "de": "Thema: Pneumatische Levitation von Drähten mittels CFD-Simulation und Machine-Learning-Regression"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Ozyegin University",
+      "de": "Ozyegin University"
+     },
+     "right_top": {
+      "en": "Istanbul, TR",
+      "de": "Istanbul, TR"
+     },
+     "subtitle": {
+      "en": "Bachelor of Science, Mechanical Engineering",
+      "de": "Bachelor of Science, Maschinenbau"
+     },
+     "right_bottom": {
+      "en": "09/2017 – 07/2022",
+      "de": "09/2017 – 07/2022"
+     },
+     "bullets": [
+      {
+       "en": "100% Merit Scholarship, Honor Student",
+       "de": "100 % Leistungsstipendium, Honor Student"
+      },
+      {
+       "en": "Graduated 1st in Mechanical Engineering (GPA 3.14/4.00, 1.8 German grade)",
+       "de": "Jahrgangsbester im Maschinenbau (GPA 3,14/4,00; deutsche Note 1,8)"
+      }
+     ]
+    }
+   ],
+   "items": [],
+   "text": null
+  },
+  {
+   "title": {
+    "en": "Experience",
+    "de": "Berufserfahrung"
+   },
+   "entries": [
+    {
+     "title": {
+      "en": "Institute for Factory Automation and Production Systems (FAPS)",
+      "de": "Lehrstuhl für Fertigungsautomatisierung (FAPS), FAU"
+     },
+     "right_top": {
+      "en": "07/2024 – Present",
+      "de": "07/2024 – heute"
+     },
+     "subtitle": {
+      "en": "Graduate Research Assistant (HiWi)",
+      "de": "Wissenschaftliche Hilfskraft (HiWi)"
+     },
+     "right_bottom": {
+      "en": "Nürnberg, DE",
+      "de": "Nürnberg, DE"
+     },
+     "bullets": [
+      {
+       "en": "Coordinated development and validation of an automated pneumatic wire transport system",
+       "de": "Koordination der Entwicklung und Validierung eines automatisierten pneumatischen Drahttransportsystems"
+      },
+      {
+       "en": "Integrated Siemens S7-1500 PLCs, HMI panels, and sensors in TIA Portal; tuned control parameters",
+       "de": "Integration von S7-1500-SPS, HMI-Panels und Sensoren im TIA Portal; Tuning der Regelparameter"
+      },
+      {
+       "en": "Analysed high-frequency PLC and sensor data in Python to find bottlenecks and detect anomalies",
+       "de": "Analyse hochfrequenter SPS- und Sensordaten in Python zur Engpass- und Anomalieerkennung"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Cobro Robot Technologies",
+      "de": "Cobro Robot Technologies"
+     },
+     "right_top": {
+      "en": "09/2023 – 05/2024",
+      "de": "09/2023 – 05/2024"
+     },
+     "subtitle": {
+      "en": "Concept Design Engineer – PreSales Robotics Automation",
+      "de": "Konzeptingenieur – Pre-Sales Robotik-Automatisierung"
+     },
+     "right_bottom": {
+      "en": "Istanbul, TR",
+      "de": "Istanbul, TR"
+     },
+     "bullets": [
+      {
+       "en": "Translated customer requirements into robotic automation concepts for industrial B2B applications",
+       "de": "Umsetzung von Kundenanforderungen in Robotik-Automatisierungskonzepte für industrielle B2B-Anwendungen"
+      },
+      {
+       "en": "Developed a flexible feeder system for vision-guided handling of randomly oriented parts",
+       "de": "Entwicklung eines flexiblen Zuführsystems für das kamerageführte Handling ungeordneter Teile"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Arche Robotics",
+      "de": "Arche Robotics"
+     },
+     "right_top": {
+      "en": "07/2020 – 08/2023",
+      "de": "07/2020 – 08/2023"
+     },
+     "subtitle": {
+      "en": "Mechanical Design Engineer – Autonomous Robotics",
+      "de": "Konstruktionsingenieur – Autonome Robotik"
+     },
+     "right_bottom": {
+      "en": "Istanbul, TR",
+      "de": "Istanbul, TR"
+     },
+     "bullets": [
+      {
+       "en": "Technical team lead for autonomous mobile robots, from design to commissioning at customer sites",
+       "de": "Technische Teamleitung für autonome mobile Roboter, von der Konstruktion bis zur Inbetriebnahme"
+      },
+      {
+       "en": "Delivered two fully operational AMR systems in MediaMarkt stores",
+       "de": "Auslieferung von zwei voll funktionsfähigen AMR-Systemen in MediaMarkt-Filialen"
+      },
+      {
+       "en": "Integrated YOLO-based computer-vision models for dynamic obstacle detection and safe navigation",
+       "de": "Integration YOLO-basierter Computer-Vision-Modelle zur dynamischen Hinderniserkennung und sicheren Navigation"
+      }
+     ]
+    }
+   ],
+   "items": [],
+   "text": null
+  },
+  {
+   "title": {
+    "en": "Projects &amp; Awards",
+    "de": "Projekte &amp; Auszeichnungen"
+   },
+   "entries": [
+    {
+     "title": {
+      "en": "<strong>Siemens Healthineers Robotics &amp; AI Hackathon</strong> | <em>Teach the Robot (VLA)</em>",
+      "de": "<strong>Siemens Healthineers Robotics &amp; AI Hackathon</strong> | <em>Teach the Robot (VLA)</em>"
+     },
+     "right_top": {
+      "en": "10/2026",
+      "de": "10/2026"
+     },
+     "subtitle": null,
+     "right_bottom": null,
+     "bullets": [
+      {
+       "en": "Robotics &amp; simulation engineer (team of 6): simulation-based robot-learning loop for a bimanual Franka FR3 handover in Isaac Sim and Genesis; <strong>12× faster</strong> demo generation",
+       "de": "Robotik- &amp; Simulationsingenieur (6er-Team): simulationsbasierter Roboter-Lernkreislauf für eine zweiarmige Franka-FR3-Übergabe in Isaac Sim und Genesis; <strong>12× schnellere</strong> Demo-Erzeugung"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "<strong>Siemens x Sony Immersive Design Challenge</strong> | <em>BatteryTwin-XR</em>",
+      "de": "<strong>Siemens x Sony Immersive Design Challenge</strong> | <em>BatteryTwin-XR</em>"
+     },
+     "right_top": {
+      "en": "12/2024 – 04/2025",
+      "de": "12/2024 – 04/2025"
+     },
+     "subtitle": null,
+     "right_bottom": null,
+     "bullets": [
+      {
+       "en": "Led Team NextCycle (XR digital twin for EV batteries); <strong>1st place</strong> of 900 participants",
+       "de": "Leitung des Teams NextCycle (XR-Digital-Twin für E-Auto-Batterien); <strong>1. Platz</strong> unter 900 Teilnehmenden"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "<strong>OzU Rover Team</strong> | <em>Ozyegin University</em>",
+      "de": "<strong>OzU Rover Team</strong> | <em>Ozyegin University</em>"
+     },
+     "right_top": {
+      "en": "09/2017 – 04/2020",
+      "de": "09/2017 – 04/2020"
+     },
+     "subtitle": null,
+     "right_bottom": null,
+     "bullets": [
+      {
+       "en": "Team lead (2018–2020); 13th of 56 teams at ERC 2019; two conference publications",
+       "de": "Teamleiter (2018–2020); Platz 13 von 56 Teams beim ERC 2019; zwei Konferenzbeiträge"
+      }
+     ]
+    }
+   ],
+   "items": [],
+   "text": null
+  },
+  {
+   "title": {
+    "en": "Volunteering &amp; Extracurricular Activities",
+    "de": "Ehrenamt &amp; Engagement"
+   },
+   "entries": [],
+   "items": [
+    {
+     "en": "<strong>Panelist and speaker</strong> – sharing my experience in engineering and competitions at events and panels",
+     "de": "<strong>Panelist und Speaker</strong> – Erfahrungsaustausch zu Technik und Wettbewerben auf Events und Podien"
+    },
+    {
+     "en": "<strong>Siemens Campus Connect Student Ambassador</strong> (since 05/2025) – promoting Siemens software and events at FAU",
+     "de": "<strong>Siemens Campus Connect Student Ambassador</strong> (seit 05/2025) – Siemens-Software und -Events an der FAU bekannt machen"
+    },
+    {
+     "en": "<strong>Board Member, FAU Space Gene</strong> – organizing events and activities for students",
+     "de": "<strong>Vorstandsmitglied, FAU Space Gene</strong> – Organisation von Veranstaltungen und Aktivitäten für Studierende"
+    },
+    {
+     "en": "<strong>Event support at Institute FAPS</strong> – organization and photography at the Besuchertage and the Digital | Power | Net opening",
+     "de": "<strong>Eventunterstützung am Lehrstuhl FAPS</strong> – Organisation und Fotografie bei den Besuchertagen und der Eröffnung von Digital | Power | Net"
+    }
+   ],
+   "text": null
+  },
+  {
+   "title": {
+    "en": "Skills",
+    "de": "Kenntnisse"
+   },
+   "entries": [],
+   "items": [
+    {
+     "en": "<strong>Technical:</strong> Siemens NX, CATIA, SolidWorks, CFD, Siemens S7-1500 / TIA Portal, ROS, NVIDIA Isaac Sim, Python, C++, MATLAB",
+     "de": "<strong>Technisch:</strong> Siemens NX, CATIA, SolidWorks, CFD, Siemens S7-1500 / TIA Portal, ROS, NVIDIA Isaac Sim, Python, C++, MATLAB"
+    },
+    {
+     "en": "<strong>Robot learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO",
+     "de": "<strong>Robot Learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO"
+    },
+    {
+     "en": "<strong>Languages:</strong> English (professional working proficiency), German (B1)",
+     "de": "<strong>Sprachen:</strong> Englisch (verhandlungssicher), Deutsch (B1)"
+    }
+   ],
+   "text": null
+  }
+ ],
+ "person": {
+  "name": {
+   "en": "Suavi Yildirim",
+   "de": "Suavi Yildirim"
+  },
+  "email": {
+   "en": "suavi.yildirim@fau.de",
+   "de": "suavi.yildirim@fau.de"
+  },
+  "linkedin": {
+   "en": "linkedin.com/in/suaviyildirim",
+   "de": "linkedin.com/in/suaviyildirim"
+  },
+  "degreea": {
+   "en": "M.Sc. AUTONOMY TECHNOLOGIES, FAU ERLANGEN-NÜRNBERG",
+   "de": "M.Sc. AUTONOMY TECHNOLOGIES, FAU ERLANGEN-NÜRNBERG"
+  },
+  "degreeb": {
+   "en": "B.Sc. MECHANICAL ENGINEERING, OZYEGIN UNIVERSITY",
+   "de": "B.Sc. MASCHINENBAU, ÖZYEĞIN UNIVERSITY"
+  },
+  "place": {
+   "en": "Neumarkt i.d.OPf.",
+   "de": "Neumarkt i.d.OPf."
+  },
+  "tags": [
+   "mech"
+  ]
+ }
+}
