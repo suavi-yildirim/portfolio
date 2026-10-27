@@ -555,6 +555,11 @@ def build_pdfs(site):
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp) / "latex"
         shutil.copytree(latex, work, ignore=shutil.ignore_patterns("*.zip", "*.pdf", ".git"))
+        # never publish the handwritten signature: drop \Signature and the image itself
+        m = (work / "main.tex").read_text(encoding="utf-8")
+        m = re.sub(r"^\s*\\Signature\{[^}]*\}.*$", "", m, flags=re.M)
+        (work / "main.tex").write_text(m, encoding="utf-8")
+        (work / "images/signature.png").unlink(missing_ok=True)
         if not site.get("show_phone"):
             main = (work / "main.tex").read_text(encoding="utf-8")
             main, n = re.subn(r"^\s*\\Phone\{[^}]*\}.*$", "", main, flags=re.M)
