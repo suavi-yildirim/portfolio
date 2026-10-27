@@ -581,7 +581,12 @@ def build_pdfs(site):
                                    cwd=work, capture_output=True, text=True)
                 if r.returncode:
                     sys.exit(f"pdflatex failed for {tex}:\n" + r.stdout[-3000:])
-            shutil.copy2(work / tex.replace(".tex", ".pdf"), out / pdf_name(lang))
+            built, dst = work / tex.replace(".tex", ".pdf"), out / pdf_name(lang)
+            # downsample pictures above print resolution (tools/shrink_pdf.py in the LaTeX project)
+            r = subprocess.run([sys.executable, str(latex / "tools/shrink_pdf.py"), str(built), str(dst)],
+                               capture_output=True, text=True)
+            if r.returncode:
+                shutil.copy2(built, dst)
             print(f"pdf: {pdf_name(lang)}")
 
 
