@@ -528,7 +528,9 @@ def copy_assets(site, projects):
     for logo in (latex / "images/logos").glob("*.png"):
         shutil.copy2(logo, a / "img/logos" / logo.name)
     photo = a / "img/photo.jpg"
-    resize(latex / "images/photo.jpg", photo, 720)
+    # the CV uses a tighter portrait crop; the site crops the full photo itself (CSS)
+    src = latex / "images/photo-original.jpg"
+    resize(src if src.exists() else latex / "images/photo.jpg", photo, 720)
     IMAGE_SIZES[("img", "photo")] = image_size(photo)
     for logo in (SRC / "logos").glob("*.*"):  # website-only logos (e.g. FAU)
         shutil.copy2(logo, a / "img/logos" / logo.name)
