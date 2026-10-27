@@ -252,38 +252,42 @@
    "entries": [],
    "items": [
     {
-     "en": "<strong>Panelist and speaker</strong> – sharing my experience in engineering and competitions at events and panels",
-     "de": "<strong>Panelist und Speaker</strong> – Erfahrungsaustausch zu Technik und Wettbewerben auf Events und Podien"
+     "en": "<strong>Siemens Campus Connect Student Ambassador</strong> (since 05/2025); <strong>Board Member</strong>, FAU Space Gene",
+     "de": "<strong>Siemens Campus Connect Student Ambassador</strong> (seit 05/2025); <strong>Vorstandsmitglied</strong>, FAU Space Gene"
     },
     {
-     "en": "<strong>Siemens Campus Connect Student Ambassador</strong> (since 05/2025) – promoting Siemens software and events at FAU",
-     "de": "<strong>Siemens Campus Connect Student Ambassador</strong> (seit 05/2025) – Siemens-Software und -Events an der FAU bekannt machen"
-    },
-    {
-     "en": "<strong>Board Member, FAU Space Gene</strong> – organizing events and activities for students",
-     "de": "<strong>Vorstandsmitglied, FAU Space Gene</strong> – Organisation von Veranstaltungen und Aktivitäten für Studierende"
-    },
-    {
-     "en": "<strong>Event support at Institute FAPS</strong> – organization and photography at the Besuchertage and the Digital | Power | Net opening",
-     "de": "<strong>Eventunterstützung am Lehrstuhl FAPS</strong> – Organisation und Fotografie bei den Besuchertagen und der Eröffnung von Digital | Power | Net"
+     "en": "<strong>Panelist and speaker</strong> on engineering and competitions; event support at Institute FAPS",
+     "de": "<strong>Panelist und Speaker</strong> zu Technik und Wettbewerben; Eventunterstützung am Lehrstuhl FAPS"
     }
    ],
    "text": null
   },
   {
    "title": {
-    "en": "Skills",
+    "en": "Technical Skills",
     "de": "Kenntnisse"
    },
    "entries": [],
    "items": [
     {
-     "en": "<strong>Technical:</strong> Siemens NX, CATIA, SolidWorks, CFD, Siemens S7-1500 / TIA Portal, ROS, NVIDIA Isaac Sim, Python, C++, MATLAB",
-     "de": "<strong>Technisch:</strong> Siemens NX, CATIA, SolidWorks, CFD, Siemens S7-1500 / TIA Portal, ROS, NVIDIA Isaac Sim, Python, C++, MATLAB"
+     "en": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, Mechatronics Concept Designer, SolidWorks, CFD, Isaac Sim",
+     "de": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, Mechatronics Concept Designer, SolidWorks, CFD, Isaac Sim"
     },
     {
-     "en": "<strong>Robot learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO",
+     "en": "<strong>Automation:</strong> Siemens S7-1500 / TIA Portal, FANUC robots, ROS",
+     "de": "<strong>Automatisierung:</strong> Siemens S7-1500 / TIA Portal, FANUC-Roboter, ROS"
+    },
+    {
+     "en": "<strong>Programming:</strong> Python, C++, MATLAB, OpenCV",
+     "de": "<strong>Programmierung:</strong> Python, C++, MATLAB, OpenCV"
+    },
+    {
+     "en": "<strong>Robot Learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO",
      "de": "<strong>Robot Learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO"
+    },
+    {
+     "en": "<strong>Manufacturing:</strong> 3D printing (FDM, SLA), CNC basics, electronics prototyping",
+     "de": "<strong>Fertigung:</strong> 3D-Druck (FDM, SLA), CNC-Grundlagen, Elektronik-Prototyping"
     },
     {
      "en": "<strong>Languages:</strong> English (professional working proficiency), German (B2.1)",

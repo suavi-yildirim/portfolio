@@ -128,8 +128,8 @@
       "de": "<strong>Schaltschrank</strong>: S7-1500-Software-SPS, ET 200SP, IO-Link, Festo-Proportional-Druckregler und Durchflusssensor."
      },
      {
-      "en": "<strong>PID control</strong> of the inlet pressure from 5 inductive sensors; WinCC HMI for automated test runs.",
-      "de": "<strong>PID-Regelung</strong> des Eingangsdrucks über 5 induktive Sensoren; WinCC-HMI für automatisierte Versuchsreihen."
+      "en": "<strong>PID control</strong> of the inlet pressure from 5 inductive sensors; HMI for automated test runs.",
+      "de": "<strong>PID-Regelung</strong> des Eingangsdrucks über 5 induktive Sensoren; HMI für automatisierte Versuchsreihen."
      }
     ]
    },
@@ -187,10 +187,6 @@
    {
     "en": "TIA Portal",
     "de": "TIA Portal"
-   },
-   {
-    "en": "WinCC",
-    "de": "WinCC"
    },
    {
     "en": "PID",
@@ -1091,6 +1087,117 @@
   ]
  },
  {
+  "slug": "arche-promobot",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Promobot helps businesses <strong>engage customers</strong> and build their brand in physical and digital stores.",
+      "de": "Promobot hilft Unternehmen, <strong>Kunden zu begeistern</strong> und ihre Marke im stationären und digitalen Handel zu stärken."
+     },
+     {
+      "en": "Features: <strong>welcoming</strong>, <strong>customer guidance</strong>, <strong>marketing</strong> and <strong>AR applications</strong>.",
+      "de": "Funktionen: <strong>Begrüßung</strong>, <strong>Kundenbegleitung</strong>, <strong>Marketing</strong> und <strong>AR-Anwendungen</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "A <strong>data-driven</strong> companion that supports <strong>digital transformation</strong>.",
+      "de": "Ein <strong>datengetriebener</strong> Begleiter für die <strong>digitale Transformation</strong>."
+     },
+     {
+      "en": "Monthly dashboards of sensor data such as <strong>air quality</strong> and <strong>demographics</strong>.",
+      "de": "Monatliche Dashboards mit Sensordaten wie <strong>Luftqualität</strong> und <strong>Besucherdemografie</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Deployed</strong> at <strong>MediaMarkt</strong> Metropol Istanbul on 2 Jan 2023.",
+      "de": "<strong>Im Einsatz</strong> bei <strong>MediaMarkt</strong> Metropol Istanbul seit 2. Januar 2023."
+     },
+     {
+      "en": "Interacted with <strong>400 customers</strong> per month on average.",
+      "de": "Durchschnittlich <strong>400 Kundeninteraktionen</strong> pro Monat."
+     },
+     {
+      "en": "Drove <strong>10+ km</strong> autonomously per month without mechanical issues.",
+      "de": "Über <strong>10 km</strong> autonome Fahrt pro Monat ohne mechanische Probleme."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "promobot-render2",
+      "caption": null
+     },
+     {
+      "file": "promobot-render1",
+      "caption": null
+     },
+     {
+      "file": "promobot-dashboard",
+      "caption": null
+     },
+     {
+      "file": "promobot-mediamarkt",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Arche Robotics",
+   "de": "Arche Robotics"
+  },
+  "period": {
+   "en": "2020 – 2023",
+   "de": "2020 – 2023"
+  },
+  "role": {
+   "en": "Mechanical design engineer",
+   "de": "Konstruktionsingenieur"
+  },
+  "keywords": [
+   {
+    "en": "AMR",
+    "de": "AMR"
+   },
+   {
+    "en": "Retail",
+    "de": "Handel"
+   },
+   {
+    "en": "Dashboards",
+    "de": "Dashboards"
+   }
+  ],
+  "highlight": {
+   "en": "Deployed at MediaMarkt, 400 customers/month",
+   "de": "Im Einsatz bei MediaMarkt, 400 Kunden/Monat"
+  },
+  "title": {
+   "en": "Promobot",
+   "de": "Promobot"
+  },
+  "logos": [
+   "arche"
+  ]
+ },
+ {
   "slug": "arche-pura",
   "sections": [
    {
@@ -1372,117 +1479,6 @@
   "title": {
    "en": "Additive Manufacturing Part Management",
    "de": "Teilemanagement additive Fertigung"
-  },
-  "logos": [
-   "arche"
-  ]
- },
- {
-  "slug": "arche-promobot",
-  "sections": [
-   {
-    "key": "what",
-    "title": null,
-    "items": [
-     {
-      "en": "Promobot helps businesses <strong>engage customers</strong> and build their brand in physical and digital stores.",
-      "de": "Promobot hilft Unternehmen, <strong>Kunden zu begeistern</strong> und ihre Marke im stationären und digitalen Handel zu stärken."
-     },
-     {
-      "en": "Features: <strong>welcoming</strong>, <strong>customer guidance</strong>, <strong>marketing</strong> and <strong>AR applications</strong>.",
-      "de": "Funktionen: <strong>Begrüßung</strong>, <strong>Kundenbegleitung</strong>, <strong>Marketing</strong> und <strong>AR-Anwendungen</strong>."
-     }
-    ]
-   },
-   {
-    "key": "how",
-    "title": null,
-    "items": [
-     {
-      "en": "A <strong>data-driven</strong> companion that supports <strong>digital transformation</strong>.",
-      "de": "Ein <strong>datengetriebener</strong> Begleiter für die <strong>digitale Transformation</strong>."
-     },
-     {
-      "en": "Monthly dashboards of sensor data such as <strong>air quality</strong> and <strong>demographics</strong>.",
-      "de": "Monatliche Dashboards mit Sensordaten wie <strong>Luftqualität</strong> und <strong>Besucherdemografie</strong>."
-     }
-    ]
-   },
-   {
-    "key": "results",
-    "title": null,
-    "items": [
-     {
-      "en": "<strong>Deployed</strong> at <strong>MediaMarkt</strong> Metropol Istanbul on 2 Jan 2023.",
-      "de": "<strong>Im Einsatz</strong> bei <strong>MediaMarkt</strong> Metropol Istanbul seit 2. Januar 2023."
-     },
-     {
-      "en": "Interacted with <strong>400 customers</strong> per month on average.",
-      "de": "Durchschnittlich <strong>400 Kundeninteraktionen</strong> pro Monat."
-     },
-     {
-      "en": "Drove <strong>10+ km</strong> autonomously per month without mechanical issues.",
-      "de": "Über <strong>10 km</strong> autonome Fahrt pro Monat ohne mechanische Probleme."
-     }
-    ]
-   }
-  ],
-  "galleries": [
-   {
-    "heading": null,
-    "images": [
-     {
-      "file": "promobot-render2",
-      "caption": null
-     },
-     {
-      "file": "promobot-render1",
-      "caption": null
-     },
-     {
-      "file": "promobot-dashboard",
-      "caption": null
-     },
-     {
-      "file": "promobot-mediamarkt",
-      "caption": null
-     }
-    ]
-   }
-  ],
-  "org": {
-   "en": "Arche Robotics",
-   "de": "Arche Robotics"
-  },
-  "period": {
-   "en": "2020 – 2023",
-   "de": "2020 – 2023"
-  },
-  "role": {
-   "en": "Mechanical design engineer",
-   "de": "Konstruktionsingenieur"
-  },
-  "keywords": [
-   {
-    "en": "AMR",
-    "de": "AMR"
-   },
-   {
-    "en": "Retail",
-    "de": "Handel"
-   },
-   {
-    "en": "Dashboards",
-    "de": "Dashboards"
-   }
-  ],
-  "highlight": {
-   "en": "Deployed at MediaMarkt, 400 customers/month",
-   "de": "Im Einsatz bei MediaMarkt, 400 Kunden/Monat"
-  },
-  "title": {
-   "en": "Promobot",
-   "de": "Promobot"
   },
   "logos": [
    "arche"
