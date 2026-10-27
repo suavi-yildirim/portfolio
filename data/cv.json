@@ -286,8 +286,8 @@
      "de": "<strong>Robot Learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO"
     },
     {
-     "en": "<strong>Languages:</strong> English (professional working proficiency), German (B1)",
-     "de": "<strong>Sprachen:</strong> Englisch (verhandlungssicher), Deutsch (B1)"
+     "en": "<strong>Languages:</strong> English (professional working proficiency), German (B2.1)",
+     "de": "<strong>Sprachen:</strong> Englisch (verhandlungssicher), Deutsch (B2.1)"
     }
    ],
    "text": null
@@ -318,8 +318,6 @@
    "en": "Neumarkt i.d.OPf.",
    "de": "Neumarkt i.d.OPf."
   },
-  "tags": [
-   "mech"
-  ]
+  "tags": []
  }
 }

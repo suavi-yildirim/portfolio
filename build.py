@@ -75,7 +75,12 @@ def pdf_name(lang):
 # ================================================================ extract
 def extract(site):
     latex = (ROOT / site["latex_dir"]).resolve()
-    person, order = L.parse_main((latex / "main.tex").read_text(encoding="utf-8"))
+    main_src = (latex / "main.tex").read_text(encoding="utf-8")
+    # the project order lives in content/portfolio-full.tex (main.tex inputs it)
+    full = latex / "content/portfolio-full.tex"
+    if full.exists():
+        main_src += "\n" + full.read_text(encoding="utf-8")
+    person, order = L.parse_main(main_src)
     projects = []
     for slug in order:
         p = L.parse_project((latex / "content/projects" / f"{slug}.tex").read_text(encoding="utf-8"), slug)
@@ -475,6 +480,15 @@ def image_size(path):
 
 def resize(src, dst, max_px):
     """Copy src to dst, scaled down to max_px (macOS sips; plain copy elsewhere)."""
+    if src.suffix.lower() == ".png":  # drawings: flatten onto white, save as a real JPEG
+        from PIL import Image
+        im = Image.open(src).convert("RGBA")
+        bg = Image.new("RGBA", im.size, "white")
+        bg.alpha_composite(im)
+        out = bg.convert("RGB")
+        out.thumbnail((max_px, max_px))
+        out.save(dst, "JPEG", quality=88)
+        return
     w, h = image_size(src)
     if w and max(w, h) > max_px and shutil.which("sips"):
         subprocess.run(["sips", "-Z", str(max_px), str(src), "--out", str(dst)],
@@ -499,7 +513,10 @@ def copy_assets(site, projects):
         if cfg.get("cover"):
             used.add(cfg["cover"])
     for name in sorted(used):
-        src = latex / "images/projects" / f"{name}.jpg"
+        # sources may be .jpg (photos) or .png (drawings); the site always serves .jpg
+        src = next((latex / "images/projects" / f"{name}{ext}" for ext in (".jpg", ".png")
+                    if (latex / "images/projects" / f"{name}{ext}").exists()),
+                   latex / "images/projects" / f"{name}.jpg")
         if not src.exists():
             print(f"warning: missing image {src}", file=sys.stderr)
             continue
