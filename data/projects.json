@@ -1,5 +1,457 @@
 [
  {
+  "slug": "faps-wire-transport",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "As part of <strong>Project SIMON</strong> at the <strong>Institute FAPS</strong>, I contributed to an <strong>automated pneumatic “shooting” system</strong> that replaces manual <strong>wire handling</strong> and removes assembly bottlenecks for flexible wire components.",
+      "de": "Im Rahmen von <strong>Projekt SIMON</strong> am <strong>Lehrstuhl FAPS</strong> Mitarbeit an einem <strong>automatisierten pneumatischen „Schuss“-System</strong>, das das manuelle <strong>Drahthandling</strong> ersetzt und Montageengpässe bei biegeschlaffen Drahtkomponenten beseitigt."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Used <strong>Siemens NX</strong> for CAD modeling of the <strong>experimental setup</strong>, including tube holder, stop and brake stations.",
+      "de": "CAD-Modellierung des <strong>Versuchsaufbaus</strong> in <strong>Siemens NX</strong>, inkl. Schlauchhalter, Stopp- und Bremsstation."
+     },
+     {
+      "en": "Used <strong>FDM and SLA 3D printing</strong> for parts with different <strong>structural</strong> and high-tolerance <strong>aerodynamic</strong> requirements.",
+      "de": "Fertigung per <strong>FDM- und SLA-3D-Druck</strong> für Bauteile mit unterschiedlichen <strong>strukturellen</strong> und hochpräzisen <strong>aerodynamischen</strong> Anforderungen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Achieved stable transport</strong> at <strong>20 m/s</strong> while keeping a defined state of order for flexible leads.",
+      "de": "<strong>Stabiler Transport</strong> mit <strong>20 m/s</strong> bei definiertem Ordnungszustand der biegeschlaffen Leitungen."
+     },
+     {
+      "en": "<strong>Quantified</strong> empirical pressure-loss coefficients for industrial-scale pneumatic system modeling.",
+      "de": "<strong>Bestimmung</strong> empirischer Druckverlustbeiwerte für die Auslegung pneumatischer Systeme im Industriemaßstab."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "faps-wire-layout",
+      "caption": null
+     },
+     {
+      "file": "faps-wire-rail",
+      "caption": null
+     },
+     {
+      "file": "faps-wire-station",
+      "caption": null
+     },
+     {
+      "file": "faps-wire-cart",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "FAU – Institute FAPS",
+   "de": "FAU – Lehrstuhl FAPS"
+  },
+  "period": {
+   "en": "since 07/2024",
+   "de": "seit 07/2024"
+  },
+  "role": {
+   "en": "Graduate research assistant",
+   "de": "Wiss. Hilfskraft"
+  },
+  "keywords": [
+   {
+    "en": "Siemens NX",
+    "de": "Siemens NX"
+   },
+   {
+    "en": "3D printing",
+    "de": "3D-Druck"
+   },
+   {
+    "en": "Pneumatics",
+    "de": "Pneumatik"
+   }
+  ],
+  "highlight": {
+   "en": "Stable wire transport at 20 m/s",
+   "de": "Stabiler Drahttransport mit 20 m/s"
+  },
+  "title": {
+   "en": "Pneumatic Wire Transport (WTE)",
+   "de": "Pneumatischer Leitungstransport (WTE)"
+  },
+  "logos": [
+   "faps"
+  ]
+ },
+ {
+  "slug": "faps-wfe",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Vertical test rig in which an <strong>upward airflow holds a wire</strong> in floating equilibrium – the basic case of every lifting section in <strong>pneumatic wire transport</strong>.",
+      "de": "Vertikaler Prüfstand, in dem ein <strong>aufwärts gerichteter Luftstrom eine Leitung</strong> in der Schwebe hält – der Grundfall jeder Steigstrecke im <strong>pneumatischen Leitungstransport</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Designed launching station, tube and <strong>sensor holders</strong> (Siemens NX, 3D printing).",
+      "de": "Konstruktion von Abschussstation, Schlauch- und <strong>Sensorhaltern</strong> (Siemens NX, 3D-Druck)."
+     },
+     {
+      "en": "<strong>Control cabinet</strong>: S7-1500 software PLC, ET 200SP, IO-Link, Festo proportional pressure regulator and flow sensor.",
+      "de": "<strong>Schaltschrank</strong>: S7-1500-Software-SPS, ET 200SP, IO-Link, Festo-Proportional-Druckregler und Durchflusssensor."
+     },
+     {
+      "en": "<strong>PID control</strong> of the inlet pressure from 5 inductive sensors; WinCC HMI for automated test runs.",
+      "de": "<strong>PID-Regelung</strong> des Eingangsdrucks über 5 induktive Sensoren; WinCC-HMI für automatisierte Versuchsreihen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Reproducible</strong> floating tests for wires of <strong>0.5–3.5 m</strong> and <strong>0.5–6 mm<sup>2</sup></strong>.",
+      "de": "<strong>Reproduzierbare</strong> Schwebeversuche für Leitungen mit <strong>0,5–3,5 m</strong> und <strong>0,5–6 mm<sup>2</sup></strong>."
+     },
+     {
+      "en": "Dataset for the Master's thesis: <strong>CFD</strong> validation and <strong>machine-learning</strong> prediction of floating conditions.",
+      "de": "Datenbasis der Masterarbeit: <strong>CFD</strong>-Validierung und <strong>Machine-Learning</strong>-Vorhersage der Schwebebedingungen."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "wfe-hardware",
+      "caption": null
+     },
+     {
+      "file": "wfe-cad",
+      "caption": null
+     },
+     {
+      "file": "wfe-controller",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "FAU – Institute FAPS",
+   "de": "FAU – Lehrstuhl FAPS"
+  },
+  "period": {
+   "en": "2025 – 2026",
+   "de": "2025 – 2026"
+  },
+  "role": {
+   "en": "Graduate research assistant, Master's thesis",
+   "de": "Wiss. Hilfskraft, Masterarbeit"
+  },
+  "keywords": [
+   {
+    "en": "S7-1500",
+    "de": "S7-1500"
+   },
+   {
+    "en": "TIA Portal",
+    "de": "TIA Portal"
+   },
+   {
+    "en": "WinCC",
+    "de": "WinCC"
+   },
+   {
+    "en": "PID",
+    "de": "PID"
+   },
+   {
+    "en": "CFD",
+    "de": "CFD"
+   }
+  ],
+  "highlight": {
+   "en": "Closed-loop wire levitation test rig",
+   "de": "Prüfstand für geregeltes Leitungsschweben"
+  },
+  "title": {
+   "en": "Wire Floating Experiment (WFE)",
+   "de": "Wire Floating Experiment (WFE)"
+  },
+  "logos": [
+   "faps"
+  ]
+ },
+ {
+  "slug": "faps-next2oem",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>NEXT2OEM</strong> is an <strong>Audi-led</strong> research project (BMWK, 2023–2026) with FAPS and industry partners.",
+      "de": "<strong>NEXT2OEM</strong> ist ein <strong>von Audi geleitetes</strong> Forschungsprojekt (BMWK, 2023–2026) mit dem FAPS und Industriepartnern."
+     },
+     {
+      "en": "Goal: <strong>digitise and automate</strong> the whole wire-harness value chain, from connector to vehicle assembly, to bring harness production back to Germany.",
+      "de": "Ziel: die gesamte Bordnetz-Wertschöpfungskette <strong>digitalisieren und automatisieren</strong>, vom Steckverbinder bis zur Fahrzeugmontage, und die Fertigung nach Deutschland zurückholen."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Helped <strong>build the demonstrator</strong>: fixtures, electric and pneumatic <strong>gripper fingers</strong> and a <strong>camera mount</strong> for the robot stations (Siemens NX).",
+      "de": "Mitarbeit am <strong>Aufbau des Demonstrators</strong>: Vorrichtungen, elektrische und pneumatische <strong>Greiferfinger</strong> und ein <strong>Kamerahalter</strong> für die Roboterstationen (Siemens NX)."
+     },
+     {
+      "en": "<strong>Redesigned Audi parts</strong> for 3D printing (FDM, PETG/PLA).",
+      "de": "<strong>Audi-Bauteile</strong> für den 3D-Druck <strong>umkonstruiert</strong> (FDM, PETG/PLA)."
+     },
+     {
+      "en": "Prepared <strong>KBL harness data</strong> (VDA 4964) for an <strong>XR-based assembly guidance</strong> system.",
+      "de": "Aufbereitung von <strong>KBL-Kabelbaumdaten</strong> (VDA 4964) für eine <strong>XR-basierte Montageführung</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "Gripper and camera tooling <strong>integrated</strong> in the demonstrator stations.",
+      "de": "Greifer- und Kamerawerkzeuge in die Demonstrator-Stationen <strong>integriert</strong>."
+     },
+     {
+      "en": "<strong>Print-ready</strong> Audi parts for fast iterations of the setup.",
+      "de": "<strong>Druckfertige</strong> Audi-Bauteile für schnelle Iterationen des Aufbaus."
+     },
+     {
+      "en": "Project result: Audi validated the prototype on a centre-console harness in Ingolstadt.",
+      "de": "Projektergebnis: Audi validierte den Prototyp an einem Mittelkonsolen-Kabelbaum in Ingolstadt."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "n2o-station1-gripper",
+      "caption": null
+     },
+     {
+      "file": "n2o-station3-gripper",
+      "caption": null
+     },
+     {
+      "file": "n2o-station2-camera",
+      "caption": null
+     },
+     {
+      "file": "audi-stand-render",
+      "caption": null
+     },
+     {
+      "file": "audi-bracket-render",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "FAU – Institute FAPS × Audi",
+   "de": "FAU – Lehrstuhl FAPS × Audi"
+  },
+  "period": {
+   "en": "2024 – 2026",
+   "de": "2024 – 2026"
+  },
+  "role": {
+   "en": "Graduate research assistant",
+   "de": "Wiss. Hilfskraft"
+  },
+  "keywords": [
+   {
+    "en": "Wire harness",
+    "de": "Bordnetz"
+   },
+   {
+    "en": "KBL",
+    "de": "KBL"
+   },
+   {
+    "en": "XR",
+    "de": "XR"
+   },
+   {
+    "en": "Siemens NX",
+    "de": "Siemens NX"
+   },
+   {
+    "en": "3D printing",
+    "de": "3D-Druck"
+   }
+  ],
+  "highlight": {
+   "en": "Tooling for the Audi harness demonstrator",
+   "de": "Werkzeuge für den Audi-Bordnetz-Demonstrator"
+  },
+  "title": {
+   "en": "NEXT2OEM – Automated Wire Harness Production",
+   "de": "NEXT2OEM – Automatisierte Bordnetzfertigung"
+  },
+  "logos": [
+   "faps"
+  ]
+ },
+ {
+  "slug": "faps-twisting-unit",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "A compact <strong>twisting unit</strong> for the <strong>Robotik Challenge</strong> setup: it holds the wire end in a <strong>connector holder</strong> and turns it to <strong>twist the wire</strong>.",
+      "de": "Eine kompakte <strong>Verdrilleinheit</strong> für den Aufbau der <strong>Robotik Challenge</strong>: sie hält das Leitungsende in einer <strong>Steckeraufnahme</strong> und dreht es, um die <strong>Leitung zu verdrillen</strong>."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Designed the <strong>bracket, motor coupling and connector holder</strong> around an igus stepper motor and a rotary feedthrough.",
+      "de": "Konstruktion von <strong>Halter, Motorkupplung und Steckeraufnahme</strong> um einen igus-Schrittmotor und eine Drehdurchführung."
+     },
+     {
+      "en": "<strong>Closed-loop stepper</strong> drive (CL42T) with an <strong>Arduino Nano</strong>; speed tests up to 600 rpm.",
+      "de": "<strong>Closed-Loop-Schrittmotor</strong>antrieb (CL42T) mit <strong>Arduino Nano</strong>; Drehzahltests bis 600 U/min."
+     },
+     {
+      "en": "Printed parts for fast iterations; mounts directly on the task board.",
+      "de": "Gedruckte Bauteile für schnelle Iterationen; direkte Montage auf dem Aufgabenboard."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Built and tested</strong> unit, integrated in the Robotik Challenge task board.",
+      "de": "<strong>Aufgebaute und getestete</strong> Einheit, integriert in das Aufgabenboard der Robotik Challenge."
+     },
+     {
+      "en": "Makes <strong>wire twisting</strong> – a typical wire-harness process step – available as a robot task.",
+      "de": "Macht das <strong>Verdrillen</strong> – einen typischen Prozessschritt der Bordnetzfertigung – als Roboteraufgabe verfügbar."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "twist-photo-board",
+      "caption": null
+     },
+     {
+      "file": "twist-cad",
+      "caption": null
+     },
+     {
+      "file": "twist-section",
+      "caption": null
+     },
+     {
+      "file": "twist-photo-bench",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "FAU – Institute FAPS",
+   "de": "FAU – Lehrstuhl FAPS"
+  },
+  "period": {
+   "en": "",
+   "de": ""
+  },
+  "role": {
+   "en": "Design and build",
+   "de": "Konstruktion und Aufbau"
+  },
+  "keywords": [
+   {
+    "en": "Wire harness",
+    "de": "Bordnetz"
+   },
+   {
+    "en": "Stepper drive",
+    "de": "Schrittmotor"
+   },
+   {
+    "en": "Arduino",
+    "de": "Arduino"
+   },
+   {
+    "en": "3D printing",
+    "de": "3D-Druck"
+   }
+  ],
+  "highlight": {
+   "en": "Motor-driven wire twisting module",
+   "de": "Motorisches Verdrillmodul für Leitungen"
+  },
+  "title": {
+   "en": "Wire Twisting Unit",
+   "de": "Verdrilleinheit für Leitungen"
+  },
+  "logos": [
+   "faps"
+  ]
+ },
+ {
   "slug": "healthineers-hackathon",
   "sections": [
    {
@@ -247,109 +699,6 @@
   "logo_text": "SONY"
  },
  {
-  "slug": "faps-wire-transport",
-  "sections": [
-   {
-    "key": "what",
-    "title": null,
-    "items": [
-     {
-      "en": "As part of <strong>Project SIMON</strong> at the <strong>Institute FAPS</strong>, I contributed to an <strong>automated pneumatic “shooting” system</strong> that replaces manual <strong>wire handling</strong> and removes assembly bottlenecks for flexible wire components.",
-      "de": "Im Rahmen von <strong>Projekt SIMON</strong> am <strong>Lehrstuhl FAPS</strong> Mitarbeit an einem <strong>automatisierten pneumatischen „Schuss“-System</strong>, das das manuelle <strong>Drahthandling</strong> ersetzt und Montageengpässe bei biegeschlaffen Drahtkomponenten beseitigt."
-     }
-    ]
-   },
-   {
-    "key": "how",
-    "title": null,
-    "items": [
-     {
-      "en": "Used <strong>Siemens NX</strong> for CAD modeling of the <strong>experimental setup</strong>, including tube holder, stop and brake stations.",
-      "de": "CAD-Modellierung des <strong>Versuchsaufbaus</strong> in <strong>Siemens NX</strong>, inkl. Schlauchhalter, Stopp- und Bremsstation."
-     },
-     {
-      "en": "Used <strong>FDM and SLA 3D printing</strong> for parts with different <strong>structural</strong> and high-tolerance <strong>aerodynamic</strong> requirements.",
-      "de": "Fertigung per <strong>FDM- und SLA-3D-Druck</strong> für Bauteile mit unterschiedlichen <strong>strukturellen</strong> und hochpräzisen <strong>aerodynamischen</strong> Anforderungen."
-     }
-    ]
-   },
-   {
-    "key": "results",
-    "title": null,
-    "items": [
-     {
-      "en": "<strong>Achieved stable transport</strong> at <strong>20 m/s</strong> while keeping a defined state of order for flexible leads.",
-      "de": "<strong>Stabiler Transport</strong> mit <strong>20 m/s</strong> bei definiertem Ordnungszustand der biegeschlaffen Leitungen."
-     },
-     {
-      "en": "<strong>Quantified</strong> empirical pressure-loss coefficients for industrial-scale pneumatic system modeling.",
-      "de": "<strong>Bestimmung</strong> empirischer Druckverlustbeiwerte für die Auslegung pneumatischer Systeme im Industriemaßstab."
-     }
-    ]
-   }
-  ],
-  "galleries": [
-   {
-    "heading": null,
-    "images": [
-     {
-      "file": "faps-wire-layout",
-      "caption": null
-     },
-     {
-      "file": "faps-wire-rail",
-      "caption": null
-     },
-     {
-      "file": "faps-wire-station",
-      "caption": null
-     },
-     {
-      "file": "faps-wire-cart",
-      "caption": null
-     }
-    ]
-   }
-  ],
-  "org": {
-   "en": "FAU – Institute FAPS",
-   "de": "FAU – Lehrstuhl FAPS"
-  },
-  "period": {
-   "en": "since 07/2024",
-   "de": "seit 07/2024"
-  },
-  "role": {
-   "en": "Graduate research assistant",
-   "de": "Wiss. Hilfskraft"
-  },
-  "keywords": [
-   {
-    "en": "Siemens NX",
-    "de": "Siemens NX"
-   },
-   {
-    "en": "3D printing",
-    "de": "3D-Druck"
-   },
-   {
-    "en": "Pneumatics",
-    "de": "Pneumatik"
-   }
-  ],
-  "highlight": {
-   "en": "Stable wire transport at 20 m/s",
-   "de": "Stabiler Drahttransport mit 20 m/s"
-  },
-  "title": {
-   "en": "Pneumatic Wire Transportation",
-   "de": "Pneumatischer Drahttransport"
-  },
-  "logos": [
-   "faps"
-  ]
- },
- {
   "slug": "cobro-gripper",
   "sections": [
    {
@@ -557,6 +906,16 @@
     ]
    },
    {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "A camera above the feeder locates <strong>randomly oriented parts</strong>; the robot picks them (<strong>vision-guided handling</strong>).",
+      "de": "Eine Kamera über dem Zuführer erkennt <strong>ungeordnete Teile</strong>; der Roboter greift sie <strong>kamerageführt</strong>."
+     }
+    ]
+   },
+   {
     "key": "results",
     "title": null,
     "items": [
@@ -573,6 +932,14 @@
     "images": [
      {
       "file": "feeder-robot",
+      "caption": null
+     },
+     {
+      "file": "feeder-iso",
+      "caption": null
+     },
+     {
+      "file": "feeder-front",
       "caption": null
      }
     ]
@@ -602,7 +969,7 @@
   ],
   "highlight": {
    "en": "Cost-effective mixed-part feeding",
-   "de": "Kostengünstige Zuführung gemischter Teile"
+   "de": "Günstige Zuführung gemischter Teile"
   },
   "title": {
    "en": "Flexible Feeder System",
@@ -1129,8 +1496,8 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>Developed</strong> a torsional measurement device to analyse the mechanical characteristics of <strong>anti-roll bars</strong>.",
-      "de": "<strong>Entwicklung</strong> einer Torsionsmessvorrichtung zur Analyse der mechanischen Eigenschaften von <strong>Stabilisatoren</strong>."
+      "en": "<strong>Developed</strong> a <strong>torsional measurement</strong> device for analysing the mechanical characteristics of <strong>anti-roll bars</strong> in automobiles.",
+      "de": "<strong>Entwicklung</strong> einer <strong>Torsionsmessvorrichtung</strong> zur Analyse der mechanischen Eigenschaften von <strong>Stabilisatoren</strong> in Kraftfahrzeugen."
      }
     ]
    },
@@ -1139,12 +1506,12 @@
     "title": null,
     "items": [
      {
-      "en": "Hub and bearing setup to measure anti-roll bar <strong>twist</strong>.",
-      "de": "Naben- und Lageraufbau zur Messung der <strong>Verdrehung</strong> des Stabilisators."
+      "en": "<strong>Implemented</strong> a hub and bearing setup to assess <strong>anti-roll bar twisting</strong>.",
+      "de": "<strong>Umsetzung</strong> eines Naben- und Lageraufbaus zur Messung der <strong>Stabilisatorverdrehung</strong>."
      },
      {
-      "en": "Load transferred through lever arms to a <strong>1-ton load cell</strong>.",
-      "de": "Lasteinleitung über Hebelarme in eine <strong>1-t-Kraftmessdose</strong>."
+      "en": "<strong>Transferred</strong> the load through lever arms to a <strong>1-ton capacity</strong> load cell for accurate measurement.",
+      "de": "<strong>Lasteinleitung</strong> über Hebelarme in eine Kraftmessdose mit <strong>1 t Nennlast</strong> für genaue Messungen."
      }
     ]
    },
@@ -1153,8 +1520,8 @@
     "title": null,
     "items": [
      {
-      "en": "Enabled measuring and <strong>tuning</strong> anti-roll bar stiffness for racing vehicles.",
-      "de": "Messung und <strong>Abstimmung</strong> der Stabilisatorsteifigkeit für Rennfahrzeuge."
+      "en": "The device allowed <strong>measurement and adjustment</strong> of anti-roll bar twist <strong>stiffness</strong>, ensuring optimal performance for the targeted <strong>racing</strong> vehicles.",
+      "de": "Die Vorrichtung ermöglichte die <strong>Messung und Einstellung</strong> der Verdrehsteifigkeit von Stabilisatoren für eine optimale Abstimmung der <strong>Rennfahrzeuge</strong>."
      }
     ]
    }
@@ -1206,7 +1573,7 @@
   ],
   "highlight": {
    "en": "Anti-roll bar stiffness tuning",
-   "de": "Abstimmung der Stabilisatorsteifigkeit"
+   "de": "Stabilisator-Abstimmung"
   },
   "title": {
    "en": "Torsional Measurement Device",
@@ -1224,8 +1591,8 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>Developed</strong> a device to measure the <strong>spring stiffness</strong> of racing-car <strong>suspension springs</strong>.",
-      "de": "<strong>Entwicklung</strong> eines Geräts zur Messung der <strong>Federsteifigkeit</strong> von <strong>Rennfahrwerksfedern</strong>."
+      "en": "<strong>Developed</strong> a <strong>spring stiffness measurement</strong> device for analysing springs used in racing <strong>car suspension systems</strong>.",
+      "de": "<strong>Entwicklung</strong> eines <strong>Messgeräts für Federsteifigkeit</strong> zur Analyse von Federn in <strong>Rennfahrwerken</strong>."
      }
     ]
    },
@@ -1234,8 +1601,8 @@
     "title": null,
     "items": [
      {
-      "en": "Accurate <strong>spring coefficients</strong>, used to tune the suspension for <strong>optimal track performance</strong>.",
-      "de": "Genaue <strong>Federkennwerte</strong> für eine Fahrwerksabstimmung mit <strong>optimaler Streckenperformance</strong>."
+      "en": "The device enabled accurate measurement of <strong>spring coefficients</strong>, allowing the suspension to be tuned for <strong>optimal track performance</strong>.",
+      "de": "Das Gerät ermöglichte die genaue Messung der <strong>Federkennwerte</strong>, sodass das Fahrwerk für eine <strong>optimale Streckenperformance</strong> abgestimmt werden konnte."
      }
     ]
    }
@@ -1279,7 +1646,7 @@
   ],
   "highlight": {
    "en": "Spring rates for suspension tuning",
-   "de": "Federkennwerte für die Fahrwerksabstimmung"
+   "de": "Federkennwerte fürs Fahrwerk"
   },
   "title": {
    "en": "Spring Stiffness Measurement Device",
@@ -1297,8 +1664,8 @@
     "title": null,
     "items": [
      {
-      "en": "R&amp;D to improve the <strong>suspension control arm</strong> of a rallycross car for performance and durability under racing conditions.",
-      "de": "F&amp;E zur Verbesserung des <strong>Querlenkers</strong> eines Rallycross-Fahrzeugs hinsichtlich Leistung und Haltbarkeit unter Rennbedingungen."
+      "en": "Conducted extensive <strong>R&amp;D</strong> to improve the <strong>suspension control arm</strong> of a <strong>rallycross</strong> vehicle, to optimise performance and durability under demanding racing conditions.",
+      "de": "Umfangreiche <strong>F&amp;E</strong> zur Verbesserung des <strong>Querlenkers</strong> eines <strong>Rallycross</strong>-Fahrzeugs, um Leistung und Haltbarkeit unter harten Rennbedingungen zu optimieren."
      }
     ]
    },
@@ -1307,12 +1674,12 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>Redesigned</strong> the arm after the original broke during a race.",
-      "de": "<strong>Neukonstruktion</strong>, nachdem das Originalteil im Rennen gebrochen war."
+      "en": "<strong>Redesigned</strong> the suspension arm after the <strong>original broke</strong> during a race.",
+      "de": "<strong>Neukonstruktion</strong> des Querlenkers, nachdem das <strong>Originalteil</strong> im Rennen <strong>gebrochen</strong> war."
      },
      {
-      "en": "<strong>Manufactured</strong> a stiffer, more robust arm and fitted it to the car.",
-      "de": "<strong>Fertigung</strong> eines steiferen, robusteren Lenkers und Einbau ins Fahrzeug."
+      "en": "<strong>Manufactured</strong> a more <strong>rigid and robust</strong> arm and integrated it into the vehicle.",
+      "de": "<strong>Fertigung</strong> eines <strong>steiferen und robusteren</strong> Lenkers und Einbau ins Fahrzeug."
      }
     ]
    },
@@ -1321,8 +1688,8 @@
     "title": null,
     "items": [
      {
-      "en": "A <strong>stronger, more durable</strong> arm that improved performance and reliability on the track.",
-      "de": "Ein <strong>stärkerer, langlebigerer</strong> Lenker für mehr Leistung und Zuverlässigkeit auf der Strecke."
+      "en": "The new design gave a <strong>stronger, more durable</strong> suspension arm, clearly improving <strong>vehicle performance</strong> and reliability on the track.",
+      "de": "Die Neukonstruktion lieferte einen <strong>stärkeren, langlebigeren</strong> Querlenker und verbesserte <strong>Fahrzeugleistung</strong> und Zuverlässigkeit auf der Strecke deutlich."
      }
     ]
    }

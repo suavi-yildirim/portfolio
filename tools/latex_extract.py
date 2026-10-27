@@ -367,8 +367,18 @@ def resolve_tagged(s, active):
     return "".join(out)
 
 
+def unwrap_summary(s):
+    """cv.tex wraps the summary as \\providecommand{\\SummaryText}{..} then \\SummaryText."""
+    m = re.search(r"\\providecommand\{\\SummaryText\}", s)
+    if not m:
+        return s
+    _, (body,), j = read_args(s, m.end(), 1)
+    rest = re.sub(r"\\SummaryText(?![A-Za-z])", "", s[j:], count=1)
+    return s[:m.start()] + body + rest
+
+
 def parse_cv(src, active_tags):
-    s = resolve_tagged(strip_comments(src), active_tags)
+    s = resolve_tagged(unwrap_summary(strip_comments(src)), active_tags)
     sections = []
     for m in re.finditer(r"\\section(?![A-Za-z])", s):
         _, (title,), j = read_args(s, m.end(), 1)
