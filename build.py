@@ -514,9 +514,11 @@ def copy_assets(site, projects):
             used.add(cfg["cover"])
     for name in sorted(used):
         # sources may be .jpg (photos) or .png (drawings); the site always serves .jpg
-        src = next((latex / "images/projects" / f"{name}{ext}" for ext in (".jpg", ".png")
-                    if (latex / "images/projects" / f"{name}{ext}").exists()),
-                   latex / "images/projects" / f"{name}.jpg")
+        # site.json "image_sources" can swap in a website-only source (e.g. an uncropped drawing)
+        sname = site.get("image_sources", {}).get(name, name)
+        src = next((latex / "images/projects" / f"{sname}{ext}" for ext in (".jpg", ".png")
+                    if (latex / "images/projects" / f"{sname}{ext}").exists()),
+                   latex / "images/projects" / f"{sname}.jpg")
         if not src.exists():
             print(f"warning: missing image {src}", file=sys.stderr)
             continue

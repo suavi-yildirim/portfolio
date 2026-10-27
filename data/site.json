@@ -134,6 +134,12 @@
    "de": "KI / Simulation"
   }
  },
+ "image_sources": {
+  "_comment": "website-only sources: full drawing views from 03_Work/FAPS/NEXT2OEM-Gripper-Drawings (the PDF keeps its own crops)",
+  "n2o-station1-gripper": "n2o-station1-gripper-full",
+  "n2o-station2-camera": "n2o-station2-camera-full",
+  "n2o-station3-gripper": "n2o-station3-gripper-full"
+ },
  "projects": {
   "healthineers-hackathon": {
    "categories": [
@@ -266,6 +272,7 @@
    ],
    "cover": "audi-console-harness",
    "extra_images": [
+    "n2o-station3-gripper2-full",
     "audi-console-harness",
     "n2o-cell-iso",
     "n2o-cell-top"
