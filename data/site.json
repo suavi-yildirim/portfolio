@@ -264,7 +264,12 @@
     "automation",
     "design"
    ],
-   "cover": "n2o-station1-gripper"
+   "cover": "audi-console-harness",
+   "extra_images": [
+    "audi-console-harness",
+    "n2o-cell-iso",
+    "n2o-cell-top"
+   ]
   },
   "faps-twisting-unit": {
    "categories": [
