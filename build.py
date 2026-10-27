@@ -556,7 +556,7 @@ def build_pdfs(site):
         sys.exit("pdflatex not found – install MacTeX or copy the PDFs to docs/assets/pdf/ by hand")
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp) / "latex"
-        shutil.copytree(latex, work, ignore=shutil.ignore_patterns("*.zip", "*.pdf", ".git"))
+        shutil.copytree(latex, work, ignore=shutil.ignore_patterns("*.zip", "*.pdf", ".git", "build", "PDF"))
         # never publish the handwritten signature: drop \Signature and the image itself
         m = (work / "main.tex").read_text(encoding="utf-8")
         m = re.sub(r"^\s*\\Signature\{[^}]*\}.*$", "", m, flags=re.M)
