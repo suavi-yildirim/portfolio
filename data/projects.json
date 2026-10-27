@@ -695,6 +695,269 @@
   "logo_text": "SONY"
  },
  {
+  "slug": "2e-torsion-device",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Developed</strong> a <strong>torsional measurement</strong> device for analysing the mechanical characteristics of <strong>anti-roll bars</strong> in automobiles.",
+      "de": "<strong>Entwicklung</strong> einer <strong>Torsionsmessvorrichtung</strong> zur Analyse der mechanischen Eigenschaften von <strong>Stabilisatoren</strong> in Kraftfahrzeugen."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Implemented</strong> a hub and bearing setup to assess <strong>anti-roll bar twisting</strong>.",
+      "de": "<strong>Umsetzung</strong> eines Naben- und Lageraufbaus zur Messung der <strong>Stabilisatorverdrehung</strong>."
+     },
+     {
+      "en": "<strong>Transferred</strong> the load through lever arms to a <strong>1-ton capacity</strong> load cell for accurate measurement.",
+      "de": "<strong>Lasteinleitung</strong> über Hebelarme in eine Kraftmessdose mit <strong>1 t Nennlast</strong> für genaue Messungen."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "The device allowed <strong>measurement and adjustment</strong> of anti-roll bar twist <strong>stiffness</strong>, ensuring optimal performance for the targeted <strong>racing</strong> vehicles.",
+      "de": "Die Vorrichtung ermöglichte die <strong>Messung und Einstellung</strong> der Verdrehsteifigkeit von Stabilisatoren für eine optimale Abstimmung der <strong>Rennfahrzeuge</strong>."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "torsion-cad",
+      "caption": null
+     },
+     {
+      "file": "torsion-photo2",
+      "caption": null
+     },
+     {
+      "file": "torsion-photo1",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "2E Design",
+   "de": "2E Design"
+  },
+  "period": {
+   "en": "2023 – 2024",
+   "de": "2023 – 2024"
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "Test rig",
+    "de": "Prüfstand"
+   },
+   {
+    "en": "Load cell",
+    "de": "Kraftmessdose"
+   },
+   {
+    "en": "Motorsport",
+    "de": "Motorsport"
+   }
+  ],
+  "highlight": {
+   "en": "Anti-roll bar stiffness tuning",
+   "de": "Stabilisator-Abstimmung"
+  },
+  "title": {
+   "en": "Torsional Measurement Device",
+   "de": "Torsionsmessvorrichtung"
+  },
+  "logos": [
+   "twoe-design"
+  ]
+ },
+ {
+  "slug": "2e-spring-device",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Developed</strong> a <strong>spring stiffness measurement</strong> device for analysing springs used in racing <strong>car suspension systems</strong>.",
+      "de": "<strong>Entwicklung</strong> eines <strong>Messgeräts für Federsteifigkeit</strong> zur Analyse von Federn in <strong>Rennfahrwerken</strong>."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "The device enabled accurate measurement of <strong>spring coefficients</strong>, allowing the suspension to be tuned for <strong>optimal track performance</strong>.",
+      "de": "Das Gerät ermöglichte die genaue Messung der <strong>Federkennwerte</strong>, sodass das Fahrwerk für eine <strong>optimale Streckenperformance</strong> abgestimmt werden konnte."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "spring-cad",
+      "caption": null
+     },
+     {
+      "file": "spring-photo",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "2E Design",
+   "de": "2E Design"
+  },
+  "period": {
+   "en": "2023 – 2024",
+   "de": "2023 – 2024"
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "Test rig",
+    "de": "Prüfstand"
+   },
+   {
+    "en": "Motorsport",
+    "de": "Motorsport"
+   }
+  ],
+  "highlight": {
+   "en": "Spring rates for suspension tuning",
+   "de": "Federkennwerte fürs Fahrwerk"
+  },
+  "title": {
+   "en": "Spring Stiffness Measurement Device",
+   "de": "Federsteifigkeits-Messgerät"
+  },
+  "logos": [
+   "twoe-design"
+  ]
+ },
+ {
+  "slug": "2e-control-arm",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Conducted extensive <strong>R&amp;D</strong> to improve the <strong>suspension control arm</strong> of a <strong>rallycross</strong> vehicle, to optimise performance and durability under demanding racing conditions.",
+      "de": "Umfangreiche <strong>F&amp;E</strong> zur Verbesserung des <strong>Querlenkers</strong> eines <strong>Rallycross</strong>-Fahrzeugs, um Leistung und Haltbarkeit unter harten Rennbedingungen zu optimieren."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Redesigned</strong> the suspension arm after the <strong>original broke</strong> during a race.",
+      "de": "<strong>Neukonstruktion</strong> des Querlenkers, nachdem das <strong>Originalteil</strong> im Rennen <strong>gebrochen</strong> war."
+     },
+     {
+      "en": "<strong>Manufactured</strong> a more <strong>rigid and robust</strong> arm and integrated it into the vehicle.",
+      "de": "<strong>Fertigung</strong> eines <strong>steiferen und robusteren</strong> Lenkers und Einbau ins Fahrzeug."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "The new design gave a <strong>stronger, more durable</strong> suspension arm, clearly improving <strong>vehicle performance</strong> and reliability on the track.",
+      "de": "Die Neukonstruktion lieferte einen <strong>stärkeren, langlebigeren</strong> Querlenker und verbesserte <strong>Fahrzeugleistung</strong> und Zuverlässigkeit auf der Strecke deutlich."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "controlarm-cad",
+      "caption": null
+     },
+     {
+      "file": "controlarm-photo",
+      "caption": null
+     },
+     {
+      "file": "rally-car",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "2E Design",
+   "de": "2E Design"
+  },
+  "period": {
+   "en": "2023 – 2024",
+   "de": "2023 – 2024"
+  },
+  "role": {
+   "en": "Mechanical design",
+   "de": "Konstruktion"
+  },
+  "keywords": [
+   {
+    "en": "Redesign",
+    "de": "Neukonstruktion"
+   },
+   {
+    "en": "Manufacturing",
+    "de": "Fertigung"
+   },
+   {
+    "en": "Motorsport",
+    "de": "Motorsport"
+   }
+  ],
+  "highlight": {
+   "en": "Stronger, more durable control arm",
+   "de": "Stärkerer, langlebigerer Querlenker"
+  },
+  "title": {
+   "en": "Suspension Control Arm of a Rally Car",
+   "de": "Querlenker eines Rallyefahrzeugs"
+  },
+  "logos": [
+   "twoe-design"
+  ]
+ },
+ {
   "slug": "cobro-gripper",
   "sections": [
    {
@@ -1482,269 +1745,6 @@
   },
   "logos": [
    "arche"
-  ]
- },
- {
-  "slug": "2e-torsion-device",
-  "sections": [
-   {
-    "key": "what",
-    "title": null,
-    "items": [
-     {
-      "en": "<strong>Developed</strong> a <strong>torsional measurement</strong> device for analysing the mechanical characteristics of <strong>anti-roll bars</strong> in automobiles.",
-      "de": "<strong>Entwicklung</strong> einer <strong>Torsionsmessvorrichtung</strong> zur Analyse der mechanischen Eigenschaften von <strong>Stabilisatoren</strong> in Kraftfahrzeugen."
-     }
-    ]
-   },
-   {
-    "key": "how",
-    "title": null,
-    "items": [
-     {
-      "en": "<strong>Implemented</strong> a hub and bearing setup to assess <strong>anti-roll bar twisting</strong>.",
-      "de": "<strong>Umsetzung</strong> eines Naben- und Lageraufbaus zur Messung der <strong>Stabilisatorverdrehung</strong>."
-     },
-     {
-      "en": "<strong>Transferred</strong> the load through lever arms to a <strong>1-ton capacity</strong> load cell for accurate measurement.",
-      "de": "<strong>Lasteinleitung</strong> über Hebelarme in eine Kraftmessdose mit <strong>1 t Nennlast</strong> für genaue Messungen."
-     }
-    ]
-   },
-   {
-    "key": "results",
-    "title": null,
-    "items": [
-     {
-      "en": "The device allowed <strong>measurement and adjustment</strong> of anti-roll bar twist <strong>stiffness</strong>, ensuring optimal performance for the targeted <strong>racing</strong> vehicles.",
-      "de": "Die Vorrichtung ermöglichte die <strong>Messung und Einstellung</strong> der Verdrehsteifigkeit von Stabilisatoren für eine optimale Abstimmung der <strong>Rennfahrzeuge</strong>."
-     }
-    ]
-   }
-  ],
-  "galleries": [
-   {
-    "heading": null,
-    "images": [
-     {
-      "file": "torsion-cad",
-      "caption": null
-     },
-     {
-      "file": "torsion-photo2",
-      "caption": null
-     },
-     {
-      "file": "torsion-photo1",
-      "caption": null
-     }
-    ]
-   }
-  ],
-  "org": {
-   "en": "2E Design",
-   "de": "2E Design"
-  },
-  "period": {
-   "en": "",
-   "de": ""
-  },
-  "role": {
-   "en": "Mechanical design",
-   "de": "Konstruktion"
-  },
-  "keywords": [
-   {
-    "en": "Test rig",
-    "de": "Prüfstand"
-   },
-   {
-    "en": "Load cell",
-    "de": "Kraftmessdose"
-   },
-   {
-    "en": "Motorsport",
-    "de": "Motorsport"
-   }
-  ],
-  "highlight": {
-   "en": "Anti-roll bar stiffness tuning",
-   "de": "Stabilisator-Abstimmung"
-  },
-  "title": {
-   "en": "Torsional Measurement Device",
-   "de": "Torsionsmessvorrichtung"
-  },
-  "logos": [
-   "twoe-design"
-  ]
- },
- {
-  "slug": "2e-spring-device",
-  "sections": [
-   {
-    "key": "what",
-    "title": null,
-    "items": [
-     {
-      "en": "<strong>Developed</strong> a <strong>spring stiffness measurement</strong> device for analysing springs used in racing <strong>car suspension systems</strong>.",
-      "de": "<strong>Entwicklung</strong> eines <strong>Messgeräts für Federsteifigkeit</strong> zur Analyse von Federn in <strong>Rennfahrwerken</strong>."
-     }
-    ]
-   },
-   {
-    "key": "results",
-    "title": null,
-    "items": [
-     {
-      "en": "The device enabled accurate measurement of <strong>spring coefficients</strong>, allowing the suspension to be tuned for <strong>optimal track performance</strong>.",
-      "de": "Das Gerät ermöglichte die genaue Messung der <strong>Federkennwerte</strong>, sodass das Fahrwerk für eine <strong>optimale Streckenperformance</strong> abgestimmt werden konnte."
-     }
-    ]
-   }
-  ],
-  "galleries": [
-   {
-    "heading": null,
-    "images": [
-     {
-      "file": "spring-cad",
-      "caption": null
-     },
-     {
-      "file": "spring-photo",
-      "caption": null
-     }
-    ]
-   }
-  ],
-  "org": {
-   "en": "2E Design",
-   "de": "2E Design"
-  },
-  "period": {
-   "en": "",
-   "de": ""
-  },
-  "role": {
-   "en": "Mechanical design",
-   "de": "Konstruktion"
-  },
-  "keywords": [
-   {
-    "en": "Test rig",
-    "de": "Prüfstand"
-   },
-   {
-    "en": "Motorsport",
-    "de": "Motorsport"
-   }
-  ],
-  "highlight": {
-   "en": "Spring rates for suspension tuning",
-   "de": "Federkennwerte fürs Fahrwerk"
-  },
-  "title": {
-   "en": "Spring Stiffness Measurement Device",
-   "de": "Federsteifigkeits-Messgerät"
-  },
-  "logos": [
-   "twoe-design"
-  ]
- },
- {
-  "slug": "2e-control-arm",
-  "sections": [
-   {
-    "key": "what",
-    "title": null,
-    "items": [
-     {
-      "en": "Conducted extensive <strong>R&amp;D</strong> to improve the <strong>suspension control arm</strong> of a <strong>rallycross</strong> vehicle, to optimise performance and durability under demanding racing conditions.",
-      "de": "Umfangreiche <strong>F&amp;E</strong> zur Verbesserung des <strong>Querlenkers</strong> eines <strong>Rallycross</strong>-Fahrzeugs, um Leistung und Haltbarkeit unter harten Rennbedingungen zu optimieren."
-     }
-    ]
-   },
-   {
-    "key": "how",
-    "title": null,
-    "items": [
-     {
-      "en": "<strong>Redesigned</strong> the suspension arm after the <strong>original broke</strong> during a race.",
-      "de": "<strong>Neukonstruktion</strong> des Querlenkers, nachdem das <strong>Originalteil</strong> im Rennen <strong>gebrochen</strong> war."
-     },
-     {
-      "en": "<strong>Manufactured</strong> a more <strong>rigid and robust</strong> arm and integrated it into the vehicle.",
-      "de": "<strong>Fertigung</strong> eines <strong>steiferen und robusteren</strong> Lenkers und Einbau ins Fahrzeug."
-     }
-    ]
-   },
-   {
-    "key": "results",
-    "title": null,
-    "items": [
-     {
-      "en": "The new design gave a <strong>stronger, more durable</strong> suspension arm, clearly improving <strong>vehicle performance</strong> and reliability on the track.",
-      "de": "Die Neukonstruktion lieferte einen <strong>stärkeren, langlebigeren</strong> Querlenker und verbesserte <strong>Fahrzeugleistung</strong> und Zuverlässigkeit auf der Strecke deutlich."
-     }
-    ]
-   }
-  ],
-  "galleries": [
-   {
-    "heading": null,
-    "images": [
-     {
-      "file": "controlarm-cad",
-      "caption": null
-     },
-     {
-      "file": "controlarm-photo",
-      "caption": null
-     },
-     {
-      "file": "rally-car",
-      "caption": null
-     }
-    ]
-   }
-  ],
-  "org": {
-   "en": "2E Design",
-   "de": "2E Design"
-  },
-  "period": {
-   "en": "",
-   "de": ""
-  },
-  "role": {
-   "en": "Mechanical design",
-   "de": "Konstruktion"
-  },
-  "keywords": [
-   {
-    "en": "Redesign",
-    "de": "Neukonstruktion"
-   },
-   {
-    "en": "Manufacturing",
-    "de": "Fertigung"
-   },
-   {
-    "en": "Motorsport",
-    "de": "Motorsport"
-   }
-  ],
-  "highlight": {
-   "en": "Stronger, more durable control arm",
-   "de": "Stärkerer, langlebigerer Querlenker"
-  },
-  "title": {
-   "en": "Suspension Control Arm of a Rally Car",
-   "de": "Querlenker eines Rallyefahrzeugs"
-  },
-  "logos": [
-   "twoe-design"
   ]
  },
  {
