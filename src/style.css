@@ -86,6 +86,7 @@ h1 { font-weight: 800; font-size: clamp(1.9rem, 4.5vw, 2.8rem); letter-spacing: 
 .btn.primary:hover { background: var(--accent-dark); color: #fff; }
 .btn.ghost { border-color: transparent; background: transparent; }
 .btn.ghost:hover { background: rgba(255, 255, 255, .6); }
+.project-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 @media (max-width: 720px) {
   .hero-inner { grid-template-columns: 1fr; }
   .portrait { order: -1; width: 140px; }

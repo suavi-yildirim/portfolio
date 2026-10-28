@@ -86,9 +86,9 @@
   }
  ],
  "featured": [
+  "kbl-knowledge-graph",
   "healthineers-hackathon",
-  "immersive-design-challenge",
-  "faps-wire-transport"
+  "immersive-design-challenge"
  ],
  "logos": [
   {
@@ -132,6 +132,10 @@
   "ai-sim": {
    "en": "AI / Simulation",
    "de": "KI / Simulation"
+  },
+  "data": {
+   "en": "Data",
+   "de": "Daten"
   }
  },
  "image_sources": {
@@ -268,7 +272,8 @@
   "faps-next2oem": {
    "categories": [
     "automation",
-    "design"
+    "design",
+    "data"
    ],
    "cover": "audi-console-harness",
    "extra_images": [
@@ -387,6 +392,45 @@
     "design"
    ],
    "cover": "theia-field"
+  },
+  "kbl-knowledge-graph": {
+   "categories": [
+    "data",
+    "ai-sim"
+   ],
+   "cover": "kg-geometry",
+   "extra_images": [
+    "kg-viewer"
+   ],
+   "links": [
+    {
+     "href": {
+      "en": "https://suavi-yildirim.github.io/bordnetz-knowledge-graph/#demo+en",
+      "de": "https://suavi-yildirim.github.io/bordnetz-knowledge-graph/#demo+de"
+     },
+     "label": {
+      "en": "Open the live demo",
+      "de": "Live-Demo öffnen"
+     }
+    },
+    {
+     "href": {
+      "en": "https://suavi-yildirim.github.io/bordnetz-knowledge-graph/#geo+en",
+      "de": "https://suavi-yildirim.github.io/bordnetz-knowledge-graph/#geo+de"
+     },
+     "label": {
+      "en": "3D routing",
+      "de": "3D-Verlegung"
+     }
+    },
+    {
+     "href": "https://github.com/suavi-yildirim/bordnetz-knowledge-graph",
+     "label": {
+      "en": "Code on GitHub",
+      "de": "Code auf GitHub"
+     }
+    }
+   ]
   }
  }
 }

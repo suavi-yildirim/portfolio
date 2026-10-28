@@ -319,6 +319,10 @@ def build_project(lang, site, cv, projects, idx):
     chips = "".join(f'<span class="chip">{k[lang]}</span>' for k in p["keywords"])
     cats = "".join(f'<a class="chip cat" href="{page.link("projects.html")}#{c}">{site["categories"][c][lang]}</a>'
                    for c in cfg.get("categories", []))
+    # external links from site.json, e.g. a live demo: {"href": url or {"en", "de"}, "label": {"en", "de"}}
+    links = "".join(
+        f'<a class="btn{" primary" if i == 0 else ""}" href="{esc(l["href"][lang] if isinstance(l["href"], dict) else l["href"])}" '
+        f'rel="noopener">{esc(l["label"][lang])} ↗</a>' for i, l in enumerate(cfg.get("links", [])))
 
     def block(sec):
         head = sec["title"][lang] if sec["key"] == "custom" else ui(sec["key"], lang)
@@ -387,6 +391,7 @@ def build_project(lang, site, cv, projects, idx):
     <p class="info">{' <span class="sep">|</span> '.join(info)}</p>
     {f'<p class="highlight big">{p["highlight"][lang]}</p>' if p['highlight'][lang] else ''}
     <div class="chips">{cats}{chips}</div>
+    {f'<div class="project-links">{links}</div>' if links else ''}
   </div>
 </section>
 <section class="wrap">
