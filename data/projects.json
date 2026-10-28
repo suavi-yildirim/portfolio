@@ -1,5 +1,119 @@
 [
  {
+  "slug": "kbl-knowledge-graph",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>KBL</strong> (VDA 4964) describes the wire harness: connectors, wires, modules. Functions and control units live in the <strong>E/E model</strong>. Both only share <strong>names</strong>.",
+      "de": "<strong>KBL</strong> (VDA 4964) beschreibt den Leitungssatz: Stecker, Leitungen, Module. Funktionen und Steuergeräte stehen im <strong>E/E-Modell</strong>. Beide teilen nur <strong>Namen</strong>."
+     },
+     {
+      "en": "Goal: link both views in <strong>one semantic graph</strong> and answer questions that neither source can answer alone.",
+      "de": "Ziel: beide Sichten in <strong>einem semantischen Graphen</strong> verknüpfen und Fragen beantworten, die keine Quelle allein beantworten kann."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Small <strong>ontology</strong> (OWL, 12 classes, labels in German and English, naming conventions) and a Python converter (rdflib) for KBL and E/E data.",
+      "de": "Kleine <strong>Ontologie</strong> (OWL, 12 Klassen, Labels auf Deutsch und Englisch, Naming Conventions) und ein Python-Konverter (rdflib) für KBL- und E/E-Daten."
+     },
+     {
+      "en": "<strong>SPARQL</strong> questions for traceability, change impact, variants and consistency; first on a fictitious door harness, then on the public <strong>VW “Old Beetle”</strong> sample harness (KBL 2.4).",
+      "de": "<strong>SPARQL</strong>-Fragen zu Traceability, Änderungsauswirkung, Varianten und Konsistenz; zuerst an einem fiktiven Türleitungssatz, dann am öffentlichen <strong>VW-Beispielleitungssatz „Old Beetle“</strong> (KBL 2.4)."
+     },
+     {
+      "en": "<strong>3D routing</strong> rebuilt from the KBL B-spline centre lines; interactive viewer (Three.js).",
+      "de": "<strong>3D-Verlegung</strong> aus den B-Spline-Mittellinien der KBL rekonstruiert; interaktive Ansicht (Three.js)."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>5 957 triples</strong>; variants compared: MAXI 254 connections and 278 m of wire, MINI 165 and 218 m.",
+      "de": "<strong>5 957 Tripel</strong>; Varianten verglichen: MAXI 254 Verbindungen und 278 m Leitung, MINI 165 und 218 m."
+     },
+     {
+      "en": "Consistency checks found an <strong>empty module</strong> and <strong>5 segments</strong> whose geometry does not match the topology.",
+      "de": "Die Konsistenzprüfungen fanden ein <strong>leeres Modul</strong> und <strong>5 Segmente</strong>, deren Geometrie nicht zur Topologie passt."
+     },
+     {
+      "en": "Live demo (EN/DE): suavi-yildirim.github.io/bordnetz-knowledge-graph",
+      "de": "Live-Demo (DE/EN): suavi-yildirim.github.io/bordnetz-knowledge-graph"
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "kg-geometry",
+      "caption": null
+     },
+     {
+      "file": "kg-graph",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Own project",
+   "de": "Eigenes Projekt"
+  },
+  "period": {
+   "en": "10/2026",
+   "de": "10/2026"
+  },
+  "role": {
+   "en": "Developer",
+   "de": "Entwickler"
+  },
+  "keywords": [
+   {
+    "en": "KBL",
+    "de": "KBL"
+   },
+   {
+    "en": "RDF/OWL",
+    "de": "RDF/OWL"
+   },
+   {
+    "en": "SPARQL",
+    "de": "SPARQL"
+   },
+   {
+    "en": "Python",
+    "de": "Python"
+   },
+   {
+    "en": "Three.js",
+    "de": "Three.js"
+   }
+  ],
+  "highlight": {
+   "en": "Real VW harness as a knowledge graph, live 3D demo",
+   "de": "Echter VW-Leitungssatz als Knowledge Graph, Live-3D-Demo"
+  },
+  "title": {
+   "en": "Wire Harness Knowledge Graph",
+   "de": "Bordnetz-Knowledge-Graph"
+  },
+  "logos": [],
+  "logo_text": null
+ },
+ {
   "slug": "faps-wire-transport",
   "sections": [
    {

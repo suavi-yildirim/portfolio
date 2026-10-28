@@ -57,6 +57,7 @@ What comes from where:
 - `categories`: any of `robotics`, `automation`, `design`, `ai-sim` (the filter buttons).
 - `cover`: the picture on the card and at the top of the project page (default: its first picture).
 - `videos`: `[{"file": "x.mp4", "poster": "picture-name", "caption": {"en": "..", "de": ".."}}]`. Put the MP4 in `src/video/`.
+- `links`: buttons under the title, e.g. a live demo: `[{"href": "https://..." or {"en": "..", "de": ".."}, "label": {"en": "..", "de": ".."}}]`.
 - `extra_images` / `extra_galleries`: pictures that are on the website but not in the PDF. They must be in
   `../CV-Portfolio-LaTeX/images/projects/`.
 
