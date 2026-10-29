@@ -114,6 +114,116 @@
   "logo_text": null
  },
  {
+  "slug": "formboard-vr",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Harness assembly is manual work on a <strong>formboard</strong>. An XR assistance system needs the harness as a <strong>1:1 board layout</strong>, which the KBL file does not contain.",
+      "de": "Die Kabelbaummontage ist Handarbeit auf dem <strong>Formbrett</strong>. Ein XR-Assistenzsystem braucht den Leitungssatz als <strong>1:1-Brettlayout</strong>, das die KBL-Datei nicht enthält."
+     },
+     {
+      "en": "Goal: a <strong>data-driven</strong> trainer that runs on a Meta Quest 3 without installation.",
+      "de": "Ziel: ein <strong>datengetriebener</strong> Trainer, der ohne Installation auf der Meta Quest 3 läuft."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Python pipeline: the <strong>KBL</strong> (VDA 4964) of the public VW “Old Beetle” is flattened to a formboard. Segments keep their true length; pegs are derived from the topology.",
+      "de": "Python-Pipeline: die <strong>KBL</strong> (VDA 4964) des öffentlichen VW-Beispiels „Old Beetle“ wird auf ein Formbrett abgewickelt. Segmente behalten ihre Länge; Pins ergeben sich aus der Topologie."
+     },
+     {
+      "en": "<strong>WebXR</strong> app (Three.js) with hand tracking: route wire by wire, every peg is checked; guided and test mode; time, errors and hints are logged. Connectors and colours come from the KBL.",
+      "de": "<strong>WebXR</strong>-App (Three.js) mit Handtracking: Leitung für Leitung verlegen, jeder Pin wird geprüft; geführter Modus und Testmodus; Zeit, Fehler und Hinweise werden protokolliert. Stecker und Farben stammen aus der KBL."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>18 wires, 20 connectors</strong>; the KBL wire lengths match the board paths to the millimetre.",
+      "de": "<strong>18 Leitungen, 20 Stecker</strong>; die KBL-Leitungslängen stimmen auf den Millimeter mit den Brettpfaden überein."
+     },
+     {
+      "en": "Live demo: suavi-yildirim.github.io/formboard-vr",
+      "de": "Live-Demo: suavi-yildirim.github.io/formboard-vr"
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "fvr-wiring",
+      "caption": null
+     },
+     {
+      "file": "fvr-formboard",
+      "caption": null
+     },
+     {
+      "file": "fvr-car",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Own project",
+   "de": "Eigenes Projekt"
+  },
+  "period": {
+   "en": "10/2026",
+   "de": "10/2026"
+  },
+  "role": {
+   "en": "Developer",
+   "de": "Entwickler"
+  },
+  "keywords": [
+   {
+    "en": "WebXR",
+    "de": "WebXR"
+   },
+   {
+    "en": "Meta Quest 3",
+    "de": "Meta Quest 3"
+   },
+   {
+    "en": "KBL",
+    "de": "KBL"
+   },
+   {
+    "en": "Three.js",
+    "de": "Three.js"
+   },
+   {
+    "en": "Python",
+    "de": "Python"
+   }
+  ],
+  "highlight": {
+   "en": "KBL data in VR: wire harness assembly trainer, live in the browser",
+   "de": "KBL-Daten in VR: Montagetrainer für Kabelbäume, live im Browser"
+  },
+  "title": {
+   "en": "Formboard VR",
+   "de": "Formboard VR"
+  },
+  "logos": [],
+  "logo_text": null
+ },
+ {
   "slug": "faps-wire-transport",
   "sections": [
    {
