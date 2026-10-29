@@ -87,6 +87,7 @@
  ],
  "featured": [
   "kbl-knowledge-graph",
+  "formboard-vr",
   "healthineers-hackathon",
   "immersive-design-challenge"
  ],
@@ -425,6 +426,42 @@
     },
     {
      "href": "https://github.com/suavi-yildirim/bordnetz-knowledge-graph",
+     "label": {
+      "en": "Code on GitHub",
+      "de": "Code auf GitHub"
+     }
+    }
+   ]
+  },
+  "formboard-vr": {
+   "categories": [
+    "data",
+    "ai-sim"
+   ],
+   "cover": "fvr-formboard",
+   "links": [
+    {
+     "href": {
+      "en": "https://suavi-yildirim.github.io/formboard-vr/",
+      "de": "https://suavi-yildirim.github.io/formboard-vr/"
+     },
+     "label": {
+      "en": "Try it in the browser",
+      "de": "Im Browser ausprobieren"
+     }
+    },
+    {
+     "href": {
+      "en": "https://suavi-yildirim.github.io/formboard-vr/demo/",
+      "de": "https://suavi-yildirim.github.io/formboard-vr/demo/#de"
+     },
+     "label": {
+      "en": "Demo videos",
+      "de": "Demo-Videos"
+     }
+    },
+    {
+     "href": "https://github.com/suavi-yildirim/formboard-vr",
      "label": {
       "en": "Code on GitHub",
       "de": "Code auf GitHub"
