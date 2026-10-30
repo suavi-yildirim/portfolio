@@ -7,16 +7,16 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>KBL</strong> (VDA 4964) describes the wire harness: connectors, wires, modules. Functions and control units live in the <strong>E/E model</strong>. Both only share <strong>names</strong>.",
-      "de": "<strong>KBL</strong> (VDA 4964) beschreibt den Leitungssatz: Stecker, Leitungen, Module. Funktionen und Steuergeräte stehen im <strong>E/E-Modell</strong>. Beide teilen nur <strong>Namen</strong>."
+      "en": "<strong>KBL</strong> (VDA 4964) describes the harness: connectors, wires, modules. The <strong>E/E model</strong> holds functions and control units. Both share only <strong>names</strong>.",
+      "de": "<strong>KBL</strong> (VDA 4964) beschreibt den Leitungssatz: Stecker, Leitungen, Module. Das <strong>E/E-Modell</strong> enthält Funktionen und Steuergeräte. Beide teilen nur <strong>Namen</strong>."
      },
      {
-      "en": "Goal: link both views in <strong>one semantic graph</strong> and answer questions that neither source can answer alone.",
-      "de": "Ziel: beide Sichten in <strong>einem semantischen Graphen</strong> verknüpfen und Fragen beantworten, die keine Quelle allein beantworten kann."
+      "en": "Goal: link both in <strong>one semantic graph</strong> and answer questions neither source answers alone.",
+      "de": "Ziel: beide in <strong>einem semantischen Graphen</strong> verknüpfen, um Fragen zu beantworten, die keine Quelle allein beantwortet."
      },
      {
-      "en": "Developed to understand the <strong>KBL data formats</strong> in depth, from the XML structure to the 3D geometry.",
-      "de": "Entwickelt, um die <strong>KBL-Datenformate</strong> im Detail zu verstehen, von der XML-Struktur bis zur 3D-Geometrie."
+      "en": "Built to understand the <strong>KBL data formats</strong> in depth, from XML to 3D geometry.",
+      "de": "Entwickelt, um die <strong>KBL-Datenformate</strong> im Detail zu verstehen, von XML bis zur 3D-Geometrie."
      }
     ]
    },
@@ -25,16 +25,16 @@
     "title": null,
     "items": [
      {
-      "en": "Small <strong>ontology</strong> (OWL, 12 classes, labels in German and English, naming conventions) and a Python converter (rdflib) for KBL and E/E data.",
-      "de": "Kleine <strong>Ontologie</strong> (OWL, 12 Klassen, Labels auf Deutsch und Englisch, Naming Conventions) und ein Python-Konverter (rdflib) für KBL- und E/E-Daten."
+      "en": "<strong>Ontology</strong> (OWL, 12 classes, German and English labels) and a Python converter (rdflib).",
+      "de": "<strong>Ontologie</strong> (OWL, 12 Klassen, deutsche und englische Labels) und Python-Konverter (rdflib)."
      },
      {
-      "en": "<strong>SPARQL</strong> questions for traceability, change impact, variants and consistency; first on a fictitious door harness, then on the public <strong>VW “Old Beetle”</strong> sample harness (KBL 2.4).",
-      "de": "<strong>SPARQL</strong>-Fragen zu Traceability, Änderungsauswirkung, Varianten und Konsistenz; zuerst an einem fiktiven Türleitungssatz, dann am öffentlichen <strong>VW-Beispielleitungssatz „Old Beetle“</strong> (KBL 2.4)."
+      "en": "<strong>SPARQL</strong> questions on traceability, change impact and variants: first a fictitious door harness, then the public VW “Old Beetle” (KBL 2.4).",
+      "de": "<strong>SPARQL</strong>-Fragen zu Traceability, Änderungsauswirkung und Varianten: zuerst ein fiktiver Türsatz, dann der VW-Beispielsatz „Old Beetle“ (KBL 2.4)."
      },
      {
-      "en": "<strong>3D routing</strong> rebuilt from the KBL B-spline centre lines; interactive viewer (Three.js).",
-      "de": "<strong>3D-Verlegung</strong> aus den B-Spline-Mittellinien der KBL rekonstruiert; interaktive Ansicht (Three.js)."
+      "en": "<strong>3D routing</strong> from the KBL B-spline centre lines; interactive viewer (Three.js).",
+      "de": "<strong>3D-Verlegung</strong> aus den B-Spline-Mittellinien der KBL; interaktive Ansicht (Three.js)."
      }
     ]
    },
@@ -43,16 +43,16 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>5 957 triples</strong>; variants compared: MAXI 254 connections and 278 m of wire, MINI 165 and 218 m.",
-      "de": "<strong>5 957 Tripel</strong>; Varianten verglichen: MAXI 254 Verbindungen und 278 m Leitung, MINI 165 und 218 m."
+      "en": "<strong>5 957 triples</strong>; MAXI and MINI variants compared: 254 and 165 connections.",
+      "de": "<strong>5 957 Tripel</strong>; Varianten MAXI und MINI verglichen: 254 und 165 Verbindungen."
      },
      {
       "en": "Consistency checks found an <strong>empty module</strong> and <strong>5 segments</strong> whose geometry does not match the topology.",
-      "de": "Die Konsistenzprüfungen fanden ein <strong>leeres Modul</strong> und <strong>5 Segmente</strong>, deren Geometrie nicht zur Topologie passt."
+      "de": "Konsistenzprüfungen fanden ein <strong>leeres Modul</strong> und <strong>5 Segmente</strong> mit Geometrie, die nicht zur Topologie passt."
      },
      {
-      "en": "Live demo (EN/DE): suavi-yildirim.github.io/bordnetz-knowledge-graph",
-      "de": "Live-Demo (DE/EN): suavi-yildirim.github.io/bordnetz-knowledge-graph"
+      "en": "Live demo: suavi-yildirim.github.io/bordnetz-knowledge-graph",
+      "de": "Live-Demo: suavi-yildirim.github.io/bordnetz-knowledge-graph"
      }
     ]
    }
@@ -67,6 +67,10 @@
      },
      {
       "file": "kg-graph",
+      "caption": null
+     },
+     {
+      "file": "kg-viewer",
       "caption": null
      }
     ]
@@ -126,8 +130,8 @@
     "title": null,
     "items": [
      {
-      "en": "Harness assembly is manual work on a <strong>formboard</strong>. An XR assistance system needs the harness as a <strong>1:1 board layout</strong>, which the KBL file does not contain.",
-      "de": "Die Kabelbaummontage ist Handarbeit auf dem <strong>Formbrett</strong>. Ein XR-Assistenzsystem braucht den Leitungssatz als <strong>1:1-Brettlayout</strong>, das die KBL-Datei nicht enthält."
+      "en": "Harness assembly is manual work on a <strong>formboard</strong>. An XR system needs the harness as a <strong>1:1 board layout</strong>, which the KBL file does not contain.",
+      "de": "Kabelbaummontage ist Handarbeit auf dem <strong>Formbrett</strong>. Ein XR-System braucht den Leitungssatz als <strong>1:1-Brettlayout</strong>, das die KBL-Datei nicht enthält."
      },
      {
       "en": "Goal: a <strong>data-driven</strong> trainer that runs on a Meta Quest 3 without installation.",
@@ -140,12 +144,12 @@
     "title": null,
     "items": [
      {
-      "en": "Python pipeline: the <strong>KBL</strong> (VDA 4964) of the public VW “Old Beetle” is flattened to a formboard. Segments keep their true length; pegs are derived from the topology.",
-      "de": "Python-Pipeline: die <strong>KBL</strong> (VDA 4964) des öffentlichen VW-Beispiels „Old Beetle“ wird auf ein Formbrett abgewickelt. Segmente behalten ihre Länge; Pins ergeben sich aus der Topologie."
+      "en": "Python pipeline: the <strong>KBL</strong> of the public VW “Old Beetle” is flattened to a formboard at true segment lengths; pegs follow from the topology.",
+      "de": "Python-Pipeline: die <strong>KBL</strong> des öffentlichen VW-Beispiels „Old Beetle“ wird auf ein Formbrett in wahren Segmentlängen abgewickelt; Pins folgen aus der Topologie."
      },
      {
-      "en": "<strong>WebXR</strong> app (Three.js) with hand tracking: route wire by wire, every peg is checked; guided and test mode; time, errors and hints are logged. Connectors and colours come from the KBL.",
-      "de": "<strong>WebXR</strong>-App (Three.js) mit Handtracking: Leitung für Leitung verlegen, jeder Pin wird geprüft; geführter Modus und Testmodus; Zeit, Fehler und Hinweise werden protokolliert. Stecker und Farben stammen aus der KBL."
+      "en": "<strong>WebXR</strong> app with hand tracking: route wire by wire, every peg is checked; guided and test mode; time, errors and hints are logged.",
+      "de": "<strong>WebXR</strong>-App mit Handtracking: Leitung für Leitung verlegen, jeder Pin wird geprüft; geführter und Testmodus; Zeit, Fehler und Hinweise werden protokolliert."
      }
     ]
    },
@@ -169,15 +173,7 @@
     "heading": null,
     "images": [
      {
-      "file": "fvr-hall",
-      "caption": null
-     },
-     {
-      "file": "fvr-top",
-      "caption": null
-     },
-     {
-      "file": "fvr-angle",
+      "file": "fvr-hand",
       "caption": null
      }
     ]
