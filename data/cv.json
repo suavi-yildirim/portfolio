@@ -270,12 +270,12 @@
    "entries": [],
    "items": [
     {
-     "en": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, Mechatronics Concept Designer, SolidWorks, CFD, Isaac Sim",
-     "de": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, Mechatronics Concept Designer, SolidWorks, CFD, Isaac Sim"
+     "en": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, SolidWorks, Fusion, CFD, ROS, Isaac Sim",
+     "de": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, SolidWorks, Fusion, CFD, ROS, Isaac Sim"
     },
     {
-     "en": "<strong>Automation:</strong> Siemens S7-1500 / TIA Portal, FANUC robots, ROS",
-     "de": "<strong>Automatisierung:</strong> Siemens S7-1500 / TIA Portal, FANUC-Roboter, ROS"
+     "en": "<strong>Automation:</strong> Siemens S7-1500 / TIA Portal, FANUC robots",
+     "de": "<strong>Automatisierung:</strong> Siemens S7-1500 / TIA Portal, FANUC-Roboter"
     },
     {
      "en": "<strong>Programming:</strong> Python, C++, MATLAB, OpenCV",
