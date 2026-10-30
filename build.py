@@ -27,6 +27,10 @@ import latex_extract as L  # noqa: E402
 DATA, SRC, OUT = ROOT / "data", ROOT / "src", ROOT / "docs"
 LANGS = ("en", "de")
 
+# GoatCounter visit counter (https://www.goatcounter.com). Set this to your GoatCounter code
+# (the part before .goatcounter.com) to enable it; leave empty to add no tracking.
+GOATCOUNTER_CODE = "suavi-yildirim"
+
 UI = {
     "nav_home": ("Home", "Start"), "nav_projects": ("Projects", "Projekte"),
     "nav_cv": ("CV", "Lebenslauf"), "all": ("All", "Alle"),
@@ -117,6 +121,13 @@ class Page:
         return self.up + self.path
 
 
+def goatcounter_tag():
+    if not GOATCOUNTER_CODE:
+        return ""
+    return (f'<script data-goatcounter="https://{GOATCOUNTER_CODE}.goatcounter.com/count" '
+            'async src="//gc.zgo.at/count.js"></script>\n')
+
+
 def layout(page, site, cv, title, body, description="", active="", og_image=None):
     lang = page.lang
     person = cv["person"]
@@ -180,7 +191,7 @@ def layout(page, site, cv, title, body, description="", active="", og_image=None
   </div>
 </footer>
 <script src="{page.asset('main.js')}"></script>
-</body>
+{goatcounter_tag()}</body>
 </html>
 """
 
