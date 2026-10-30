@@ -467,10 +467,6 @@
      {
       "en": "<strong>Redesigned Audi parts</strong> for 3D printing (FDM, PETG/PLA).",
       "de": "<strong>Audi-Bauteile</strong> für den 3D-Druck <strong>umkonstruiert</strong> (FDM, PETG/PLA)."
-     },
-     {
-      "en": "Prepared <strong>KBL harness data</strong> (VDA 4964) for an <strong>XR-based assembly guidance</strong> system.",
-      "de": "Aufbereitung von <strong>KBL-Kabelbaumdaten</strong> (VDA 4964) für eine <strong>XR-basierte Montageführung</strong>."
      }
     ]
    },
@@ -536,14 +532,6 @@
    {
     "en": "Wire harness",
     "de": "Bordnetz"
-   },
-   {
-    "en": "KBL",
-    "de": "KBL"
-   },
-   {
-    "en": "XR",
-    "de": "XR"
    },
    {
     "en": "Siemens NX",
