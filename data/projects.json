@@ -13,6 +13,10 @@
      {
       "en": "Goal: link both views in <strong>one semantic graph</strong> and answer questions that neither source can answer alone.",
       "de": "Ziel: beide Sichten in <strong>einem semantischen Graphen</strong> verknüpfen und Fragen beantworten, die keine Quelle allein beantworten kann."
+     },
+     {
+      "en": "Developed to understand the <strong>KBL data formats</strong> in depth, from the XML structure to the 3D geometry.",
+      "de": "Entwickelt, um die <strong>KBL-Datenformate</strong> im Detail zu verstehen, von der XML-Struktur bis zur 3D-Geometrie."
      }
     ]
    },
@@ -69,16 +73,16 @@
    }
   ],
   "org": {
-   "en": "Own project",
-   "de": "Eigenes Projekt"
+   "en": "FAU – Institute FAPS",
+   "de": "FAU – Lehrstuhl FAPS"
   },
   "period": {
    "en": "10/2026",
    "de": "10/2026"
   },
   "role": {
-   "en": "Developer",
-   "de": "Entwickler"
+   "en": "Developer (graduate research assistant)",
+   "de": "Entwickler (Wiss. Hilfskraft)"
   },
   "keywords": [
    {
@@ -110,8 +114,9 @@
    "en": "Wire Harness Knowledge Graph",
    "de": "Bordnetz-Knowledge-Graph"
   },
-  "logos": [],
-  "logo_text": null
+  "logos": [
+   "faps"
+  ]
  },
  {
   "slug": "faps-formboard-xr",
