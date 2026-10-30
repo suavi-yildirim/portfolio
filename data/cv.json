@@ -270,16 +270,16 @@
    "entries": [],
    "items": [
     {
-     "en": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, SolidWorks, Fusion, CFD, ROS, Isaac Sim",
-     "de": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, SolidWorks, Fusion, CFD, ROS, Isaac Sim"
+     "en": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, SolidWorks, Fusion, CFD, Isaac Sim",
+     "de": "<strong>CAD &amp; Simulation:</strong> Siemens NX, CATIA V5, SolidWorks, Fusion, CFD, Isaac Sim"
     },
     {
      "en": "<strong>Automation:</strong> Siemens S7-1500 / TIA Portal, FANUC robots",
      "de": "<strong>Automatisierung:</strong> Siemens S7-1500 / TIA Portal, FANUC-Roboter"
     },
     {
-     "en": "<strong>Programming:</strong> Python, C++, MATLAB, OpenCV",
-     "de": "<strong>Programmierung:</strong> Python, C++, MATLAB, OpenCV"
+     "en": "<strong>Programming:</strong> Python, C++, MATLAB, OpenCV, ROS",
+     "de": "<strong>Programmierung:</strong> Python, C++, MATLAB, OpenCV, ROS"
     },
     {
      "en": "<strong>Robot Learning:</strong> LeRobot, openpi (π<sub>0.5</sub>), ACT, Genesis, YOLO",
