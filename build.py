@@ -249,7 +249,6 @@ def build_home(lang, site, cv, projects):
       <p class="lead">{site['tagline'][lang]}</p>
       <div class="actions">
         <a class="btn primary" href="{page.link('projects.html')}">{ui('nav_projects', lang)}</a>
-        <a class="btn" href="{page.asset('pdf/' + pdf_name(lang))}" download>{ui('download_cv', lang)}</a>
         <a class="btn ghost" href="https://{esc(linkedin)}" rel="noopener">LinkedIn</a>
         <a class="btn ghost" href="mailto:{esc(email)}">E-Mail</a>
       </div>
@@ -439,8 +438,6 @@ def build_cv(lang, site, cv):
       <p class="lead">{ui('cv_intro', lang)}</p>
     </div>
     <div class="actions">
-      <a class="btn primary" href="{page.asset('pdf/' + pdf_name(lang))}" download>{ui('download_cv', lang)}</a>
-      <a class="btn" href="{page.asset('pdf/' + pdf_name(other))}" download>{ui('download_other', lang)}</a>
     </div>
   </div>
 </section>

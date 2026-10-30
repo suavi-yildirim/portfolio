@@ -1084,8 +1084,8 @@
     "title": null,
     "items": [
      {
-      "en": "Conducted extensive <strong>R&amp;D</strong> to improve the <strong>suspension control arm</strong> of a <strong>rallycross</strong> vehicle, to optimise performance and durability under demanding racing conditions.",
-      "de": "Umfangreiche <strong>F&amp;E</strong> zur Verbesserung des <strong>Querlenkers</strong> eines <strong>Rallycross</strong>-Fahrzeugs, um Leistung und Haltbarkeit unter harten Rennbedingungen zu optimieren."
+      "en": "<strong>R&amp;D</strong> on the <strong>suspension control arm</strong> of a <strong>rallycross</strong> car, to improve performance and durability.",
+      "de": "<strong>F&amp;E</strong> am <strong>Querlenker</strong> eines <strong>Rallycross</strong>-Fahrzeugs, um Leistung und Haltbarkeit zu verbessern."
      }
     ]
    },
@@ -1094,12 +1094,12 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>Redesigned</strong> the suspension arm after the <strong>original broke</strong> during a race.",
-      "de": "<strong>Neukonstruktion</strong> des Querlenkers, nachdem das <strong>Originalteil</strong> im Rennen <strong>gebrochen</strong> war."
+      "en": "The <strong>original arm broke</strong> in a race: <strong>redesigned</strong> as a <strong>rigid, robust</strong> part.",
+      "de": "Das <strong>Originalteil brach</strong> im Rennen: <strong>neu konstruiert</strong> als <strong>steifes, robustes</strong> Teil."
      },
      {
-      "en": "<strong>Manufactured</strong> a more <strong>rigid and robust</strong> arm and integrated it into the vehicle.",
-      "de": "<strong>Fertigung</strong> eines <strong>steiferen und robusteren</strong> Lenkers und Einbau ins Fahrzeug."
+      "en": "<strong>Manufactured</strong> and fitted to the car.",
+      "de": "<strong>Gefertigt</strong> und ins Fahrzeug eingebaut."
      }
     ]
    },
@@ -1108,8 +1108,8 @@
     "title": null,
     "items": [
      {
-      "en": "The new design gave a <strong>stronger, more durable</strong> suspension arm, clearly improving <strong>vehicle performance</strong> and reliability on the track.",
-      "de": "Die Neukonstruktion lieferte einen <strong>stärkeren, langlebigeren</strong> Querlenker und verbesserte <strong>Fahrzeugleistung</strong> und Zuverlässigkeit auf der Strecke deutlich."
+      "en": "A <strong>stronger, more durable</strong> arm: clearly better <strong>vehicle performance</strong> and reliability on track.",
+      "de": "Ein <strong>stärkerer, langlebigerer</strong> Querlenker: deutlich bessere <strong>Fahrzeugleistung</strong> und Zuverlässigkeit auf der Strecke."
      }
     ]
    }
@@ -1575,8 +1575,8 @@
       "de": "Promobot hilft Unternehmen, <strong>Kunden zu begeistern</strong> und ihre Marke im stationären und digitalen Handel zu stärken."
      },
      {
-      "en": "Features: <strong>welcoming</strong>, <strong>customer guidance</strong>, <strong>marketing</strong> and <strong>AR applications</strong>.",
-      "de": "Funktionen: <strong>Begrüßung</strong>, <strong>Kundenbegleitung</strong>, <strong>Marketing</strong> und <strong>AR-Anwendungen</strong>."
+      "en": "Features: <strong>greeting</strong>, <strong>guidance</strong>, <strong>marketing</strong>, <strong>AR</strong>.",
+      "de": "Funktionen: <strong>Begrüßung</strong>, <strong>Begleitung</strong>, <strong>Marketing</strong>, <strong>AR</strong>."
      }
     ]
    },
