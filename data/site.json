@@ -87,7 +87,7 @@
  ],
  "featured": [
   "kbl-knowledge-graph",
-  "formboard-vr",
+  "faps-formboard-xr",
   "healthineers-hackathon",
   "immersive-design-challenge"
  ],
@@ -433,12 +433,12 @@
     }
    ]
   },
-  "formboard-vr": {
+  "faps-formboard-xr": {
    "categories": [
     "data",
     "ai-sim"
    ],
-   "cover": "fvr-formboard",
+   "cover": "fvr-hall",
    "links": [
     {
      "href": {
