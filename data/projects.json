@@ -114,7 +114,7 @@
   "logo_text": null
  },
  {
-  "slug": "formboard-vr",
+  "slug": "faps-formboard-xr",
   "sections": [
    {
     "key": "what",
@@ -153,8 +153,8 @@
       "de": "<strong>18 Leitungen, 20 Stecker</strong>; die KBL-Leitungslängen stimmen auf den Millimeter mit den Brettpfaden überein."
      },
      {
-      "en": "Live demo: suavi-yildirim.github.io/formboard-vr",
-      "de": "Live-Demo: suavi-yildirim.github.io/formboard-vr"
+      "en": "Live demo: suavi-yildirim.github.io/formboard-xr",
+      "de": "Live-Demo: suavi-yildirim.github.io/formboard-xr"
      }
     ]
    }
@@ -164,31 +164,31 @@
     "heading": null,
     "images": [
      {
-      "file": "fvr-wiring",
+      "file": "fvr-hall",
       "caption": null
      },
      {
-      "file": "fvr-formboard",
+      "file": "fvr-top",
       "caption": null
      },
      {
-      "file": "fvr-car",
+      "file": "fvr-angle",
       "caption": null
      }
     ]
    }
   ],
   "org": {
-   "en": "Own project",
-   "de": "Eigenes Projekt"
+   "en": "FAU – Institute FAPS",
+   "de": "FAU – Lehrstuhl FAPS"
   },
   "period": {
    "en": "10/2026",
    "de": "10/2026"
   },
   "role": {
-   "en": "Developer",
-   "de": "Entwickler"
+   "en": "Developer (graduate research assistant)",
+   "de": "Entwickler (Wiss. Hilfskraft)"
   },
   "keywords": [
    {
@@ -217,11 +217,12 @@
    "de": "KBL-Daten in VR: Montagetrainer für Kabelbäume, live im Browser"
   },
   "title": {
-   "en": "Formboard VR",
-   "de": "Formboard VR"
+   "en": "Formboard XR",
+   "de": "Formboard XR"
   },
-  "logos": [],
-  "logo_text": null
+  "logos": [
+   "faps"
+  ]
  },
  {
   "slug": "faps-wire-transport",
