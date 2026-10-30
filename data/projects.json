@@ -494,23 +494,27 @@
     "heading": null,
     "images": [
      {
-      "file": "n2o-station1-gripper",
+      "file": "n2o-cell-iso",
       "caption": null
      },
      {
-      "file": "n2o-station3-gripper",
+      "file": "n2o-cell-top",
       "caption": null
      },
      {
-      "file": "n2o-station2-camera",
+      "file": "audi-console-harness",
       "caption": null
      },
      {
-      "file": "audi-stand-render",
+      "file": "n2o-station1-gripper-full",
       "caption": null
      },
      {
-      "file": "audi-bracket-render",
+      "file": "n2o-station2-camera-full",
+      "caption": null
+     },
+     {
+      "file": "n2o-station3-gripper2-full",
       "caption": null
      }
     ]
