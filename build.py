@@ -276,8 +276,9 @@ def build_home(lang, site, cv, projects):
 </section>
 <section class="wrap">
   <div class="section-head"><h2 class="section-title">{ui('featured', lang)}</h2>
-    <a class="more" href="{page.link('projects.html')}">{ui('all_projects', lang)} ({len(projects)}) →</a></div>
+    <a class="more more-desktop" href="{page.link('projects.html')}">{ui('all_projects', lang)} ({len(projects)}) →</a></div>
   <ul class="cards">{featured}</ul>
+  <a class="more more-mobile" href="{page.link('projects.html')}">{ui('all_projects', lang)} ({len(projects)}) →</a>
 </section>
 <section class="band band-light">
   <div class="wrap">

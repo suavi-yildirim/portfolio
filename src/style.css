@@ -72,6 +72,11 @@ h1 { font-weight: 800; font-size: clamp(1.9rem, 4.5vw, 2.8rem); letter-spacing: 
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .section-head .section-title { margin-bottom: 18px; }
 .more { font-weight: 600; text-decoration: none; }
+.more-mobile { display: none; margin-top: 18px; }
+@media (max-width: 720px) {
+  .more-desktop { display: none; }
+  .more-mobile { display: inline-block; }
+}
 
 /* --------------------------------------------------------------- hero */
 .hero { padding: 44px 0 40px; }
