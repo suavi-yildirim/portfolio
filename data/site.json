@@ -144,6 +144,9 @@
   "n2o-station2-camera": "n2o-station2-camera-full",
   "n2o-station3-gripper": "n2o-station3-gripper-full"
  },
+ "public_image_swaps": {
+  "n2o-cell-iso": "n2o-station1-gripper-full"
+ },
  "projects": {
   "healthineers-hackathon": {
    "categories": [
@@ -275,13 +278,7 @@
     "design",
     "data"
    ],
-   "cover": "audi-console-harness",
-   "extra_images": [
-    "n2o-station3-gripper2-full",
-    "audi-console-harness",
-    "n2o-cell-iso",
-    "n2o-cell-top"
-   ]
+   "cover": "n2o-station1-gripper-full"
   },
   "faps-twisting-unit": {
    "categories": [

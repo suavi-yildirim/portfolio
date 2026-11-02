@@ -87,7 +87,10 @@ def extract(site):
     person, order = L.parse_main(main_src)
     projects = []
     for slug in order:
-        p = L.parse_project((latex / "content/projects" / f"{slug}.tex").read_text(encoding="utf-8"), slug)
+        tex = (latex / "content/projects" / f"{slug}.tex").read_text(encoding="utf-8")
+        for name, public in site.get("public_image_swaps", {}).items():
+            tex = tex.replace(name, public)
+        p = L.parse_project(tex, slug)
         projects.append(p)
     cv = L.parse_cv((latex / "content/cv.tex").read_text(encoding="utf-8"), site["cv_tags"])
     cv["person"] = person
