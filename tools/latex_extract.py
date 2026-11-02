@@ -136,7 +136,7 @@ WRAP = {
     "boldsymbol": ("", ""), "mathrm": ("", ""), "text": ("", ""),
     "mbox": ("", ""), "textrm": ("", ""), "textsf": ("", ""),
 }
-DROP_WITH_ARGS = {"fontsize": 2, "vspace": 1, "hspace": 1, "color": 1, "fontseries": 1,
+DROP_WITH_ARGS = {"demobutton": 2, "demobuttonline": 2, "fontsize": 2, "vspace": 1, "hspace": 1, "color": 1, "fontseries": 1,
                   "includegraphics": 1, "rule": 2, "label": 1}
 
 
@@ -159,6 +159,9 @@ def to_html(s, lang, math=False):
             elif name in ("whatlabel", "howlabel", "resultslabel"):
                 out.append({"whatlabel": ("What?", "Was?"), "howlabel": ("How?", "Wie?"),
                             "resultslabel": ("Results", "Ergebnisse")}[name][LANGS.index(lang)])
+            elif name == "href":
+                _, (url, text), j = read_args(s, j, 2, optional=False)
+                out.append(f'<a href="{url.strip()}" target="_blank" rel="noopener">{to_html(text, lang, math)}</a>')
             elif name == "enquote":
                 _, (a,), j = read_args(s, j, 1, optional=False)
                 q = ("“", "”") if lang == "en" else ("„", "“")

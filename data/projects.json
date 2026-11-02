@@ -51,8 +51,8 @@
       "de": "Konsistenzprüfungen fanden ein <strong>leeres Modul</strong> und <strong>5 Segmente</strong> mit Geometrie, die nicht zur Topologie passt."
      },
      {
-      "en": "Live demo: suavi-yildirim.github.io/bordnetz-knowledge-graph",
-      "de": "Live-Demo: suavi-yildirim.github.io/bordnetz-knowledge-graph"
+      "en": "Live demo: <a href=\"https://suavi-yildirim.github.io/bordnetz-knowledge-graph/\" target=\"_blank\" rel=\"noopener\">suavi-yildirim.github.io/bordnetz-knowledge-graph</a>",
+      "de": "Live-Demo: <a href=\"https://suavi-yildirim.github.io/bordnetz-knowledge-graph/\" target=\"_blank\" rel=\"noopener\">suavi-yildirim.github.io/bordnetz-knowledge-graph</a>"
      }
     ]
    }
@@ -120,7 +120,8 @@
   },
   "logos": [
    "faps"
-  ]
+  ],
+  "logo_text": null
  },
  {
   "slug": "faps-formboard-xr",
@@ -162,8 +163,8 @@
       "de": "<strong>18 Leitungen, 20 Stecker</strong>; die KBL-Leitungslängen stimmen auf den Millimeter mit den Brettpfaden überein."
      },
      {
-      "en": "Live demo: suavi-yildirim.github.io/formboard-xr",
-      "de": "Live-Demo: suavi-yildirim.github.io/formboard-xr"
+      "en": "Live demo: <a href=\"https://suavi-yildirim.github.io/formboard-vr/\" target=\"_blank\" rel=\"noopener\">suavi-yildirim.github.io/formboard-vr</a>",
+      "de": "Live-Demo: <a href=\"https://suavi-yildirim.github.io/formboard-vr/\" target=\"_blank\" rel=\"noopener\">suavi-yildirim.github.io/formboard-vr</a>"
      }
     ]
    }
@@ -231,7 +232,8 @@
   },
   "logos": [
    "faps"
-  ]
+  ],
+  "logo_text": null
  },
  {
   "slug": "faps-wire-transport",
