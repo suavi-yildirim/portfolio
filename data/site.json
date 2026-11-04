@@ -280,7 +280,7 @@
    ],
    "cover": "n2o-station1-gripper-full"
   },
-  "faps-twisting-unit": {
+  "faps-twisting-unit": {"year": 2026, 
    "categories": [
     "automation",
     "design"
@@ -358,7 +358,7 @@
    ],
    "cover": "controlarm-photo"
   },
-  "ozu-surgical-robot": {
+  "ozu-surgical-robot": {"year": 2022, 
    "categories": [
     "robotics",
     "design"
