@@ -911,6 +911,120 @@
   "logo_text": "SONY"
  },
  {
+  "slug": "hemodynamic-cfd",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "Personal interest: how does blood flow through a branched vessel tree, and can a simulated geometry also become a physical model?",
+      "de": "Persönliches Interesse: Wie fließt Blut durch einen verzweigten Gefäßbaum, und kann aus der simulierten Geometrie auch ein physisches Modell werden?"
+     },
+     {
+      "en": "Geometry: MRI-derived human pulmonary artery model, after Tang et al., <em>Annals of Biomedical Engineering</em> (2011).",
+      "de": "Geometrie: MRT-basiertes Modell einer menschlichen Lungenarterie, nach Tang et al., <em>Annals of Biomedical Engineering</em> (2011)."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "Meshed and simulated the vessel tree in <strong>Autodesk CFD</strong> with a prescribed inlet velocity of 10 cm/s.",
+      "de": "Gefäßbaum in <strong>Autodesk CFD</strong> vernetzt und mit einer vorgegebenen Einlassgeschwindigkeit von 10 cm/s simuliert."
+     },
+     {
+      "en": "Evaluated pressure, velocity, wall shear stress and vorticity.",
+      "de": "Druck, Geschwindigkeit, Wandschubspannung und Wirbelstärke ausgewertet."
+     },
+     {
+      "en": "Printed the vessel in flexible resin (<strong>Flex 82A</strong>) by SLA, with printing support from FAU.",
+      "de": "Gefäß per SLA aus flexiblem Harz (<strong>Flex 82A</strong>) gedruckt, mit Unterstützung der FAU beim Druck."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "Pressure falls by about 550 dyne/cm² from the main artery to the distal branches.",
+      "de": "Der Druck fällt von der Hauptarterie bis zu den distalen Ästen um ca. 550 dyne/cm²."
+     },
+     {
+      "en": "Velocity rises to about 30 cm/s in narrow branches; wall shear stress peaks at the bifurcations (about 20 dyne/cm²).",
+      "de": "Die Geschwindigkeit steigt in engen Ästen auf ca. 30 cm/s; die Wandschubspannung ist an den Verzweigungen am höchsten (ca. 20 dyne/cm²)."
+     },
+     {
+      "en": "Simulation results were not compared with measurements.",
+      "de": "Die Simulationsergebnisse wurden nicht mit Messungen verglichen."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "hemo-pressure",
+      "caption": null
+     },
+     {
+      "file": "hemo-wall-shear",
+      "caption": null
+     },
+     {
+      "file": "hemo-print",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Personal project, supported by FAU",
+   "de": "Eigenprojekt, unterstützt von der FAU"
+  },
+  "period": {
+   "en": "06/2026",
+   "de": "06/2026"
+  },
+  "role": {
+   "en": "Independent study",
+   "de": "Eigenständige Studie"
+  },
+  "keywords": [
+   {
+    "en": "CFD",
+    "de": "CFD"
+   },
+   {
+    "en": "Autodesk CFD",
+    "de": "Autodesk CFD"
+   },
+   {
+    "en": "SLA",
+    "de": "SLA"
+   },
+   {
+    "en": "Flex 82A",
+    "de": "Flex 82A"
+   }
+  ],
+  "highlight": {
+   "en": "From MRI-derived model to flexible print",
+   "de": "Vom MRT-basierten Modell zum flexiblen Druck"
+  },
+  "title": {
+   "en": "Hemodynamic CFD Study of a Pulmonary Artery",
+   "de": "Hämodynamische CFD-Studie einer Lungenarterie"
+  },
+  "logos": [],
+  "logo_text": "FAU"
+ },
+ {
   "slug": "2e-torsion-device",
   "sections": [
    {
