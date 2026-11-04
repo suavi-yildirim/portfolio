@@ -25,6 +25,9 @@
       cards.forEach(function (c) {
         c.hidden = key !== "all" && c.dataset.cats.split(" ").indexOf(key) < 0;
       });
+      grid.querySelectorAll(".year-group").forEach(function (g) {
+        g.hidden = !g.querySelector(".card:not([hidden])");
+      });
     };
     buttons.forEach(function (b) {
       b.addEventListener("click", function () {

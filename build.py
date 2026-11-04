@@ -11,6 +11,7 @@ from the folder (file://) and on GitHub Pages.
 """
 import argparse
 import datetime
+import itertools
 import html
 import json
 import re
@@ -55,6 +56,7 @@ UI = {
     "built": ("Built from the same LaTeX source as my PDF portfolio.",
               "Erstellt aus derselben LaTeX-Quelle wie mein PDF-Portfolio."),
     "no_video": ("Your browser cannot play this video.", "Ihr Browser kann dieses Video nicht abspielen."),
+    "undated": ("Undated", "Ohne Datum"),
     "count": ("projects", "Projekte"), "skip": ("Skip to content", "Zum Inhalt springen"),
 }
 
@@ -294,6 +296,22 @@ def build_home(lang, site, cv, projects):
                         description=site["tagline"][lang], active="nav_home")
 
 
+def project_date(p, site):
+    """(year, month) a project ended, for the projects page. Month is 0 when only the year is known.
+    Ongoing work ("since 07/2024") counts as this year; undated projects take "year" from site.json."""
+    year = site["projects"].get(p["slug"], {}).get("year")
+    if year:
+        return year, 0
+    period = p["period"]["en"]
+    if period.startswith("since"):
+        return datetime.date.today().year, 0
+    dates = re.findall(r"(?:(\d{2})/)?(\d{4})", period)
+    if not dates:
+        return 0, 0
+    month, year = dates[-1]
+    return int(year), int(month or 0)
+
+
 def build_projects(lang, site, cv, projects):
     page = Page(lang, "projects.html")
     buttons = f'<button type="button" class="filter" data-filter="all" aria-pressed="true">{ui("all", lang)}</button>'
@@ -301,7 +319,12 @@ def build_projects(lang, site, cv, projects):
         n = sum(key in site["projects"].get(p["slug"], {}).get("categories", []) for p in projects)
         buttons += (f'<button type="button" class="filter" data-filter="{key}" aria-pressed="false">'
                     f'{label[lang]} <span class="n">{n}</span></button>')
-    cards = "".join(card(page, p, site) for p in projects)
+    # projects arrive newest first (see main)
+    groups = ""
+    for year, group in itertools.groupby(projects, key=lambda p: project_date(p, site)[0]):
+        title = year or ui("undated", lang)
+        cards = "".join(card(page, p, site) for p in group)
+        groups += f'<div class="year-group"><h2 class="section-title">{title}</h2><ul class="cards">{cards}</ul></div>'
     body = f"""
 <section class="band page-head">
   <div class="wrap">
@@ -311,7 +334,7 @@ def build_projects(lang, site, cv, projects):
   </div>
 </section>
 <section class="wrap">
-  <ul class="cards" id="project-grid">{cards}</ul>
+  <div id="project-grid">{groups}</div>
 </section>
 """
     return page, layout(page, site, cv, ui("nav_projects", lang), body,
@@ -625,6 +648,9 @@ def main():
     for p in projects:
         if p["slug"] not in site["projects"]:
             print(f"note: {p['slug']} has no entry in site.json (no filter categories)", file=sys.stderr)
+
+    # newest first, everywhere projects are listed; projects of the same date keep their order from the LaTeX project
+    projects.sort(key=lambda p: project_date(p, site), reverse=True)
 
     OUT.mkdir(exist_ok=True)
     copy_assets(site, projects)
