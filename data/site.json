@@ -465,6 +465,6 @@
     }
    ]
   },
- "hemodynamic-cfd": {"categories": ["ai-sim"], "cover": "hemo-pressure", "extra_images": ["hemo-velocity", "hemo-vorticity", "hemo-slicer"]}
+ "hemodynamic-cfd": {"categories": ["ai-sim"], "cover": "hemo-pressure", "extra_images": ["hemo-velocity", "hemo-vorticity", "hemo-slicer"], "links": [{"href": "https://github.com/suavi-yildirim/hemodynamic-cfd-study", "label": {"en": "Figures and write-up on GitHub", "de": "Abbildungen und Bericht auf GitHub"}}]}
  }
 }
