@@ -911,6 +911,108 @@
   "logo_text": "SONY"
  },
  {
+  "slug": "wind-design-notebook",
+  "sections": [
+   {
+    "key": "what",
+    "title": null,
+    "items": [
+     {
+      "en": "A personal learning project on wind turbine design, following one turbine through rotor, tower and road. Public sources only, with no link to any manufacturer.",
+      "de": "Ein privates Lernprojekt zur Auslegung von Windenergieanlagen: eine Anlage auf dem Weg durch Rotor, Turm und Straße. Nur öffentliche Quellen, ohne Bezug zu einem Hersteller."
+     }
+    ]
+   },
+   {
+    "key": "how",
+    "title": null,
+    "items": [
+     {
+      "en": "<strong>Tower module</strong> for tubular steel and hybrid towers: natural frequency in the 1P/3P window, stress as a load indicator, transport, concrete parts and crane, each as a utilisation.",
+      "de": "<strong>Turm-Modul</strong> für Stahl- und Hybridtürme: Eigenfrequenz im 1P/3P-Fenster, Spannung als Lastindikator, Transport, Betonteile und Kran, jeweils als Ausnutzung."
+     },
+     {
+      "en": "Every result shows its <strong>formula, assumptions and source</strong>; the model's limits, such as fatigue and buckling, are stated on the page.",
+      "de": "Jedes Ergebnis zeigt <strong>Formel, Annahmen und Quelle</strong>; die Grenzen des Modells, etwa Ermüdung und Beulen, stehen offen auf der Seite."
+     }
+    ]
+   },
+   {
+    "key": "results",
+    "title": null,
+    "items": [
+     {
+      "en": "The natural frequency (Rayleigh) agrees with an independent <strong>FE model in Python</strong> to <strong>under 0.2%</strong>.",
+      "de": "Die Eigenfrequenz (Rayleigh) stimmt mit einem unabhängigen <strong>FE-Modell in Python</strong> auf <strong>unter 0,2 %</strong> überein."
+     },
+     {
+      "en": "A design-space map of <strong>1,600 variants</strong> shows which check governs where. A learning notebook, not a design tool.",
+      "de": "Eine Entwurfskarte mit <strong>1.600 Varianten</strong> zeigt, welcher Nachweis wo maßgebend ist. Ein Notizbuch zum Lernen, kein Auslegungswerkzeug."
+     }
+    ]
+   }
+  ],
+  "galleries": [
+   {
+    "heading": null,
+    "images": [
+     {
+      "file": "wind-overview",
+      "caption": null
+     },
+     {
+      "file": "wind-campbell",
+      "caption": null
+     },
+     {
+      "file": "wind-space",
+      "caption": null
+     }
+    ]
+   }
+  ],
+  "org": {
+   "en": "Personal project",
+   "de": "Eigenprojekt"
+  },
+  "period": {
+   "en": "11/2026",
+   "de": "11/2026"
+  },
+  "role": {
+   "en": "Concept, calculation, implementation",
+   "de": "Konzept, Berechnung, Umsetzung"
+  },
+  "keywords": [
+   {
+    "en": "Structural dynamics",
+    "de": "Strukturdynamik"
+   },
+   {
+    "en": "FE",
+    "de": "FE"
+   },
+   {
+    "en": "Python",
+    "de": "Python"
+   },
+   {
+    "en": "JavaScript",
+    "de": "JavaScript"
+   }
+  ],
+  "highlight": {
+   "en": "Tower calculator with formula, assumptions and source",
+   "de": "Turmrechner mit Formel, Annahmen und Quelle"
+  },
+  "title": {
+   "en": "Wind Design Notebook",
+   "de": "Wind Design Notebook"
+  },
+  "logos": [],
+  "logo_text": null
+ },
+ {
   "slug": "hemodynamic-cfd",
   "sections": [
    {

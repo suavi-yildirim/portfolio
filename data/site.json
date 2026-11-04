@@ -465,6 +465,7 @@
     }
    ]
   },
+ "wind-design-notebook": {"categories": ["design", "ai-sim"], "cover": "wind-overview", "extra_images": ["wind-space"], "links": [{"href": {"en": "https://suavi-yildirim.github.io/wind-design-notebook/turm/?lang=en", "de": "https://suavi-yildirim.github.io/wind-design-notebook/turm/?lang=de"}, "label": {"en": "Open the live demo", "de": "Live-Demo öffnen"}}, {"href": "https://github.com/suavi-yildirim/wind-design-notebook", "label": {"en": "Code on GitHub", "de": "Code auf GitHub"}}]},
  "hemodynamic-cfd": {"categories": ["ai-sim"], "cover": "hemo-pressure", "extra_images": ["hemo-velocity", "hemo-vorticity", "hemo-slicer"], "links": [{"href": "https://github.com/suavi-yildirim/hemodynamic-cfd-study", "label": {"en": "Figures and write-up on GitHub", "de": "Abbildungen und Bericht auf GitHub"}}]}
  }
 }
