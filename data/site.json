@@ -438,8 +438,8 @@
    "links": [
     {
      "href": {
-      "en": "https://suavi-yildirim.github.io/formboard-vr/",
-      "de": "https://suavi-yildirim.github.io/formboard-vr/"
+      "en": "https://suavi-yildirim.github.io/formboard-xr/",
+      "de": "https://suavi-yildirim.github.io/formboard-xr/"
      },
      "label": {
       "en": "Try it in the browser",
@@ -448,8 +448,8 @@
     },
     {
      "href": {
-      "en": "https://suavi-yildirim.github.io/formboard-vr/demo/",
-      "de": "https://suavi-yildirim.github.io/formboard-vr/demo/#de"
+      "en": "https://suavi-yildirim.github.io/formboard-xr/demo/",
+      "de": "https://suavi-yildirim.github.io/formboard-xr/demo/#de"
      },
      "label": {
       "en": "Demo videos",
@@ -457,7 +457,7 @@
      }
     },
     {
-     "href": "https://github.com/suavi-yildirim/formboard-vr",
+     "href": "https://github.com/suavi-yildirim/formboard-xr",
      "label": {
       "en": "Code on GitHub",
       "de": "Code auf GitHub"
