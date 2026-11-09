@@ -378,9 +378,12 @@ def build_project(lang, site, cv, projects, idx):
     if cfg.get("videos"):
         vs = ""
         for v in cfg["videos"]:
-            poster = f' poster="{page.asset("img/projects/" + v["poster"] + ".jpg")}"' if v.get("poster") else ""
+            # a video may live elsewhere ("url", "poster_url"), e.g. on a project's own GitHub Pages site
+            poster_src = v.get("poster_url") or (page.asset("img/projects/" + v["poster"] + ".jpg") if v.get("poster") else "")
+            poster = f' poster="{poster_src}"' if poster_src else ""
+            src = v.get("url") or page.asset("video/" + v["file"])
             vs += (f'<figure class="video"><video controls muted playsinline preload="metadata"{poster}>'
-                   f'<source src="{page.asset("video/" + v["file"])}" type="video/mp4">{ui("no_video", lang)}</video>'
+                   f'<source src="{src}" type="video/mp4">{ui("no_video", lang)}</video>'
                    f'<figcaption>{v["caption"][lang]}</figcaption></figure>')
         videos = f'<section class="wrap"><h2 class="section-title">{ui("videos", lang)}</h2><div class="videos">{vs}</div></section>'
 

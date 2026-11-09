@@ -435,6 +435,16 @@
     "ai-sim"
    ],
    "cover": "fvr-hall",
+   "videos": [
+    {
+     "url": "https://suavi-yildirim.github.io/formboard-xr/demo/media/mr-full.mp4",
+     "poster_url": "https://suavi-yildirim.github.io/formboard-xr/demo/media/mr-full.jpg",
+     "caption": {
+      "en": "The whole run in XR, in the FAPS Lab: choosing the harness, pegs, wiring, quality check, and the harness in the car at 1:1 (75 s, German and English captions).",
+      "de": "Der ganze Ablauf in XR, im FAPS-Labor: Leitungssatz wählen, Stifte, Verlegen, Qualitätsprüfung und der Leitungssatz im Fahrzeug 1:1 (75 s, Untertitel Deutsch und Englisch)."
+     }
+    }
+   ],
    "links": [
     {
      "href": {
@@ -452,8 +462,8 @@
       "de": "https://suavi-yildirim.github.io/formboard-xr/demo/#de"
      },
      "label": {
-      "en": "Demo videos",
-      "de": "Demo-Videos"
+      "en": "Demo videos (VR and XR)",
+      "de": "Demo-Videos (VR und XR)"
      }
     },
     {

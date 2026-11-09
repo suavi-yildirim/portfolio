@@ -151,6 +151,10 @@
      {
       "en": "<strong>WebXR</strong> app with hand tracking: route wire by wire, every peg is checked; guided and test mode; time, errors and hints are logged.",
       "de": "<strong>WebXR</strong>-App mit Handtracking: Leitung für Leitung verlegen, jeder Pin wird geprüft; geführter und Testmodus; Zeit, Fehler und Hinweise werden protokolliert."
+     },
+     {
+      "en": "<strong>XR mode</strong>: the board stands on a real table in the lab, the car harness lies 1:1 on the floor. Each wire end goes into its <strong>KBL cavity</strong>, shown in a magnified connector view.",
+      "de": "<strong>XR-Modus</strong>: das Formbrett steht auf einem echten Tisch im Labor, der Fahrzeugleitungssatz liegt 1:1 auf dem Boden. Jedes Leitungsende kommt in seine <strong>KBL-Kammer</strong>, gezeigt in einer vergrößerten Steckeransicht."
      }
     ]
    },
@@ -159,8 +163,8 @@
     "title": null,
     "items": [
      {
-      "en": "<strong>18 wires, 20 connectors</strong>; the KBL wire lengths match the board paths to the millimetre.",
-      "de": "<strong>18 Leitungen, 20 Stecker</strong>; die KBL-Leitungslängen stimmen auf den Millimeter mit den Brettpfaden überein."
+      "en": "<strong>18 wires, 20 connectors</strong>; the KBL wire lengths match the board paths to the millimetre. A short <strong>6-wire piece</strong> with 5- and 8-pole connectors trains the cavities in about 5 minutes.",
+      "de": "<strong>18 Leitungen, 20 Stecker</strong>; die KBL-Leitungslängen stimmen auf den Millimeter mit den Brettpfaden überein. Ein kurzes <strong>Stück mit 6 Leitungen</strong> und 5- und 8-poligen Steckern übt die Kammern in etwa 5 Minuten."
      },
      {
       "en": "Live demo: <a href=\"https://suavi-yildirim.github.io/formboard-xr/\" target=\"_blank\" rel=\"noopener\">suavi-yildirim.github.io/formboard-xr</a>",
@@ -223,8 +227,8 @@
    }
   ],
   "highlight": {
-   "en": "KBL data in VR: wire harness assembly trainer, live in the browser",
-   "de": "KBL-Daten in VR: Montagetrainer für Kabelbäume, live im Browser"
+   "en": "KBL data in VR and XR: wire harness assembly trainer, live in the browser",
+   "de": "KBL-Daten in VR und XR: Montagetrainer für Kabelbäume, live im Browser"
   },
   "title": {
    "en": "Formboard XR",
