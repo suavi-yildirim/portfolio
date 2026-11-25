@@ -270,7 +270,16 @@
     "automation",
     "design"
    ],
-   "cover": "wfe-hardware"
+   "cover": "wfe-hardware",
+   "links": [
+    {
+     "href": "https://github.com/suavi-yildirim/wire-levitation-cfd-ml",
+     "label": {
+      "en": "Thesis data and code on GitHub",
+      "de": "Daten und Code der Masterarbeit auf GitHub"
+     }
+    }
+   ]
   },
   "faps-next2oem": {
    "categories": [
