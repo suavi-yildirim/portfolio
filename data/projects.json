@@ -675,8 +675,8 @@
     "title": null,
     "items": [
      {
-      "en": "3-day <strong>Siemens Healthineers Robotics &amp; AI Hackathon 2026</strong> in Erlangen: build the <strong>learning loop</strong> for a <strong>vision-language-action (VLA)</strong> robot companion in the cathlab.",
-      "de": "Dreitägiger <strong>Siemens Healthineers Robotics &amp; AI Hackathon 2026</strong> in Erlangen: Aufbau des <strong>Lernkreislaufs</strong> für einen <strong>Vision-Language-Action-(VLA)</strong>-Roboterassistenten im Herzkatheterlabor."
+      "en": "3-day <strong>Siemens Healthineers Robotics &amp; AI Hackathon 2026</strong> in Erlangen: build the <strong>learning loop</strong> for a <strong>vision-language-action (VLA)</strong> robot.",
+      "de": "Dreitägiger <strong>Siemens Healthineers Robotics &amp; AI Hackathon 2026</strong> in Erlangen: Aufbau des <strong>Lernkreislaufs</strong> für einen <strong>Vision-Language-Action-(VLA)</strong>-Roboter."
      },
      {
       "en": "Task: bimanual box handover with a <strong>Franka FR3 Duo</strong> in simulation.",
