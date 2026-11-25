@@ -378,6 +378,14 @@ def build_project(lang, site, cv, projects, idx):
     if cfg.get("videos"):
         vs = ""
         for v in cfg["videos"]:
+            if v.get("youtube"):
+                # YouTube video by its id, embedded with the privacy-enhanced (no-cookie) player
+                yt = v["youtube"]
+                vs += (f'<figure class="video"><div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/{yt}" '
+                       f'title="{esc(strip_tags(v["caption"][lang]))}" loading="lazy" allowfullscreen '
+                       f'allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>'
+                       f'<figcaption>{v["caption"][lang]} (<a href="https://youtu.be/{yt}" target="_blank" rel="noopener">YouTube ↗</a>)</figcaption></figure>')
+                continue
             # a video may live elsewhere ("url", "poster_url"), e.g. on a project's own GitHub Pages site
             poster_src = v.get("poster_url") or (page.asset("img/projects/" + v["poster"] + ".jpg") if v.get("poster") else "")
             poster = f' poster="{poster_src}"' if poster_src else ""

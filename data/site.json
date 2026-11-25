@@ -256,7 +256,16 @@
     "design",
     "ai-sim"
    ],
-   "cover": "idc-demo"
+   "cover": "idc-demo",
+   "videos": [
+    {
+     "youtube": "tMODC2Acw5E",
+     "caption": {
+      "en": "NextCycle: final video for the Siemens Immersive Design Challenge",
+      "de": "NextCycle: Abschlussvideo zur Siemens Immersive Design Challenge"
+     }
+    }
+   ]
   },
   "faps-wire-transport": {
    "categories": [
