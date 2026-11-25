@@ -12,6 +12,7 @@ from the folder (file://) and on GitHub Pages.
 import argparse
 import datetime
 import itertools
+import hashlib
 import html
 import json
 import re
@@ -67,6 +68,11 @@ def ui(key, lang):
 
 def esc(s):
     return html.escape(s or "", quote=True)
+
+
+def asset_version(name):
+    """Short content hash for ?v= on CSS/JS links, so browsers load a changed file instead of a cached one."""
+    return hashlib.sha1((ROOT / "src" / name).read_bytes()).hexdigest()[:8]
 
 
 def strip_tags(s):
@@ -169,7 +175,7 @@ def layout(page, site, cv, title, body, description="", active="", og_image=None
 <meta property="og:title" content="{esc(full_title)}">
 <meta property="og:description" content="{esc(strip_tags(description))}">
 {head_extra}<link rel="icon" href="{page.asset('img/favicon.svg')}" type="image/svg+xml">
-<link rel="stylesheet" href="{page.asset('style.css')}">
+<link rel="stylesheet" href="{page.asset('style.css')}?v={asset_version('style.css')}">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body data-lang="{lang}">
@@ -195,7 +201,7 @@ def layout(page, site, cv, title, body, description="", active="", og_image=None
     <div class="muted">© {year} {esc(name)} · {ui('built', lang)}</div>
   </div>
 </footer>
-<script src="{page.asset('main.js')}"></script>
+<script src="{page.asset('main.js')}?v={asset_version('main.js')}"></script>
 {goatcounter_tag()}</body>
 </html>
 """
